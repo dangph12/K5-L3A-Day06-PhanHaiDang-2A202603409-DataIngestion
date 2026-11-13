@@ -61,7 +61,7 @@
   "total_seconds": 35.79484919999959,
   "cost_note": "Gemini API usage is unpriced here; verify billed cost separately.",
   "timing_note": "C reuses B embeddings; ingestion timings exclude PDF parsing and shared model/query preparation.",
-  "manual_assessments_pending": true,
+  "manual_assessments_pending": false,
   "inputs": {
     "corpus": {
       "source_id": "python_book",
