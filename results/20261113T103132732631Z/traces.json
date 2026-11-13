@@ -1,0 +1,3695 @@
+[
+  {
+    "question": {
+      "id": "q01",
+      "split": "dev",
+      "question": "How does a Python program run its statements?",
+      "expected_answer": "It runs statements one after another.",
+      "gold_source_id": "python_book",
+      "gold_page": 17,
+      "evidence_quote": "Programs consist of statements to be run one after the other."
+    },
+    "hits": [
+      {
+        "chunk_id": "9689f1b247b30c1feed64ff2f5c773cd0d5290604adb668473d1ac5a125a7464",
+        "text": "e resulting program. If\n     and when an error occurs, the interpreter stops translating the source code and displays an error message.\n\n     Most development environments include a Python shell for experimenting with code interactively. A shell, also\n     called a console or terminal, is a program that allows direct interaction with an interpreter. The interpreter\n     usually runs an entire program all at once. But the interpreter can run one line of code at a time within a\n     Python shell.\n",
+        "score": 0.739438920287248,
+        "metadata": {
+          "page": 48,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Expressions",
+          "end_char": 1400,
+          "start_char": 900,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "b231326083a3654bd945bd96bd38a986c50eadbf36d027e1e5a756ba9823ccf6",
+        "text": "nd only low-level machine code made up of 1's and 0's. Programs\n     written in high-level languages must be translated into machine code to run. This translation process can\n     happen all at once, or a little at a time, depending on the language.\n\n     Python is an interpreted language: the source code is translated one line at a time while the program is\n     running. The Python interpreter translates source code into machine code and runs the resulting program. If\n     and when an error occ",
+        "score": 0.7269473610119741,
+        "metadata": {
+          "page": 48,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Expressions",
+          "end_char": 950,
+          "start_char": 450,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "7191cf98858922341eafdd6fbc20ee13cdd85d528b7dd431c7a5f50ea23460fe",
+        "text": "hopping, entertainment, health care, and\ncountless other needs. Learning how to program computers opens the door to many careers and\nopportunities for building a better world.\n\nPrograms consist of statements to be run one after the other. A statement describes some action to be\ncarried out.\n\nThe statement print(\"Good morning\") instructs Python to output the message \"Good morning\" to the\nuser. The statement count = 0 instructs Python to assign the integer 0 to the variable count.\n\nThis chapter in",
+        "score": 0.7060476439093798,
+        "metadata": {
+          "page": 17,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Statements",
+          "end_char": 950,
+          "start_char": 450,
+          "document_id": "python_book"
+        }
+      }
+    ],
+    "evidence_matches": [
+      false,
+      false,
+      true
+    ],
+    "hit_at_1": false,
+    "hit_at_3": true,
+    "strategy": "A",
+    "applied_filter": {}
+  },
+  {
+    "question": {
+      "id": "q02",
+      "split": "dev",
+      "question": "What does the statement count = 0 do?",
+      "expected_answer": "It assigns the integer 0 to the variable count.",
+      "gold_source_id": "python_book",
+      "gold_page": 17,
+      "evidence_quote": "The statement count = 0 instructs Python to assign the integer 0 to the variable count."
+    },
+    "hits": [
+      {
+        "chunk_id": "90a363ae57666818c74220be6441ff435744752a9326f2fd17b40797b17ff8cd",
+        "text": " integer 0 to the variable count.\n\nThis chapter introduces statements for input and output, assigning variables, and basic arithmetic. Making\nmistakes is a normal part of programming, and the chapter includes advice on understanding error messages.\nThe chapter ends with a short history of Python and discusses why Python has become so popular today.",
+        "score": 0.7422068978503339,
+        "metadata": {
+          "page": 17,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Statements",
+          "end_char": 1250,
+          "start_char": 900,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "7191cf98858922341eafdd6fbc20ee13cdd85d528b7dd431c7a5f50ea23460fe",
+        "text": "hopping, entertainment, health care, and\ncountless other needs. Learning how to program computers opens the door to many careers and\nopportunities for building a better world.\n\nPrograms consist of statements to be run one after the other. A statement describes some action to be\ncarried out.\n\nThe statement print(\"Good morning\") instructs Python to output the message \"Good morning\" to the\nuser. The statement count = 0 instructs Python to assign the integer 0 to the variable count.\n\nThis chapter in",
+        "score": 0.6979318573384545,
+        "metadata": {
+          "page": 17,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Statements",
+          "end_char": 950,
+          "start_char": 450,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "2b269d328effdcea37b75a3e661f02b5f83edf4084a73a11f2c9072698cdaa92",
+        "text": "m is five lines in Java (a different language).\n\n public class Hello {\n   public static void main(String[] args) {\n    System.out.println(\"Hello, World!\");\n   }\n }\n\n However, conciseness is not the only consideration for which language is used. In different situations\n different languages may be more appropriate. Ex: Java is often used in Android development.\n\n CHECKPOINT\n\n Counting lines in a file\n\n Counting lines in a file; ch 1, video 2 (https://www.openstax.org/r/counting-lines)",
+        "score": 0.6766106174969535,
+        "metadata": {
+          "page": 19,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Statements",
+          "end_char": 2287,
+          "start_char": 1800,
+          "document_id": "python_book"
+        }
+      }
+    ],
+    "evidence_matches": [
+      false,
+      true,
+      false
+    ],
+    "hit_at_1": false,
+    "hit_at_3": true,
+    "strategy": "A",
+    "applied_filter": {}
+  },
+  {
+    "question": {
+      "id": "q03",
+      "split": "dev",
+      "question": "Which built-in function displays output to the user?",
+      "expected_answer": "The print() function displays output to the user.",
+      "gold_source_id": "python_book",
+      "gold_page": 20,
+      "evidence_quote": "The print() function displays output to the user."
+    },
+    "hits": [
+      {
+        "chunk_id": "faf816da783750bb83215ab4bb8c1119b5d9d18fadcf897c38cfac9d443fac0d",
+        "text": "s.\n\n print(\"Today\", \"is\", \"Monday\", sep=\"? \", Today? is? Monday!!I like string\n end=\"!!\") beans.\n print(\"I like string beans.\")\n\nTable 1.1 Example uses of print().\n\n CHECKPOINT\n\n Displaying output to the user\n\n 1 3 1 Displaying output to the user (https://www.openstax.org/r/displaying-output)\n\n CONCEPTS IN PRACTICE\n\n The print() function\n\n  1 . Which line of code prints Hello world! as one line of output?\n      a. print(Hello world!)\n      b. print(\"Hello\", \"world\", \"!\")\n      c. print(\"Hello wo",
+        "score": 0.73029571089234,
+        "metadata": {
+          "page": 21,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Statements",
+          "end_char": 1400,
+          "start_char": 900,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "6dab7784f923154c71d57710882b049067ba4c92d9ee12f2a9bb2c1ff240620a",
+        "text": " on.\n\n       Access multimedia content (http://openstax.org/books/introduction-python-programming/pages/\n       1-1-background)\n\n      1.2 Input/output\n\n     Learning objectives\n\n     By the end of this section you should be able to\n\n       • Display output using the print() function.\n       • Obtain user input using the input() function.\n     Basic output\n\n     The print() function displays output to the user. Output is the information or result produced by a program.\n     The sep and end optio",
+        "score": 0.7106533005471409,
+        "metadata": {
+          "page": 20,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Statements",
+          "end_char": 1850,
+          "start_char": 1350,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "290912d849648d536f591ae7e3c0f927049f348e714fb0dbcab89442215776ce",
+        "text": "nt(\"Hello\", \"world\", \"!\")\n      c. print(\"Hello world!\")\n\n  2 . Which lines of code prints Hello world! as one line of output?\n      a. print(\"Hello\")\n         print(\" world!\")\n      b. print(\"Hello\")\n          print(\" world!\", end=\"\")\n      c. print(\"Hello\", end=\"\")\n         print(\" world!\")\n\n  3 . What output is produced by the following statement?",
+        "score": 0.7062609070895266,
+        "metadata": {
+          "page": 21,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Statements",
+          "end_char": 1702,
+          "start_char": 1350,
+          "document_id": "python_book"
+        }
+      }
+    ],
+    "evidence_matches": [
+      false,
+      true,
+      false
+    ],
+    "hit_at_1": false,
+    "hit_at_3": true,
+    "strategy": "A",
+    "applied_filter": {}
+  },
+  {
+    "question": {
+      "id": "q04",
+      "split": "dev",
+      "question": "What does print() add at the end of its output by default?",
+      "expected_answer": "It adds a newline character at the end of the output.",
+      "gold_source_id": "python_book",
+      "gold_page": 21,
+      "evidence_quote": "By default, the print() function adds a newline character at the end of the output."
+    },
+    "hits": [
+      {
+        "chunk_id": "55a72af4a1a676b8842d1ff27ec5eb4c92d627e830ad9a84272e0619190d09f7",
+        "text": "y to move to the next line. The end option can be used to continue printing on the same line.\n\n                               Code Output\n\n print(\"Today is Monday.\") Today is Monday.\n print(\"I like string beans.\") I like string beans.\n\n print(\"Today\", \"is\", \"Monday\") Today is Monday\n print(\"Today\", \"is\", \"Monday\", sep=\"...\") Today...is...Monday\n\n print(\"Today is Monday, \", end=\"\") Today is Monday, I like string\n print(\"I like string beans.\") beans.\n\n print(\"Today\", \"is\", \"Monday\", sep=\"? \", Toda",
+        "score": 0.7505847675360365,
+        "metadata": {
+          "page": 21,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Statements",
+          "end_char": 950,
+          "start_char": 450,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "a0b12bf6f110fc239b6ca4fae388eb482a65cb3f2018a734c1fd2af8325c1535",
+        "text": "                                                                                                          1.2 • Input/output 11\n\nMultiple values, separated by commas, can be printed in the same statement. By default, each value is\nseparated by a space character in the output. The sep option can be used to change this behavior.\n\nBy default, the print() function adds a newline character at the end of the output. A newline character tells\nthe display to move to the next line. The end option can be ",
+        "score": 0.7385056834553879,
+        "metadata": {
+          "page": 21,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Statements",
+          "end_char": 500,
+          "start_char": 0,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "290912d849648d536f591ae7e3c0f927049f348e714fb0dbcab89442215776ce",
+        "text": "nt(\"Hello\", \"world\", \"!\")\n      c. print(\"Hello world!\")\n\n  2 . Which lines of code prints Hello world! as one line of output?\n      a. print(\"Hello\")\n         print(\" world!\")\n      b. print(\"Hello\")\n          print(\" world!\", end=\"\")\n      c. print(\"Hello\", end=\"\")\n         print(\" world!\")\n\n  3 . What output is produced by the following statement?",
+        "score": 0.7270387015075627,
+        "metadata": {
+          "page": 21,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Statements",
+          "end_char": 1702,
+          "start_char": 1350,
+          "document_id": "python_book"
+        }
+      }
+    ],
+    "evidence_matches": [
+      false,
+      true,
+      false
+    ],
+    "hit_at_1": false,
+    "hit_at_3": true,
+    "strategy": "A",
+    "applied_filter": {}
+  },
+  {
+    "question": {
+      "id": "q05",
+      "split": "dev",
+      "question": "What does the input() function read from the user?",
+      "expected_answer": "It reads one line of input from the user.",
+      "gold_source_id": "python_book",
+      "gold_page": 22,
+      "evidence_quote": "The input() function reads one line of input from the user."
+    },
+    "hits": [
+      {
+        "chunk_id": "7ce669bc48d96ffc1d0e3fd0c7b3faca2daf3ef0323097d6a754556c3131bfd8",
+        "text": "uter programs often receive input from the user. Input is what a user enters into a program. An input\n     statement, variable = input(\"prompt\"), has three parts:\n\n     1. A variable refers to a value stored in memory. In the statement above, variable can be replaced with any\n          name the programmer chooses.\n     2. The input() function reads one line of input from the user. A function is a named, reusable block of code\n          that performs a task when called. The input is stored in the",
+        "score": 0.7434286090308202,
+        "metadata": {
+          "page": 22,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Statements",
+          "end_char": 950,
+          "start_char": 450,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "7e49d04cb394ea1a4f511d3cea19aeff6640d32a065580bc75f04af8b4c975e4",
+        "text": "nput() reads in values as strings. A programmer can\nuse explicit type conversion to convert one data type to another.\n\n • int() converts a data type to an integer. Any fractional part is removed. Ex: int(5.9) produces 5.\n • float() converts a data type to a float. Ex: float(2) produces 2.0.\n • str() converts a data type to a string. Ex: str(3.14) produces \"3.14\".\n\n CHECKPOINT\n\n Example: Ordering pizza\n\n Example: Ordering pizza; ch 2, video 4 (https://www.openstax.org/r/ordering-pizza)\n\n CONCEPTS",
+        "score": 0.7023387870258299,
+        "metadata": {
+          "page": 51,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Expressions",
+          "end_char": 1400,
+          "start_char": 900,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "bc65a3844e11d7e21d1a4242f7b71da3e08606daa26f1dc35d603ee6104521dc",
+        "text": "\n      CONCEPTS IN PRACTICE\n\n      The input() function\n\n        4 . Which line of code correctly obtains and stores user input?\n           a. input()\n           b. today_is = input\n           c. today_is = input()\n\n        5 . Someone named Sophia enters their name when prompted with\n\n           print(\"Please enter your name: \")\n           name = input()\n\n           What is displayed by print(\"You entered:\", name)?\n           a. You entered: name\n\n     Access for free at openstax.org",
+        "score": 0.6983862028530557,
+        "metadata": {
+          "page": 22,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Statements",
+          "end_char": 1839,
+          "start_char": 1350,
+          "document_id": "python_book"
+        }
+      }
+    ],
+    "evidence_matches": [
+      true,
+      false,
+      false
+    ],
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "strategy": "A",
+    "applied_filter": {}
+  },
+  {
+    "question": {
+      "id": "q06",
+      "split": "dev",
+      "question": "Which operator assigns a value to a variable in a statement?",
+      "expected_answer": "The assignment operator (=).",
+      "gold_source_id": "python_book",
+      "gold_page": 24,
+      "evidence_quote": "A statement can set a variable to a value using the assignment operator (=)."
+    },
+    "hits": [
+      {
+        "chunk_id": "3c244359fdf854c338cbdf4c21af31a5900d6cc6cc643aaaeb5a5955c8572a23",
+        "text": "n set a variable to a value using the assignment operator (=). Note that this is different from\n     the equal sign of mathematics. Ex: age = 6 or birth = \"May 15\". The left side of the assignment statement\n     is a variable, and the right side is the value the variable is assigned.\n\n      CHECKPOINT\n\n      Assigning and using variables\n\n      Assigning and using variables; ch 1, video 5 (https://www.openstax.org/r/using-variables)\n\n      CONCEPTS IN PRACTICE\n\n      Assigning and using variable",
+        "score": 0.728278043446375,
+        "metadata": {
+          "page": 24,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Statements",
+          "end_char": 950,
+          "start_char": 450,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "69177fa050b2186b39a9a4115bf7d856c86c8bba45d258f68f861dda8a9c27f8",
+        "text": "      total = 6\n           b. total = 6\n               print(\"Total =\", total)\n           c. print(\"Total =\", total)\n               total = input()\n\n       3 . Which is the assignment operator?\n           a. :\n           b. ==\n           c. =\n\n       4 . Which is a valid assignment?\n\n     Access for free at openstax.org",
+        "score": 0.7228309439643795,
+        "metadata": {
+          "page": 24,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Statements",
+          "end_char": 1671,
+          "start_char": 1350,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "8d251ebb28cf4c085cacf154d860f02aba0f35fea6334e15f6bc16bfe3294d35",
+        "text": "34 1 • Statements\n\n            Function Description\n\n       = Assigns (or updates) the value of a variable. In Python, variables begin to exist when\n       (Assignment) assigned for the first time.\n\n       +\n       (Concatenation) Appends the contents of two strings, resulting in a new string.\n\n       +\n       (Addition) Adds the values of two numbers.\n\n       -\n       (Subtraction) Subtracts the value of one number from another.\n\n       *\n       (Multiplication) Multiplies the values of two num",
+        "score": 0.7125336367342285,
+        "metadata": {
+          "page": 44,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Statements",
+          "end_char": 500,
+          "start_char": 0,
+          "document_id": "python_book"
+        }
+      }
+    ],
+    "evidence_matches": [
+      false,
+      false,
+      false
+    ],
+    "hit_at_1": false,
+    "hit_at_3": false,
+    "strategy": "A",
+    "applied_filter": {}
+  },
+  {
+    "question": {
+      "id": "q07",
+      "split": "dev",
+      "question": "What are Python's reserved words called?",
+      "expected_answer": "They are called keywords.",
+      "gold_source_id": "python_book",
+      "gold_page": 25,
+      "evidence_quote": "Python has reserved words, known as keywords"
+    },
+    "hits": [
+      {
+        "chunk_id": "fa91843b2eefc2793d5a81192f7363321a4003ad30243a322a7ffccbe9f77ed1",
+        "text": "ns and cannot be used as names\nfor variables (or other objects).\n\n                               False await else import pass\n\n                               None break except in raise\n\n                               True class finally is return\n\n                               and continue for lambda try\n\n                               as def from nonlocal while\n\n                               assert del global not with\n\n                               asynch elif if or yield\n\n                   ",
+        "score": 0.7099571026880778,
+        "metadata": {
+          "page": 25,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Statements",
+          "end_char": 1400,
+          "start_char": 900,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "044e91dd2ab2a0ec1b910a8d69ae2374898b13896a5e7a0cb9d2b994cc0b397a",
+        "text": "      asynch elif if or yield\n\n                             Table 1.2 Keywords\n\n CONCEPTS IN PRACTICE\n\n Valid variable names\n\n  5 . Which can be used as a variable name?\n      a. median\n      b. class\n      c. import\n\n  6 . Why is the name, 2nd_input, not a valid variable name?\n      a. contains an underscore\n      b. starts with a digit\n      c. is a keyword\n\n  7 . Which would be a good name for a variable storing a zip code?\n      a. z\n      b. var_2",
+        "score": 0.6961821022807404,
+        "metadata": {
+          "page": 25,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Statements",
+          "end_char": 1806,
+          "start_char": 1350,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "82782394edafe09b6ae295b4838446fa9a6b4389d9c48688c19e34b0ae1aa1ed",
+        "text": ". Python's style\nguide recommends writing variable names in snake case, which is all lowercase with underscores in between\neach word, such as first_name or total_price.\n\nA name should be short and descriptive, so words are preferred over single characters in programs for\nreadability. Ex: A variable named count indicates the variable's purpose better than a variable named c.\n\nPython has reserved words, known as keywords, which have special functions and cannot be used as names\nfor variables (or o",
+        "score": 0.6916134056608816,
+        "metadata": {
+          "page": 25,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Statements",
+          "end_char": 950,
+          "start_char": 450,
+          "document_id": "python_book"
+        }
+      }
+    ],
+    "evidence_matches": [
+      false,
+      false,
+      true
+    ],
+    "hit_at_1": false,
+    "hit_at_3": true,
+    "strategy": "A",
+    "applied_filter": {}
+  },
+  {
+    "question": {
+      "id": "q08",
+      "split": "dev",
+      "question": "What does concatenation do to two or more strings?",
+      "expected_answer": "It combines them sequentially into one string.",
+      "gold_source_id": "python_book",
+      "gold_page": 28,
+      "evidence_quote": "Concatenation is an operation that combines two or more strings sequentially with the concatenation operator"
+    },
+    "hits": [
+      {
+        "chunk_id": "45b8dc91058f3510e8d2b31f6c23edf9d470ea8211bd2567488541aa025cd332",
+        "text": "    c. Number 12 has number_of_digits digits.\n\n    Concatenation\n\n    Concatenation is an operation that combines two or more strings sequentially with the concatenation operator\n    (+). Ex: \"A\" + \"part\" produces the string \"Apart\".\n\n      CHECKPOINT\n\n      Concatenating multiple strings\n\n      Concatenating multiple strings; ch 1, video 7 (https://www.openstax.org/r/concatenating-strings)\n\n      CONCEPTS IN PRACTICE\n\n      String concatenation\n\n       8 . Which produces the string \"10\"?\n      ",
+        "score": 0.7136085882134535,
+        "metadata": {
+          "page": 28,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Statements",
+          "end_char": 950,
+          "start_char": 450,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "e9bfd70fa3c6a661b537dc9fff43fbeffa6286d47ba09924e99f49dcee3f0df7",
+        "text": " (https://www.openstax.org/r/string-concat)\n\n CONCEPTS IN PRACTICE\n\n String literal concatenation\n\n  5 . Which line prints the word \"grandmother\"?\n      a. print(grandmother)\n      b. print(\"grand\" \"mother\")\n      c. print(\"grand\", \"mother\")\n\n  6 . What string is equivalent to \"Today is\" \"a holiday\"?\n      a. 'Today isa holiday'\n      b. 'Today is a holiday'\n      c. 'Today is\" \"a holiday'\n\n  7 . If name is \"Ada\", what does print(\"Hello,\" name) output?",
+        "score": 0.7038185445634554,
+        "metadata": {
+          "page": 69,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Expressions",
+          "end_char": 2256,
+          "start_char": 1800,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "1f5959ece64d95ba01c63368cbb867dda8ecc4104569d1f8df279f319293f561",
+        "text": "\n       8 . Which produces the string \"10\"?\n           a. 1 + 0\n           b. \"1 + 0\"\n           c. \"1\" + \"0\"\n\n       9 . Which produces the string \"Awake\"?\n           a. \"wake\" + \"A\"\n           b. \"A + wake\"\n           c. \"A\" + \"wake\"\n\n      10 . A user enters \"red\" after the following line of code.\n\n           color = input(\"What is your favorite color?\")\n\n           Which produces the output \"Your favorite color is red!\"?\n           a. print(\"Your favorite color is \" + color + !)\n           b",
+        "score": 0.7014276711765842,
+        "metadata": {
+          "page": 28,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Statements",
+          "end_char": 1400,
+          "start_char": 900,
+          "document_id": "python_book"
+        }
+      }
+    ],
+    "evidence_matches": [
+      true,
+      false,
+      false
+    ],
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "strategy": "A",
+    "applied_filter": {}
+  },
+  {
+    "question": {
+      "id": "q09",
+      "split": "dev",
+      "question": "Which two basic number formats does Python support?",
+      "expected_answer": "Integer and floating-point.",
+      "gold_source_id": "python_book",
+      "gold_page": 30,
+      "evidence_quote": "Python supports two basic number formats, integer and floating-point."
+    },
+    "hits": [
+      {
+        "chunk_id": "3ca8a31b939dd1f16da174c99ce69481c3d915662ad748e2cf04f4c8be774f2b",
+        "text": "20 1 • Statements\n\n       • Explain the precedence of arithmetic operators.\n     Numeric data types\n\n     Python supports two basic number formats, integer and floating-point. An integer represents a whole number,\n     and a floating-point format represents a decimal number. The format a language uses to represent data is\n     called a data type. In addition to integer and floating-point types, programming languages typically have a\n     string type for representing text.\n\n       CHECKPOINT\n\n   ",
+        "score": 0.7043905553205171,
+        "metadata": {
+          "page": 30,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Statements",
+          "end_char": 500,
+          "start_char": 0,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "a7c38f46d1171b772b1ae135b249ca1af5bc11063e1af595e1ccfe5514d13375",
+        "text": "the format is called binary.\n\n     Floating-point values are stored as binary by Python. The conversion of a floating point number to the\n     underlying binary results in specific types of floating-point errors.\n\n     A round-off error occurs when floating-point values are stored erroneously as an approximation. The\n     difference between an approximation of a value used in computation and the correct (true) value is called a\n     round-off error.\n\n     Ex: Storing the float (0.1)10 results in",
+        "score": 0.6910552534413575,
+        "metadata": {
+          "page": 56,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Expressions",
+          "end_char": 1400,
+          "start_char": 900,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "5cb32b92aa001a15680f5374597135429be99c8e223c222112c465a0d8742295",
+        "text": "         c. 1 <class 'int'>.\n\n        2 . What is the output of the following code?\n\n           print(y, type(y))\n\n           a. 2.0 <class 'int'>\n           b. 2.0 <class 'float'>\n           c. 2 <class 'int'>\n\n        3 . What is the type of the following value?\n\n           \"12.0\"\n\n           a. string\n           b. int\n           c. float\n\n     Basic arithmetic\n\n     Arithmetic operators are used to perform mathematical operations like addition, subtraction, multiplication,\n     and division.",
+        "score": 0.6879044297528223,
+        "metadata": {
+          "page": 30,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Statements",
+          "end_char": 1400,
+          "start_char": 900,
+          "document_id": "python_book"
+        }
+      }
+    ],
+    "evidence_matches": [
+      true,
+      false,
+      false
+    ],
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "strategy": "A",
+    "applied_filter": {}
+  },
+  {
+    "question": {
+      "id": "q10",
+      "split": "dev",
+      "question": "When a calculation has multiple operators, how is evaluation ordered?",
+      "expected_answer": "Each operator is evaluated in order of precedence.",
+      "gold_source_id": "python_book",
+      "gold_page": 31,
+      "evidence_quote": "When a calculation has multiple operators, each operator is evaluated in order of precedence."
+    },
+    "hits": [
+      {
+        "chunk_id": "5d02bc5f23bf3c354e12dcca981c057cedc041162d817320ae3c4640517b9b20",
+        "text": "\n      c. 3.0\n\nOperator precedence\n\nWhen a calculation has multiple operators, each operator is evaluated in order of precedence. Ex: 1 + 2 * 3",
+        "score": 0.7342529127499676,
+        "metadata": {
+          "page": 31,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Statements",
+          "end_char": 1043,
+          "start_char": 900,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "bcf66b74e061b4be880a8df9f950db728a810867e8bfc67ca76bec422aad4393",
+        "text": "22 1 • Statements\n\n     is 7 because multiplication takes precedence over addition. However, (1 + 2) * 3 is 9 because parentheses\n     take precedence over multiplication.\n\n                                Operator Description Example Result\n\n                                () Parentheses (1 + 2) * 3 9\n\n                                ** Exponentiation 2 ** 4 16\n\n                                +, - Positive, negative -math.pi -3.14159\n\n                                *, / Multiplication, divisio",
+        "score": 0.7236303528002271,
+        "metadata": {
+          "page": 32,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Statements",
+          "end_char": 500,
+          "start_char": 0,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "2937eaa9923d91bb02fff34693f84f2c515fefafd33c0f48f5e7b6ae93277a59",
+        "text": "                      *, / Multiplication, division 2 * 3 6\n\n                                +, - Addition, subtraction 1 + 2 3\n\n                              Table 1.4 Operator precedence from highest to lowest.\n\n       CHECKPOINT\n\n       Order of operations in an arithmetic expression\n\n       Order of operations in an arithmetic expression; ch 1, video 10 (https://www.openstax.org/r/order-of-\n       operations)\n\n       CONCEPTS IN PRACTICE\n\n       Multiple arithmetic operators\n\n        9 . Wha",
+        "score": 0.7219144959931099,
+        "metadata": {
+          "page": 32,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Statements",
+          "end_char": 950,
+          "start_char": 450,
+          "document_id": "python_book"
+        }
+      }
+    ],
+    "evidence_matches": [
+      true,
+      false,
+      false
+    ],
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "strategy": "A",
+    "applied_filter": {}
+  },
+  {
+    "question": {
+      "id": "q11",
+      "split": "dev",
+      "question": "Which character begins a Python comment?",
+      "expected_answer": "A hash character (#).",
+      "gold_source_id": "python_book",
+      "gold_page": 37,
+      "evidence_quote": "Each comment begins with a hash character (#)."
+    },
+    "hits": [
+      {
+        "chunk_id": "94e817f3eb40d7cfe94d8a4b29ebcbe032a9c92c3afb7ec4638b2afefc278252",
+        "text": "the code is doing. Ex: Lines 1, 8, and 10 in the following\nprogram contain comments. Each comment begins with a hash character (#). All text from the hash character\nto the end of the line is ignored when running the program. In contrast, hash characters inside of strings are\ntreated as regular text. Ex: The string \"Item #1: \" does not contain a comment.\n\nWhen writing comments:\n\n • The # character should be followed by a single space. Ex: # End of menu is easier to read than #End of\n    menu.\n • ",
+        "score": 0.7410547895267228,
+        "metadata": {
+          "page": 37,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Statements",
+          "end_char": 950,
+          "start_char": 450,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "7541f6b6ad61c09fe662ffece7bd00a5a04cacf44bf0d43dc39704497ccb7f02",
+        "text": "                                                                                                           1.7 • Comments 29\n\n      c. insert a # at the beginning of the line.\n\nDocumentation\n\nPython programs may optionally begin with a string known as a docstring. A docstring is documentation\nwritten for others who will use the program but not necessarily read the source code. Most of the official\ndocumentation at docs.python.org (https://openstax.org/r/100docstrings) is generated from docstring",
+        "score": 0.7295483989307402,
+        "metadata": {
+          "page": 39,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Statements",
+          "end_char": 500,
+          "start_char": 0,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "9b9798a1b77fec1d73509c26e8dc3c651a53fadd1516f5be635419929e6982b7",
+        "text": "                                                                                                           1.7 • Comments 27\n\n 1.7 Comments\n\nLearning objectives\n\nBy the end of this section you should be able to\n\n • Write concise, meaningful comments that explain intended functionality of the code.\n • Write a docstring (more verbose comment) that describes the program functionality.\nThe hash character\n\nComments are short phrases that explain what the code is doing. Ex: Lines 1, 8, and 10 in the f",
+        "score": 0.710741006274745,
+        "metadata": {
+          "page": 37,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Statements",
+          "end_char": 500,
+          "start_char": 0,
+          "document_id": "python_book"
+        }
+      }
+    ],
+    "evidence_matches": [
+      true,
+      false,
+      false
+    ],
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "strategy": "A",
+    "applied_filter": {}
+  },
+  {
+    "question": {
+      "id": "q12",
+      "split": "dev",
+      "question": "What does an expression represent?",
+      "expected_answer": "A single value to be computed.",
+      "gold_source_id": "python_book",
+      "gold_page": 47,
+      "evidence_quote": "An expression represents a single value to be computed."
+    },
+    "hits": [
+      {
+        "chunk_id": "b4506e9297078a225f06870acadc662a98dbcccb27786a23cea6ec622f3662e1",
+        "text": "n one after the other. In Python, many statements\nconsist of one or more expressions. An expression represents a single value to be computed. Ex: The\nexpression 3*x - 5 evaluates to 7 when x is 4. Learning to recognize expressions opens the door for\nprogramming all kinds of interesting calculations.\n\nExpressions are often a combination of literals, variables, and operators. In the previous example, 3 and 5 are\nliterals, x is a variable, and * and - are operators. Expressions can be arbitrarily l",
+        "score": 0.7294049158248187,
+        "metadata": {
+          "page": 47,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Expressions",
+          "end_char": 950,
+          "start_char": 450,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "2bd9bbd6ca82a95a45292d07c212a5cd7c55a775fc8b87653c472f9c92874b55",
+        "text": " - are operators. Expressions can be arbitrarily long, consisting of many\ncalculations. Expressions can also be as short as one value. Ex: In the assignment statement x = 5, the literal\n5 is an expression.\n\nThe Statements chapter introduced simple expressions like 1 * 2 and \"Hi \" + \"there\". This chapter\nexplores other kinds of expressions for working with numbers and strings. The first section shows a great way\nto experiment with expressions using a Python shell. Later sections present more deta",
+        "score": 0.7148869460431686,
+        "metadata": {
+          "page": 47,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Expressions",
+          "end_char": 1400,
+          "start_char": 900,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "750c3fa507848dc381989c088ced017a6099d0b250266ee5d4e4489b9a429b10",
+        "text": "38 2 • Expressions\n\n       2.1 The Python shell\n\n     Learning objectives\n     By the end of this section you should be able to\n       • Use a Python shell to run statements and expressions interactively.\n       • Explain the function of the up and down arrow keyboard shortcuts.\n     The interpreter\n\n     Python is a high-level language, meaning that the source code is intended for humans to understand.\n     Computers, on the other hand, understand only low-level machine code made up of 1's and ",
+        "score": 0.6656727534406742,
+        "metadata": {
+          "page": 48,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Expressions",
+          "end_char": 500,
+          "start_char": 0,
+          "document_id": "python_book"
+        }
+      }
+    ],
+    "evidence_matches": [
+      true,
+      false,
+      false
+    ],
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "strategy": "A",
+    "applied_filter": {}
+  },
+  {
+    "question": {
+      "id": "q13",
+      "split": "dev",
+      "question": "What are expressions often combinations of?",
+      "expected_answer": "Literals, variables, and operators.",
+      "gold_source_id": "python_book",
+      "gold_page": 47,
+      "evidence_quote": "Expressions are often a combination of literals, variables, and operators."
+    },
+    "hits": [
+      {
+        "chunk_id": "b4506e9297078a225f06870acadc662a98dbcccb27786a23cea6ec622f3662e1",
+        "text": "n one after the other. In Python, many statements\nconsist of one or more expressions. An expression represents a single value to be computed. Ex: The\nexpression 3*x - 5 evaluates to 7 when x is 4. Learning to recognize expressions opens the door for\nprogramming all kinds of interesting calculations.\n\nExpressions are often a combination of literals, variables, and operators. In the previous example, 3 and 5 are\nliterals, x is a variable, and * and - are operators. Expressions can be arbitrarily l",
+        "score": 0.7082801465447962,
+        "metadata": {
+          "page": 47,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Expressions",
+          "end_char": 950,
+          "start_char": 450,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "2bd9bbd6ca82a95a45292d07c212a5cd7c55a775fc8b87653c472f9c92874b55",
+        "text": " - are operators. Expressions can be arbitrarily long, consisting of many\ncalculations. Expressions can also be as short as one value. Ex: In the assignment statement x = 5, the literal\n5 is an expression.\n\nThe Statements chapter introduced simple expressions like 1 * 2 and \"Hi \" + \"there\". This chapter\nexplores other kinds of expressions for working with numbers and strings. The first section shows a great way\nto experiment with expressions using a Python shell. Later sections present more deta",
+        "score": 0.6963506009016356,
+        "metadata": {
+          "page": 47,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Expressions",
+          "end_char": 1400,
+          "start_char": 900,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "ce52bf798112696b3fda239827e307066fe68ef8c78ac9687132a1070adfbea6",
+        "text": "58 2 • Expressions\n\n                        Guideline Example Common Mistakes\n\n                                                        print(\"Go team!\") print (\"Go team!\")\n      Parentheses: no space before or after. print( \"Go team!\" )\n\n      Commas: no space before, one space print(\"Hello\", name) print(\"Hello\" , name)\n      after. print(\"Hello\",name)\n\n                                                                                            name=input(\"Your name?\n                             ",
+        "score": 0.6421435610117033,
+        "metadata": {
+          "page": 68,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Expressions",
+          "end_char": 500,
+          "start_char": 0,
+          "document_id": "python_book"
+        }
+      }
+    ],
+    "evidence_matches": [
+      true,
+      false,
+      false
+    ],
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "strategy": "A",
+    "applied_filter": {}
+  },
+  {
+    "question": {
+      "id": "q14",
+      "split": "dev",
+      "question": "Why is a Python shell useful?",
+      "expected_answer": "It lets a programmer experiment with code interactively.",
+      "gold_source_id": "python_book",
+      "gold_page": 48,
+      "evidence_quote": "Most development environments include a Python shell for experimenting with code interactively."
+    },
+    "hits": [
+      {
+        "chunk_id": "9689f1b247b30c1feed64ff2f5c773cd0d5290604adb668473d1ac5a125a7464",
+        "text": "e resulting program. If\n     and when an error occurs, the interpreter stops translating the source code and displays an error message.\n\n     Most development environments include a Python shell for experimenting with code interactively. A shell, also\n     called a console or terminal, is a program that allows direct interaction with an interpreter. The interpreter\n     usually runs an entire program all at once. But the interpreter can run one line of code at a time within a\n     Python shell.\n",
+        "score": 0.7381549851092607,
+        "metadata": {
+          "page": 48,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Expressions",
+          "end_char": 1400,
+          "start_char": 900,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "1f730c2f6afd12998836a6aa561392d4a03770448060b07e85293deb06a6ce84",
+        "text": "ine of code at a time within a\n     Python shell.\n\n       CHECKPOINT\n\n       Running a Python shell\n\n       Running a Python shell; ch 2, video 1 (https://www.openstax.org/r/python-shell)\n\n       CONCEPTS IN PRACTICE\n\n       Using a Python shell\n\n        1 . Python is a _____ language.\n            a. high-level\n            b. low-level\n\n        2 . Which of the following is the most basic line of code the interpreter can run?\n            a. print(1 + 1)\n            b. 1 + 1\n            c. 1\n\n   ",
+        "score": 0.7332379952560029,
+        "metadata": {
+          "page": 48,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Expressions",
+          "end_char": 1850,
+          "start_char": 1350,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "957e75e99ee212b17abe8a0f594fa3c33a56f0abaa22072c0cb9b408b9692aaa",
+        "text": "g/shell (https://openstax.org/r/100pythonshell). Then enter any\n  Python code, one line at a time, to see the result. Here are a few expressions to try:\n\n    • x = 5\n    • 3*x - 5\n    • 3 * (x-5)\n    • x\n    • type(1)\n    • type('1')\n    • str(1)\n    • int('1')\n    • abs(-5)",
+        "score": 0.7184312213463047,
+        "metadata": {
+          "page": 49,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Expressions",
+          "end_char": 1625,
+          "start_char": 1350,
+          "document_id": "python_book"
+        }
+      }
+    ],
+    "evidence_matches": [
+      true,
+      false,
+      false
+    ],
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "strategy": "A",
+    "applied_filter": {}
+  },
+  {
+    "question": {
+      "id": "q15",
+      "split": "dev",
+      "question": "What does implicit type conversion do?",
+      "expected_answer": "It automatically converts one data type to another.",
+      "gold_source_id": "python_book",
+      "gold_page": 50,
+      "evidence_quote": "Python interpreter uses implicit type conversion to automatically convert one data type to another."
+    },
+    "hits": [
+      {
+        "chunk_id": "f7ea0498d7a7f695b7036f5a2275368d1925da10100bec0e52d5bd9c8c79bf8a",
+        "text": "turn, the GPS assigns distance with 252.5, a float. The\n     Python interpreter uses implicit type conversion to automatically convert one data type to another. Once\n     distance is assigned with 252.5, the interpreter will convert distance from an integer to a float without the\n\n     Access for free at openstax.org",
+        "score": 0.7196070087676929,
+        "metadata": {
+          "page": 50,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Expressions",
+          "end_char": 2118,
+          "start_char": 1800,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "9fa97035e3873a30e1abf38a13d60717f3956259c071c284d1809e68ed959cf4",
+        "text": "s!\n\n      2.2 Type conversion\n\n     Learning objectives\n     By the end of this section you should be able to\n       • Explain how the interpreter uses implicit type conversion.\n       • Use explicit type conversion with int(), float(), and str().\n     Implicit type conversion\n\n     Common operations update a variable such that the variable's data type needs to be changed. Ex: A GPS first\n     assigns distance with 250, an integer. After a wrong turn, the GPS assigns distance with 252.5, a float",
+        "score": 0.718423576432698,
+        "metadata": {
+          "page": 50,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Expressions",
+          "end_char": 1850,
+          "start_char": 1350,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "4e1ad56a16a5e320eee842b96516e81efda9556e35d879549d4759bda49dce5c",
+        "text": "                                                                                                               2.2 • Type conversion 41\n\nprogrammer needing to specify the conversion.\n\n CHECKPOINT\n\n Example: Book ratings\n\n Example: Book ratings; ch 2, video 3 (https://www.openstax.org/r/book-ratings)\n\n CONCEPTS IN PRACTICE\n\n Implicit type conversion in practice\n\n Consider the example above.\n\n  1 . What is book_rating's data type on line 7?\n      a. float\n      b. integer\n\n  2 . What would book_ra",
+        "score": 0.690712739673964,
+        "metadata": {
+          "page": 51,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Expressions",
+          "end_char": 500,
+          "start_char": 0,
+          "document_id": "python_book"
+        }
+      }
+    ],
+    "evidence_matches": [
+      true,
+      false,
+      false
+    ],
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "strategy": "A",
+    "applied_filter": {}
+  },
+  {
+    "question": {
+      "id": "q16",
+      "split": "test",
+      "question": "What does floor division (//) compute?",
+      "expected_answer": "It computes the quotient, or the number of times one number is divided by another.",
+      "gold_source_id": "python_book",
+      "gold_page": 59,
+      "evidence_quote": "Floor division (//) computes the quotient, or the number of times divided.",
+      "filter": {
+        "chapter": "Expressions"
+      }
+    },
+    "hits": [
+      {
+        "chunk_id": "5e2cdd226696463b2f3d10855a97cd14dddc12cc6b7fa91c8104f110604cf805",
+        "text": "erts numbers to floats before dividing. Ex: 7 / 4 becomes 7.0 / 4.0, resulting in\n     1.75.\n • Floor division (//) computes the quotient, or the number of times divided. Ex: 7 // 4 is 1 because 4 goes\n     into 7 one time, remainder 3. The modulo operator (%) computes the remainder. Ex: 7 % 4 is 3.\n\nNote: The % operator is traditionally pronounced \"mod\" (short for \"modulo\"). Ex: When reading 7 % 4 out loud,\na programmer would say \"seven mod four.\"\n\n CHECKPOINT\n\n Quotient and remainder\n\n Quotien",
+        "score": 0.7512623917806556,
+        "metadata": {
+          "page": 59,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Expressions",
+          "end_char": 950,
+          "start_char": 450,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "10365638f94c19b5c6e0fcb960030462bf8217d1091112cf6705f99a27455ff2",
+        "text": "                                                                                                            2.5 • Dividing integers 49\n\n 2.5 Dividing integers\n\nLearning objectives\n\nBy the end of this section you should be able to\n\n • Evaluate expressions that involve floor division and modulo.\n • Use the modulo operator to convert between units of measure.\nDivision and modulo\n\nPython provides two ways to divide numbers:\n\n • True division (/) converts numbers to floats before dividing. Ex: 7 / 4 ",
+        "score": 0.7257843196219971,
+        "metadata": {
+          "page": 59,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Expressions",
+          "end_char": 500,
+          "start_char": 0,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "eaf0adf4b48d02f1c85a4f9c0bc653513e57f05cf18355a2f7a77cbc39348b27",
+        "text": "1.75.\n       (Real division)\n\n       x // y Divides x by y and returns the quotient as an integer. Ex: 7 // 4 is 1.\n       (Floor division)\n\n       x % y Divides x by y and returns the remainder as an integer. Ex: 7 % 4 is 3.\n       (Modulo)\n\n     Table 2.10 Chapter 2 reference.\n\n       TRY IT\n\n       Baking bread\n\n       The holidays are approaching, and you need to buy ingredients for baking many loaves of bread. According\n       to a recipe by King Arthur Flour (https://openstax.org/r/100king",
+        "score": 0.7146562901212535,
+        "metadata": {
+          "page": 74,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Expressions",
+          "end_char": 1400,
+          "start_char": 900,
+          "document_id": "python_book"
+        }
+      }
+    ],
+    "evidence_matches": [
+      true,
+      false,
+      false
+    ],
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "strategy": "A",
+    "applied_filter": {}
+  },
+  {
+    "question": {
+      "id": "q17",
+      "split": "test",
+      "question": "What does the modulo operator (%) compute?",
+      "expected_answer": "It computes the remainder.",
+      "gold_source_id": "python_book",
+      "gold_page": 59,
+      "evidence_quote": "The modulo operator (%) computes the remainder.",
+      "filter": {
+        "chapter": "Expressions"
+      }
+    },
+    "hits": [
+      {
+        "chunk_id": "5e2cdd226696463b2f3d10855a97cd14dddc12cc6b7fa91c8104f110604cf805",
+        "text": "erts numbers to floats before dividing. Ex: 7 / 4 becomes 7.0 / 4.0, resulting in\n     1.75.\n • Floor division (//) computes the quotient, or the number of times divided. Ex: 7 // 4 is 1 because 4 goes\n     into 7 one time, remainder 3. The modulo operator (%) computes the remainder. Ex: 7 % 4 is 3.\n\nNote: The % operator is traditionally pronounced \"mod\" (short for \"modulo\"). Ex: When reading 7 % 4 out loud,\na programmer would say \"seven mod four.\"\n\n CHECKPOINT\n\n Quotient and remainder\n\n Quotien",
+        "score": 0.7163750917471158,
+        "metadata": {
+          "page": 59,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Expressions",
+          "end_char": 950,
+          "start_char": 450,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "2e614b3d0c9fbbb7daf8073f75dab63afadaf6ea2496d8b7ab98d6803c07f166",
+        "text": ".\"\n\n CHECKPOINT\n\n Quotient and remainder\n\n Quotient and remainder; ch 2, video 8 (https://www.openstax.org/r/quotient-remainder)\n\n CONCEPTS IN PRACTICE\n\n Division and modulo\n\n What is the value of each expression?\n\n  1 . 13 / 5\n      a. 2\n      b. 2.6\n      c. 3\n\n  2 . 13 % 5\n      a. 2\n      b. 2.6\n      c. 3\n\n  3 . 1 // 4\n      a. 0\n      b. 0.25\n      c. 1\n\n  4 . 2 % 0\n      a. 0\n      b. 2\n      c. Error",
+        "score": 0.6944912543401177,
+        "metadata": {
+          "page": 59,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Expressions",
+          "end_char": 1311,
+          "start_char": 900,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "495f213df28835637e8f10901ad4b29fd11512db85f39446d4c6aa99dda4c92e",
+        "text": "r, is 193 // 100.\n       • The remainder, 93 centimeters, is 193 % 100.\n\n     Programs often use floor division and modulo together. If one line of code floor divides by m, the next line will\n     likely modulo by m. The unit m by which an amount is divided is called the modulus. Ex: When converting\n     centimeters to meters, the modulus is 100.\n\n       CHECKPOINT\n\n       Money and time\n\n       Money and time; ch 2, video 9 (https://www.openstax.org/r/money-time)\n\n       CONCEPTS IN PRACTICE\n\n ",
+        "score": 0.688288504651422,
+        "metadata": {
+          "page": 60,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Expressions",
+          "end_char": 950,
+          "start_char": 450,
+          "document_id": "python_book"
+        }
+      }
+    ],
+    "evidence_matches": [
+      true,
+      false,
+      false
+    ],
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "strategy": "A",
+    "applied_filter": {}
+  },
+  {
+    "question": {
+      "id": "q18",
+      "split": "test",
+      "question": "What causes a round-off error?",
+      "expected_answer": "It occurs when floating-point values are stored erroneously as an approximation.",
+      "gold_source_id": "python_book",
+      "gold_page": 56,
+      "evidence_quote": "A round-off error occurs when floating-point values are stored erroneously as an approximation."
+    },
+    "hits": [
+      {
+        "chunk_id": "d2cf0adbfacb092e03147704f2f49b2f716bd56961ce7bd142e1a4f153d6c2e9",
+        "text": "ning objectives\n\n     By the end of this section you should be able to\n\n       • Explain numerical inaccuracies related to floating-point representation.\n       • Use the round() function to mitigate floating-point errors in output.\n     Floating-point errors\n\n     Computers store information using 0's and 1's. All information must be converted to a string of 0's and 1's. Ex:\n     5 is converted to 101. Since only two values, 0 or 1, are allowed the format is called binary.\n\n     Floating-point ",
+        "score": 0.7145325457862926,
+        "metadata": {
+          "page": 56,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Expressions",
+          "end_char": 950,
+          "start_char": 450,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "a7c38f46d1171b772b1ae135b249ca1af5bc11063e1af595e1ccfe5514d13375",
+        "text": "the format is called binary.\n\n     Floating-point values are stored as binary by Python. The conversion of a floating point number to the\n     underlying binary results in specific types of floating-point errors.\n\n     A round-off error occurs when floating-point values are stored erroneously as an approximation. The\n     difference between an approximation of a value used in computation and the correct (true) value is called a\n     round-off error.\n\n     Ex: Storing the float (0.1)10 results in",
+        "score": 0.6987491139233715,
+        "metadata": {
+          "page": 56,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Expressions",
+          "end_char": 1400,
+          "start_char": 900,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "9bf201c61082512d73ecdc9e1be31c6f97a9647773b7ad23676c87f0c1248752",
+        "text": "                                                of range')\n\nTable 2.2 Overflow error.\n\n CONCEPTS IN PRACTICE\n\n Floating-point errors\n\n For each situation, which error occurs?\n\n  1 . The statement result = 2.0 * (10.0 ** 500) assigns the variable result with too large of a value.\n      a. round-off\n      b. overflow\n\n  2 . 0.123456789012345678901234567890 * 0.1 produces 0.012345678901234568430878013601.\n      a. round-off\n      b. overflow\n\nFloating point round() function\n\nPython's round() functi",
+        "score": 0.6862908284605234,
+        "metadata": {
+          "page": 57,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Expressions",
+          "end_char": 1400,
+          "start_char": 900,
+          "document_id": "python_book"
+        }
+      }
+    ],
+    "evidence_matches": [
+      false,
+      true,
+      false
+    ],
+    "hit_at_1": false,
+    "hit_at_3": true,
+    "strategy": "A",
+    "applied_filter": {}
+  },
+  {
+    "question": {
+      "id": "q19",
+      "split": "test",
+      "question": "What is the purpose of comments in a program?",
+      "expected_answer": "They explain what the code is doing.",
+      "gold_source_id": "python_book",
+      "gold_page": 37,
+      "evidence_quote": "Comments are short phrases that explain what the code is doing.",
+      "filter": {
+        "chapter": "Statements"
+      }
+    },
+    "hits": [
+      {
+        "chunk_id": "c552c63312c6692a4e71b7dca2bec6396298659d8f5e5114ac232db3b16d24dd",
+        "text": "verall structure of the program.\n\n     Programmers spend more time reading code than writing code. Therefore, making code easier for others to\n     read and understand is important. Two ways to improve code quality include:\n\n      • Separate each part (lines that have a similar purpose) with a blank line.\n      • Write a comment before each part. Not every line needs a comment.\n\n      CHECKPOINT\n\n      Comments in a program\n\n      Comments in a program; ch 1, video 12 (https://www.openstax.org/r",
+        "score": 0.7324253565129674,
+        "metadata": {
+          "page": 38,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Statements",
+          "end_char": 950,
+          "start_char": 450,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "7f37c3071b2a43d2da4dbff42fc2e4bdb0321e6d235c8c4516680612f4132ab2",
+        "text": " menu is easier to read than #End of\n    menu.\n • Comments should explain the purpose of the code, not just repeat the code itself. Ex: # Get the user's\n    preferences is more descriptive than # Input item1 and item2.\n\n EXAMPLE 1.2\n\n Program with three comments\n   1 # Display the menu options\n   2 print(\"Lunch Menu\")\n   3 print(\"----------\")\n   4 print(\"Burrito\")\n   5 print(\"Enchilada\")\n   6 print(\"Taco\")\n   7 print(\"Salad\")\n   8 print() # End of menu\n   9\n 10 # Get the user's preferences\n 11 i",
+        "score": 0.7252967632095461,
+        "metadata": {
+          "page": 37,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Statements",
+          "end_char": 1400,
+          "start_char": 900,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "94e817f3eb40d7cfe94d8a4b29ebcbe032a9c92c3afb7ec4638b2afefc278252",
+        "text": "the code is doing. Ex: Lines 1, 8, and 10 in the following\nprogram contain comments. Each comment begins with a hash character (#). All text from the hash character\nto the end of the line is ignored when running the program. In contrast, hash characters inside of strings are\ntreated as regular text. Ex: The string \"Item #1: \" does not contain a comment.\n\nWhen writing comments:\n\n • The # character should be followed by a single space. Ex: # End of menu is easier to read than #End of\n    menu.\n • ",
+        "score": 0.7199378805483471,
+        "metadata": {
+          "page": 37,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Statements",
+          "end_char": 950,
+          "start_char": 450,
+          "document_id": "python_book"
+        }
+      }
+    ],
+    "evidence_matches": [
+      false,
+      false,
+      false
+    ],
+    "hit_at_1": false,
+    "hit_at_3": false,
+    "strategy": "A",
+    "applied_filter": {}
+  },
+  {
+    "question": {
+      "id": "q20",
+      "split": "test",
+      "question": "What does Python do with adjacent string literals?",
+      "expected_answer": "It automatically concatenates them.",
+      "gold_source_id": "python_book",
+      "gold_page": 69,
+      "evidence_quote": "For convenience, Python automatically concatenates multiple strings."
+    },
+    "hits": [
+      {
+        "chunk_id": "7931677d44219cae3e795b8237fb2713eb47c25c1f40db610b355cda912bc1fe",
+        "text": "e earth, the separate and equal station to \"\n      \"which the Laws of Nature and of Nature's God entitle them, a \"\n      \"decent respect to the opinions of mankind requires that they \"\n      \"should declare the causes which impel them to the separation.\")\n\nFor convenience, Python automatically concatenates multiple strings. The + operator is not required in this\nsituation.\n\n CHECKPOINT\n\n String concatenation\n\n String concatenation; ch 2, video 11 (https://www.openstax.org/r/string-concat)\n\n CONC",
+        "score": 0.7116150420551696,
+        "metadata": {
+          "page": 69,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Expressions",
+          "end_char": 1850,
+          "start_char": 1350,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "e9bfd70fa3c6a661b537dc9fff43fbeffa6286d47ba09924e99f49dcee3f0df7",
+        "text": " (https://www.openstax.org/r/string-concat)\n\n CONCEPTS IN PRACTICE\n\n String literal concatenation\n\n  5 . Which line prints the word \"grandmother\"?\n      a. print(grandmother)\n      b. print(\"grand\" \"mother\")\n      c. print(\"grand\", \"mother\")\n\n  6 . What string is equivalent to \"Today is\" \"a holiday\"?\n      a. 'Today isa holiday'\n      b. 'Today is a holiday'\n      c. 'Today is\" \"a holiday'\n\n  7 . If name is \"Ada\", what does print(\"Hello,\" name) output?",
+        "score": 0.7057287217680592,
+        "metadata": {
+          "page": 69,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Expressions",
+          "end_char": 2256,
+          "start_char": 1800,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "6fc05b3031bd404a85b359e765e786dc48e5179c1c417c62bb12b23717611ce9",
+        "text": "ives\n\n     By the end of this section you should be able to\n\n       • Use the built-in len() function to get a string's length.\n       • Concatenate string literals and variables using the + operator.\n     Quote marks\n\n     A string is a sequence of characters enclosed by matching single (') or double (\") quotes. Ex: \"Happy\n     birthday!\" and '21' are both strings.\n\n     To include a single quote (') in a string, enclose the string with matching double quotes (\"). Ex: \"Won't this\n     work?\" To",
+        "score": 0.6841218549083719,
+        "metadata": {
+          "page": 26,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Statements",
+          "end_char": 1400,
+          "start_char": 900,
+          "document_id": "python_book"
+        }
+      }
+    ],
+    "evidence_matches": [
+      true,
+      false,
+      false
+    ],
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "strategy": "A",
+    "applied_filter": {}
+  },
+  {
+    "question": {
+      "id": "q01",
+      "split": "dev",
+      "question": "How does a Python program run its statements?",
+      "expected_answer": "It runs statements one after another.",
+      "gold_source_id": "python_book",
+      "gold_page": 17,
+      "evidence_quote": "Programs consist of statements to be run one after the other."
+    },
+    "hits": [
+      {
+        "chunk_id": "43cf25fe43cced7c338abc8e1049d9c2882af8981573aa148a44783c69739550",
+        "text": "Python is an interpreted language: the source code is translated one line at a time while the program is\n     running. The Python interpreter translates source code into machine code and runs the resulting program. If\n     and when an error occurs, the interpreter stops translating the source code and displays an error message.",
+        "score": 0.7436916416736213,
+        "metadata": {
+          "page": 48,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Expressions",
+          "end_char": 1035,
+          "start_char": 706,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "5beea16a642e1f6dadb2cd982b22ad2085e2698f2b78953c00dc5bf4a2b22220",
+        "text": "Introduction\nA computer program is a sequence of statements that run one after the other. In Python, many statements\nconsist of one or more expressions. An expression represents a single value to be computed. Ex: The\nexpression 3*x - 5 evaluates to 7 when x is 4. Learning to recognize expressions opens the door for\nprogramming all kinds of interesting calculations.",
+        "score": 0.7100845277844772,
+        "metadata": {
+          "page": 47,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Expressions",
+          "end_char": 750,
+          "start_char": 383,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "f63ac0dcc6475abbfd33b2b7d163baae23cfeac9b332982840cf6eaf045c3a33",
+        "text": "Most development environments include a Python shell for experimenting with code interactively. A shell, also\n     called a console or terminal, is a program that allows direct interaction with an interpreter. The interpreter\n     usually runs an entire program all at once. But the interpreter can run one line of code at a time within a\n     Python shell.\n\n       CHECKPOINT\n\n       Running a Python shell\n\n       Running a Python shell; ch 2, video 1 (https://www.openstax.org/r/python-shell)",
+        "score": 0.7036921044207788,
+        "metadata": {
+          "page": 48,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Expressions",
+          "end_char": 1537,
+          "start_char": 1042,
+          "document_id": "python_book"
+        }
+      }
+    ],
+    "evidence_matches": [
+      false,
+      false,
+      false
+    ],
+    "hit_at_1": false,
+    "hit_at_3": false,
+    "strategy": "B",
+    "applied_filter": {}
+  },
+  {
+    "question": {
+      "id": "q02",
+      "split": "dev",
+      "question": "What does the statement count = 0 do?",
+      "expected_answer": "It assigns the integer 0 to the variable count.",
+      "gold_source_id": "python_book",
+      "gold_page": 17,
+      "evidence_quote": "The statement count = 0 instructs Python to assign the integer 0 to the variable count."
+    },
+    "hits": [
+      {
+        "chunk_id": "5019dc3a757ead22cbd843d9ba49bfca7025ff7d40afe3738ed492e8ed8c205e",
+        "text": "The statement print(\"Good morning\") instructs Python to output the message \"Good morning\" to the\nuser. The statement count = 0 instructs Python to assign the integer 0 to the variable count.",
+        "score": 0.7856835447751094,
+        "metadata": {
+          "page": 17,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Statements",
+          "end_char": 933,
+          "start_char": 743,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "dff9df6cdff1571d196bbea3aafae93f65741949549a8676e1b72296ea9f0ee4",
+        "text": "Introduction\nComputers and programs are everywhere in today's world. Programs affect many aspects of daily life and\nsociety as a whole. People depend on programs for communication, shopping, entertainment, health care, and\ncountless other needs. Learning how to program computers opens the door to many careers and\nopportunities for building a better world.\n\nPrograms consist of statements to be run one after the other. A statement describes some action to be\ncarried out.",
+        "score": 0.6742135979803608,
+        "metadata": {
+          "page": 17,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Statements",
+          "end_char": 741,
+          "start_char": 268,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "b031d02cb4b93a40bb1c2f118db01cd30374192ce0626e437b887e7bb7307857",
+        "text": "However, conciseness is not the only consideration for which language is used. In different situations\n different languages may be more appropriate. Ex: Java is often used in Android development.\n\n CHECKPOINT\n\n Counting lines in a file\n\n Counting lines in a file; ch 1, video 2 (https://www.openstax.org/r/counting-lines)",
+        "score": 0.6702669610088695,
+        "metadata": {
+          "page": 19,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Statements",
+          "end_char": 2287,
+          "start_char": 1966,
+          "document_id": "python_book"
+        }
+      }
+    ],
+    "evidence_matches": [
+      true,
+      false,
+      false
+    ],
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "strategy": "B",
+    "applied_filter": {}
+  },
+  {
+    "question": {
+      "id": "q03",
+      "split": "dev",
+      "question": "Which built-in function displays output to the user?",
+      "expected_answer": "The print() function displays output to the user.",
+      "gold_source_id": "python_book",
+      "gold_page": 20,
+      "evidence_quote": "The print() function displays output to the user."
+    },
+    "hits": [
+      {
+        "chunk_id": "a0962286fe99b37f1c511308efb04066b58a7977dab36260e69ab8be4007047a",
+        "text": "• Display output using the print() function.\n       • Obtain user input using the input() function.\n     Basic output\n\n     The print() function displays output to the user. Output is the information or result produced by a program.\n     The sep and end options can be used to customize the output. Table 1.1 shows examples of sep and end.\n\n     Access for free at openstax.org",
+        "score": 0.743343343818882,
+        "metadata": {
+          "page": 20,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Statements",
+          "end_char": 1968,
+          "start_char": 1591,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "3eff04e1d8ba567adc4f337fb535710b9259d5329f7cb7f5584f068d5c330c86",
+        "text": "Displaying output to the user\n\n 1 3 1 Displaying output to the user (https://www.openstax.org/r/displaying-output)\n\n CONCEPTS IN PRACTICE\n\n The print() function\n\n  1 . Which line of code prints Hello world! as one line of output?\n      a. print(Hello world!)\n      b. print(\"Hello\", \"world\", \"!\")\n      c. print(\"Hello world!\")",
+        "score": 0.7413396140958578,
+        "metadata": {
+          "page": 21,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Statements",
+          "end_char": 1406,
+          "start_char": 1079,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "8da492844925f4c2577886d1ad5ffd22da5a2a721a215321535d74b35f6963ce",
+        "text": "Function Description\n\n  print(values) Outputs one or more values, each separated by a space, to the user.\n\n                          If present, prompt is output to the user. The function then reads a line of input from the\n  input(prompt) user.\n\n  len(string) Returns the length (the number of characters) of a string.\n\n  type(value) Returns the type (or class) of a value. Ex: type(123) is <class 'int'>.\n\n  Operator Description\n\nTable 1.6 Chapter 1 reference.",
+        "score": 0.717663906417696,
+        "metadata": {
+          "page": 43,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Statements",
+          "end_char": 1549,
+          "start_char": 1087,
+          "document_id": "python_book"
+        }
+      }
+    ],
+    "evidence_matches": [
+      true,
+      false,
+      false
+    ],
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "strategy": "B",
+    "applied_filter": {}
+  },
+  {
+    "question": {
+      "id": "q04",
+      "split": "dev",
+      "question": "What does print() add at the end of its output by default?",
+      "expected_answer": "It adds a newline character at the end of the output.",
+      "gold_source_id": "python_book",
+      "gold_page": 21,
+      "evidence_quote": "By default, the print() function adds a newline character at the end of the output."
+    },
+    "hits": [
+      {
+        "chunk_id": "6a3ec5f8721f70c6f5b9f973bad04de728f569b97498acfacd19f692f8ded464",
+        "text": "1.2 • Input/output 11\n\nMultiple values, separated by commas, can be printed in the same statement. By default, each value is\nseparated by a space character in the output. The sep option can be used to change this behavior.\n\nBy default, the print() function adds a newline character at the end of the output. A newline character tells\nthe display to move to the next line. The end option can be used to continue printing on the same line.\n\n                               Code Output",
+        "score": 0.7336581394363599,
+        "metadata": {
+          "page": 21,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Statements",
+          "end_char": 587,
+          "start_char": 106,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "e13e6fbcd5e0bebc4a5a6ac4d9980fd8580665b3939067d9b83fdaf561b2ae85",
+        "text": "2 . Which lines of code prints Hello world! as one line of output?\n      a. print(\"Hello\")\n         print(\" world!\")\n      b. print(\"Hello\")\n          print(\" world!\", end=\"\")\n      c. print(\"Hello\", end=\"\")\n         print(\" world!\")\n\n  3 . What output is produced by the following statement?",
+        "score": 0.7307355002972875,
+        "metadata": {
+          "page": 21,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Statements",
+          "end_char": 1702,
+          "start_char": 1410,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "e1c21b8dfb81826e4e008ae3cd6e1c6c428c23b5e67f5b0d4f8f980af20d8b33",
+        "text": "print(\"Today is Monday.\") Today is Monday.\n print(\"I like string beans.\") I like string beans.\n\n print(\"Today\", \"is\", \"Monday\") Today is Monday\n print(\"Today\", \"is\", \"Monday\", sep=\"...\") Today...is...Monday\n\n print(\"Today is Monday, \", end=\"\") Today is Monday, I like string\n print(\"I like string beans.\") beans.\n\n print(\"Today\", \"is\", \"Monday\", sep=\"? \", Today? is? Monday!!I like string\n end=\"!!\") beans.\n print(\"I like string beans.\")\n\nTable 1.1 Example uses of print().\n\n CHECKPOINT",
+        "score": 0.6936809195435972,
+        "metadata": {
+          "page": 21,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Statements",
+          "end_char": 1076,
+          "start_char": 590,
+          "document_id": "python_book"
+        }
+      }
+    ],
+    "evidence_matches": [
+      true,
+      false,
+      false
+    ],
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "strategy": "B",
+    "applied_filter": {}
+  },
+  {
+    "question": {
+      "id": "q05",
+      "split": "dev",
+      "question": "What does the input() function read from the user?",
+      "expected_answer": "It reads one line of input from the user.",
+      "gold_source_id": "python_book",
+      "gold_page": 22,
+      "evidence_quote": "The input() function reads one line of input from the user."
+    },
+    "hits": [
+      {
+        "chunk_id": "211ab195e15cef2f6933de8d5d9cd0b1b8d1908430c9f8b434cb459ffd3de728",
+        "text": "Computer programs often receive input from the user. Input is what a user enters into a program. An input\n     statement, variable = input(\"prompt\"), has three parts:",
+        "score": 0.7164728694609472,
+        "metadata": {
+          "page": 22,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Statements",
+          "end_char": 612,
+          "start_char": 446,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "688f435cd1aa9d45836011086df901ba31714e242ce5aba8ef1ae20b88bc11f7",
+        "text": "1. A variable refers to a value stored in memory. In the statement above, variable can be replaced with any\n          name the programmer chooses.\n     2. The input() function reads one line of input from the user. A function is a named, reusable block of code\n          that performs a task when called. The input is stored in the computer's memory and can be accessed later\n          using the variable.\n     3. A prompt is a short message that indicates the program is waiting for input. In the",
+        "score": 0.7074212492806529,
+        "metadata": {
+          "page": 22,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Statements",
+          "end_char": 1116,
+          "start_char": 619,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "1f7c03b82827c7c056944388d9f9e87c89a0804d8d32f2cecd21e702d3fe151c",
+        "text": "statement above,\n          \"prompt\" can be omitted or replaced with any message.\n\n      CHECKPOINT\n\n      Obtaining input from the user\n\n      Displaying output to the user; ch 1, video 3 (https://www.openstax.org/r/obtaining-input)\n\n      CONCEPTS IN PRACTICE\n\n      The input() function\n\n        4 . Which line of code correctly obtains and stores user input?\n           a. input()\n           b. today_is = input\n           c. today_is = input()",
+        "score": 0.6857637786342097,
+        "metadata": {
+          "page": 22,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Statements",
+          "end_char": 1564,
+          "start_char": 1117,
+          "document_id": "python_book"
+        }
+      }
+    ],
+    "evidence_matches": [
+      false,
+      true,
+      false
+    ],
+    "hit_at_1": false,
+    "hit_at_3": true,
+    "strategy": "B",
+    "applied_filter": {}
+  },
+  {
+    "question": {
+      "id": "q06",
+      "split": "dev",
+      "question": "Which operator assigns a value to a variable in a statement?",
+      "expected_answer": "The assignment operator (=).",
+      "gold_source_id": "python_book",
+      "gold_page": 24,
+      "evidence_quote": "A statement can set a variable to a value using the assignment operator (=)."
+    },
+    "hits": [
+      {
+        "chunk_id": "12f77c2e2761dd07f6ba08ca652a4113684e0365b7f05be08edc37265f0a9fae",
+        "text": "A statement can set a variable to a value using the assignment operator (=). Note that this is different from\n     the equal sign of mathematics. Ex: age = 6 or birth = \"May 15\". The left side of the assignment statement\n     is a variable, and the right side is the value the variable is assigned.\n\n      CHECKPOINT\n\n      Assigning and using variables\n\n      Assigning and using variables; ch 1, video 5 (https://www.openstax.org/r/using-variables)\n\n      CONCEPTS IN PRACTICE",
+        "score": 0.7389514942538471,
+        "metadata": {
+          "page": 24,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Statements",
+          "end_char": 914,
+          "start_char": 436,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "b683aba831e41d90ca466195d7785b0d84d048f67d94c70f635749784993bd90",
+        "text": "2 . Which program stores and retrieves a variable correctly?\n           a. print(\"Total =\", total)\n               total = 6\n           b. total = 6\n               print(\"Total =\", total)\n           c. print(\"Total =\", total)\n               total = input()\n\n       3 . Which is the assignment operator?\n           a. :\n           b. ==\n           c. =\n\n       4 . Which is a valid assignment?\n\n     Access for free at openstax.org",
+        "score": 0.7208651303608387,
+        "metadata": {
+          "page": 24,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Statements",
+          "end_char": 1671,
+          "start_char": 1242,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "81c8850dfd231036a52e99444bed8e8c1b20e0e8b18a473bae6a93c2d7da13df",
+        "text": "34 1 • Statements\n\n            Function Description\n\n       = Assigns (or updates) the value of a variable. In Python, variables begin to exist when\n       (Assignment) assigned for the first time.\n\n       +\n       (Concatenation) Appends the contents of two strings, resulting in a new string.\n\n       +\n       (Addition) Adds the values of two numbers.\n\n       -\n       (Subtraction) Subtracts the value of one number from another.",
+        "score": 0.7129485813909922,
+        "metadata": {
+          "page": 44,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Statements",
+          "end_char": 433,
+          "start_char": 0,
+          "document_id": "python_book"
+        }
+      }
+    ],
+    "evidence_matches": [
+      true,
+      false,
+      false
+    ],
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "strategy": "B",
+    "applied_filter": {}
+  },
+  {
+    "question": {
+      "id": "q07",
+      "split": "dev",
+      "question": "What are Python's reserved words called?",
+      "expected_answer": "They are called keywords.",
+      "gold_source_id": "python_book",
+      "gold_page": 25,
+      "evidence_quote": "Python has reserved words, known as keywords"
+    },
+    "hits": [
+      {
+        "chunk_id": "5465329d3f5549c22181e651c0442d626dee189d0308fc6380716b3b868708e4",
+        "text": "A name should be short and descriptive, so words are preferred over single characters in programs for\nreadability. Ex: A variable named count indicates the variable's purpose better than a variable named c.\n\nPython has reserved words, known as keywords, which have special functions and cannot be used as names\nfor variables (or other objects).\n\n                               False await else import pass\n\n                               None break except in raise",
+        "score": 0.7142213869531963,
+        "metadata": {
+          "page": 25,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Statements",
+          "end_char": 1084,
+          "start_char": 620,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "76936c4abc151b691d20cfc0d902f1dcabb3cca2084a7acadfd53c780395617a",
+        "text": "True class finally is return\n\n                               and continue for lambda try\n\n                               as def from nonlocal while\n\n                               assert del global not with\n\n                               asynch elif if or yield\n\n                             Table 1.2 Keywords\n\n CONCEPTS IN PRACTICE\n\n Valid variable names\n\n  5 . Which can be used as a variable name?\n      a. median\n      b. class\n      c. import",
+        "score": 0.6807741456142116,
+        "metadata": {
+          "page": 25,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Statements",
+          "end_char": 1566,
+          "start_char": 1117,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "d5cddc3a172d4b91db78b395be7facf56cb8d0a0a373262f3c4889d004768cdc",
+        "text": "Python is a high-level language, meaning that the source code is intended for humans to understand.\n     Computers, on the other hand, understand only low-level machine code made up of 1's and 0's. Programs\n     written in high-level languages must be translated into machine code to run. This translation process can\n     happen all at once, or a little at a time, depending on the language.",
+        "score": 0.6378241131657832,
+        "metadata": {
+          "page": 48,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Expressions",
+          "end_char": 699,
+          "start_char": 307,
+          "document_id": "python_book"
+        }
+      }
+    ],
+    "evidence_matches": [
+      true,
+      false,
+      false
+    ],
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "strategy": "B",
+    "applied_filter": {}
+  },
+  {
+    "question": {
+      "id": "q08",
+      "split": "dev",
+      "question": "What does concatenation do to two or more strings?",
+      "expected_answer": "It combines them sequentially into one string.",
+      "gold_source_id": "python_book",
+      "gold_page": 28,
+      "evidence_quote": "Concatenation is an operation that combines two or more strings sequentially with the concatenation operator"
+    },
+    "hits": [
+      {
+        "chunk_id": "3d7a3cc772699e72d5e4e7d6ab99ba018697587c96b0602b0bdeae187bbb83fb",
+        "text": "Concatenation\n\n    Concatenation is an operation that combines two or more strings sequentially with the concatenation operator\n    (+). Ex: \"A\" + \"part\" produces the string \"Apart\".\n\n      CHECKPOINT\n\n      Concatenating multiple strings\n\n      Concatenating multiple strings; ch 1, video 7 (https://www.openstax.org/r/concatenating-strings)\n\n      CONCEPTS IN PRACTICE\n\n      String concatenation",
+        "score": 0.7712354336606706,
+        "metadata": {
+          "page": 28,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Statements",
+          "end_char": 899,
+          "start_char": 501,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "511d5966cec103f4a8ed3ebec0d0be8d7f42d51c7b2e131e8552d27def6e0653",
+        "text": "the causes which impel them to the separation.\")\n\nFor convenience, Python automatically concatenates multiple strings. The + operator is not required in this\nsituation.\n\n CHECKPOINT\n\n String concatenation\n\n String concatenation; ch 2, video 11 (https://www.openstax.org/r/string-concat)\n\n CONCEPTS IN PRACTICE\n\n String literal concatenation\n\n  5 . Which line prints the word \"grandmother\"?\n      a. print(grandmother)\n      b. print(\"grand\" \"mother\")\n      c. print(\"grand\", \"mother\")",
+        "score": 0.6956652266909709,
+        "metadata": {
+          "page": 69,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Expressions",
+          "end_char": 2041,
+          "start_char": 1557,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "849324d77230199b5a2adeb8a19a990a6d1280b14c4f3dd90ae4c6e0c8ed2a24",
+        "text": "8 . Which produces the string \"10\"?\n           a. 1 + 0\n           b. \"1 + 0\"\n           c. \"1\" + \"0\"\n\n       9 . Which produces the string \"Awake\"?\n           a. \"wake\" + \"A\"\n           b. \"A + wake\"\n           c. \"A\" + \"wake\"\n\n      10 . A user enters \"red\" after the following line of code.\n\n           color = input(\"What is your favorite color?\")",
+        "score": 0.6925339509400278,
+        "metadata": {
+          "page": 28,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Statements",
+          "end_char": 1259,
+          "start_char": 908,
+          "document_id": "python_book"
+        }
+      }
+    ],
+    "evidence_matches": [
+      true,
+      false,
+      false
+    ],
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "strategy": "B",
+    "applied_filter": {}
+  },
+  {
+    "question": {
+      "id": "q09",
+      "split": "dev",
+      "question": "Which two basic number formats does Python support?",
+      "expected_answer": "Integer and floating-point.",
+      "gold_source_id": "python_book",
+      "gold_page": 30,
+      "evidence_quote": "Python supports two basic number formats, integer and floating-point."
+    },
+    "hits": [
+      {
+        "chunk_id": "318fc222829780b07d8cf905e8235f313aa757f31c3369807ecbf90241b36f63",
+        "text": "20 1 • Statements\n\n       • Explain the precedence of arithmetic operators.\n     Numeric data types\n\n     Python supports two basic number formats, integer and floating-point. An integer represents a whole number,\n     and a floating-point format represents a decimal number. The format a language uses to represent data is\n     called a data type. In addition to integer and floating-point types, programming languages typically have a\n     string type for representing text.\n\n       CHECKPOINT",
+        "score": 0.6992944628894798,
+        "metadata": {
+          "page": 30,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Statements",
+          "end_char": 495,
+          "start_char": 0,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "0b3eb469090d7eddbe94775bcccb899651967c3ea1be6b254b1ba6c8c495960c",
+        "text": "print(y, type(y))\n\n           a. 2.0 <class 'int'>\n           b. 2.0 <class 'float'>\n           c. 2 <class 'int'>\n\n        3 . What is the type of the following value?\n\n           \"12.0\"\n\n           a. string\n           b. int\n           c. float\n\n     Basic arithmetic\n\n     Arithmetic operators are used to perform mathematical operations like addition, subtraction, multiplication,\n     and division.\n\n     Four basic arithmetic operators exist in Python:",
+        "score": 0.6977925710278065,
+        "metadata": {
+          "page": 30,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Statements",
+          "end_char": 1455,
+          "start_char": 996,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "930618969f2641ba921cf9d27f82d3dfcaef635a04af60feb055e857ba453fa2",
+        "text": "Integer and floating-point\n\n       Integer and floating point; ch 1, video 8 (https://www.openstax.org/r/integer-and-floating-point)\n\n       CONCEPTS IN PRACTICE\n\n       Integers, floats, and strings\n\n       Assume that x = 1, y = 2.0, and s = \"32\".\n\n        1 . What is the output of the following code?\n\n           print(x, type(x))\n\n           a. 1 'int'.\n           b. 1.0 <class 'float'>.\n           c. 1 <class 'int'>.\n\n        2 . What is the output of the following code?",
+        "score": 0.6813205967123256,
+        "metadata": {
+          "page": 30,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Statements",
+          "end_char": 983,
+          "start_char": 504,
+          "document_id": "python_book"
+        }
+      }
+    ],
+    "evidence_matches": [
+      true,
+      false,
+      false
+    ],
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "strategy": "B",
+    "applied_filter": {}
+  },
+  {
+    "question": {
+      "id": "q10",
+      "split": "dev",
+      "question": "When a calculation has multiple operators, how is evaluation ordered?",
+      "expected_answer": "Each operator is evaluated in order of precedence.",
+      "gold_source_id": "python_book",
+      "gold_page": 31,
+      "evidence_quote": "When a calculation has multiple operators, each operator is evaluated in order of precedence."
+    },
+    "hits": [
+      {
+        "chunk_id": "ad23daffe109c236e3c342970c3ca669ff8b6da6e31c44396a4afcf908d4fc9d",
+        "text": "22 1 • Statements\n\n     is 7 because multiplication takes precedence over addition. However, (1 + 2) * 3 is 9 because parentheses\n     take precedence over multiplication.\n\n                                Operator Description Example Result\n\n                                () Parentheses (1 + 2) * 3 9\n\n                                ** Exponentiation 2 ** 4 16\n\n                                +, - Positive, negative -math.pi -3.14159",
+        "score": 0.7245281928432336,
+        "metadata": {
+          "page": 32,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Statements",
+          "end_char": 438,
+          "start_char": 0,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "a117b454d9c57fad957a7ce8c4f8603d637c4d14c0c57ba48595381b0e4311be",
+        "text": "*, / Multiplication, division 2 * 3 6\n\n                                +, - Addition, subtraction 1 + 2 3\n\n                              Table 1.4 Operator precedence from highest to lowest.\n\n       CHECKPOINT\n\n       Order of operations in an arithmetic expression\n\n       Order of operations in an arithmetic expression; ch 1, video 10 (https://www.openstax.org/r/order-of-\n       operations)\n\n       CONCEPTS IN PRACTICE\n\n       Multiple arithmetic operators",
+        "score": 0.7209322591538281,
+        "metadata": {
+          "page": 32,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Statements",
+          "end_char": 933,
+          "start_char": 472,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "2cdfa09b7a89c4e8ecf45cc3be12a78427f6b6ffc65d168950ec84f937a5c5fe",
+        "text": "9 . What is the value of 4 * 3 ** 2 + 1?\n            a. 37\n            b. 40\n            c. 145\n\n       10 . Which part of (1 + 3) ** 2 / 4 evaluates first?\n            a. 4 ** 2\n            b. 1 + 3\n            c. 2 / 4\n\n       11 . What is the value of -4 ** 2?\n            a. -16\n            b. 16\n\n       12 . How many operators are in the following statement?\n\n            result = -2 ** 3\n\n            a. 1\n\n     Access for free at openstax.org",
+        "score": 0.6950168125837075,
+        "metadata": {
+          "page": 32,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Statements",
+          "end_char": 1393,
+          "start_char": 943,
+          "document_id": "python_book"
+        }
+      }
+    ],
+    "evidence_matches": [
+      false,
+      false,
+      false
+    ],
+    "hit_at_1": false,
+    "hit_at_3": false,
+    "strategy": "B",
+    "applied_filter": {}
+  },
+  {
+    "question": {
+      "id": "q11",
+      "split": "dev",
+      "question": "Which character begins a Python comment?",
+      "expected_answer": "A hash character (#).",
+      "gold_source_id": "python_book",
+      "gold_page": 37,
+      "evidence_quote": "Each comment begins with a hash character (#)."
+    },
+    "hits": [
+      {
+        "chunk_id": "83bc1ff289b94d172b31f3acf11fe4f98e9b246ae6528ac492664cc84557b20c",
+        "text": "1 . The main purpose of writing comments is to _____.\n      a. avoid writing syntax errors\n      b. explain what the code does\n      c. make the code run faster\n\n  2 . Which symbol is used for comments in Python?\n      a. #\n      b. /*",
+        "score": 0.7316808847110042,
+        "metadata": {
+          "page": 37,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Statements",
+          "end_char": 1736,
+          "start_char": 1501,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "a6baf1e8002669e957018dbf966bd773b03ea1acf485b3bd2248de3af9661c7f",
+        "text": "1.7 • Comments 29\n\n      c. insert a # at the beginning of the line.\n\nDocumentation\n\nPython programs may optionally begin with a string known as a docstring. A docstring is documentation\nwritten for others who will use the program but not necessarily read the source code. Most of the official\ndocumentation at docs.python.org (https://openstax.org/r/100docstrings) is generated from docstrings.",
+        "score": 0.727303393558296,
+        "metadata": {
+          "page": 39,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Statements",
+          "end_char": 502,
+          "start_char": 107,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "0bd7b0507892ee0ebe3e96b63ce900e76b93a22920978c3fdf042f2047fedb56",
+        "text": "Comments are short phrases that explain what the code is doing. Ex: Lines 1, 8, and 10 in the following\nprogram contain comments. Each comment begins with a hash character (#). All text from the hash character\nto the end of the line is ignored when running the program. In contrast, hash characters inside of strings are\ntreated as regular text. Ex: The string \"Item #1: \" does not contain a comment.\n\nWhen writing comments:",
+        "score": 0.727238392211111,
+        "metadata": {
+          "page": 37,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Statements",
+          "end_char": 829,
+          "start_char": 405,
+          "document_id": "python_book"
+        }
+      }
+    ],
+    "evidence_matches": [
+      false,
+      false,
+      true
+    ],
+    "hit_at_1": false,
+    "hit_at_3": true,
+    "strategy": "B",
+    "applied_filter": {}
+  },
+  {
+    "question": {
+      "id": "q12",
+      "split": "dev",
+      "question": "What does an expression represent?",
+      "expected_answer": "A single value to be computed.",
+      "gold_source_id": "python_book",
+      "gold_page": 47,
+      "evidence_quote": "An expression represents a single value to be computed."
+    },
+    "hits": [
+      {
+        "chunk_id": "5beea16a642e1f6dadb2cd982b22ad2085e2698f2b78953c00dc5bf4a2b22220",
+        "text": "Introduction\nA computer program is a sequence of statements that run one after the other. In Python, many statements\nconsist of one or more expressions. An expression represents a single value to be computed. Ex: The\nexpression 3*x - 5 evaluates to 7 when x is 4. Learning to recognize expressions opens the door for\nprogramming all kinds of interesting calculations.",
+        "score": 0.7345390100581138,
+        "metadata": {
+          "page": 47,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Expressions",
+          "end_char": 750,
+          "start_char": 383,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "5ac83f51ced508b2ddb81dcf10251f2c5e946d3978d9fdfd1d3f28feb4f044b4",
+        "text": "Expressions are often a combination of literals, variables, and operators. In the previous example, 3 and 5 are\nliterals, x is a variable, and * and - are operators. Expressions can be arbitrarily long, consisting of many\ncalculations. Expressions can also be as short as one value. Ex: In the assignment statement x = 5, the literal\n5 is an expression.",
+        "score": 0.7164452487897758,
+        "metadata": {
+          "page": 47,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Expressions",
+          "end_char": 1105,
+          "start_char": 752,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "6a871cbc7def106f786ec68795be24e47177ee7357a88c137be723e42595dd94",
+        "text": "The Statements chapter introduced simple expressions like 1 * 2 and \"Hi \" + \"there\". This chapter\nexplores other kinds of expressions for working with numbers and strings. The first section shows a great way\nto experiment with expressions using a Python shell. Later sections present more details about integers and\nfloating-point numbers, explain how to import and use the math module, and show how to make long lines of\ncode easier to read.",
+        "score": 0.6786638626022912,
+        "metadata": {
+          "page": 47,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Expressions",
+          "end_char": 1549,
+          "start_char": 1107,
+          "document_id": "python_book"
+        }
+      }
+    ],
+    "evidence_matches": [
+      true,
+      false,
+      false
+    ],
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "strategy": "B",
+    "applied_filter": {}
+  },
+  {
+    "question": {
+      "id": "q13",
+      "split": "dev",
+      "question": "What are expressions often combinations of?",
+      "expected_answer": "Literals, variables, and operators.",
+      "gold_source_id": "python_book",
+      "gold_page": 47,
+      "evidence_quote": "Expressions are often a combination of literals, variables, and operators."
+    },
+    "hits": [
+      {
+        "chunk_id": "5ac83f51ced508b2ddb81dcf10251f2c5e946d3978d9fdfd1d3f28feb4f044b4",
+        "text": "Expressions are often a combination of literals, variables, and operators. In the previous example, 3 and 5 are\nliterals, x is a variable, and * and - are operators. Expressions can be arbitrarily long, consisting of many\ncalculations. Expressions can also be as short as one value. Ex: In the assignment statement x = 5, the literal\n5 is an expression.",
+        "score": 0.6987956764953348,
+        "metadata": {
+          "page": 47,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Expressions",
+          "end_char": 1105,
+          "start_char": 752,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "5beea16a642e1f6dadb2cd982b22ad2085e2698f2b78953c00dc5bf4a2b22220",
+        "text": "Introduction\nA computer program is a sequence of statements that run one after the other. In Python, many statements\nconsist of one or more expressions. An expression represents a single value to be computed. Ex: The\nexpression 3*x - 5 evaluates to 7 when x is 4. Learning to recognize expressions opens the door for\nprogramming all kinds of interesting calculations.",
+        "score": 0.6801689395919122,
+        "metadata": {
+          "page": 47,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Expressions",
+          "end_char": 750,
+          "start_char": 383,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "6a871cbc7def106f786ec68795be24e47177ee7357a88c137be723e42595dd94",
+        "text": "The Statements chapter introduced simple expressions like 1 * 2 and \"Hi \" + \"there\". This chapter\nexplores other kinds of expressions for working with numbers and strings. The first section shows a great way\nto experiment with expressions using a Python shell. Later sections present more details about integers and\nfloating-point numbers, explain how to import and use the math module, and show how to make long lines of\ncode easier to read.",
+        "score": 0.6548841543534966,
+        "metadata": {
+          "page": 47,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Expressions",
+          "end_char": 1549,
+          "start_char": 1107,
+          "document_id": "python_book"
+        }
+      }
+    ],
+    "evidence_matches": [
+      true,
+      false,
+      false
+    ],
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "strategy": "B",
+    "applied_filter": {}
+  },
+  {
+    "question": {
+      "id": "q14",
+      "split": "dev",
+      "question": "Why is a Python shell useful?",
+      "expected_answer": "It lets a programmer experiment with code interactively.",
+      "gold_source_id": "python_book",
+      "gold_page": 48,
+      "evidence_quote": "Most development environments include a Python shell for experimenting with code interactively."
+    },
+    "hits": [
+      {
+        "chunk_id": "0628372831f8771649bdaf5837bb08d9e30702680b186c55f6162bfedb297e64",
+        "text": "A Python shell is convenient for exploring and troubleshooting code. The user can try something, look at the\n     results, and then try something else. When an error occurs, an error message is displayed, but the program\n     keeps running. That way, the user can edit the previous line and correct the error interactively.\n\n     Access for free at openstax.org",
+        "score": 0.7716383662656199,
+        "metadata": {
+          "page": 48,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Expressions",
+          "end_char": 2400,
+          "start_char": 2039,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "f63ac0dcc6475abbfd33b2b7d163baae23cfeac9b332982840cf6eaf045c3a33",
+        "text": "Most development environments include a Python shell for experimenting with code interactively. A shell, also\n     called a console or terminal, is a program that allows direct interaction with an interpreter. The interpreter\n     usually runs an entire program all at once. But the interpreter can run one line of code at a time within a\n     Python shell.\n\n       CHECKPOINT\n\n       Running a Python shell\n\n       Running a Python shell; ch 2, video 1 (https://www.openstax.org/r/python-shell)",
+        "score": 0.7596174796803835,
+        "metadata": {
+          "page": 48,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Expressions",
+          "end_char": 1537,
+          "start_char": 1042,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "0ee3d6c38f96159a46aa8739d894d27a812e41bfa97313a8c88b7ef6a853ee08",
+        "text": "Running code interactively is a great way to learn how Python works. Open a Python shell on your\n  computer, or use the one at python.org/shell (https://openstax.org/r/100pythonshell). Then enter any\n  Python code, one line at a time, to see the result. Here are a few expressions to try:\n\n    • x = 5\n    • 3*x - 5\n    • 3 * (x-5)\n    • x\n    • type(1)\n    • type('1')\n    • str(1)\n    • int('1')\n    • abs(-5)",
+        "score": 0.7216824634164722,
+        "metadata": {
+          "page": 49,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Expressions",
+          "end_char": 1625,
+          "start_char": 1214,
+          "document_id": "python_book"
+        }
+      }
+    ],
+    "evidence_matches": [
+      false,
+      true,
+      false
+    ],
+    "hit_at_1": false,
+    "hit_at_3": true,
+    "strategy": "B",
+    "applied_filter": {}
+  },
+  {
+    "question": {
+      "id": "q15",
+      "split": "dev",
+      "question": "What does implicit type conversion do?",
+      "expected_answer": "It automatically converts one data type to another.",
+      "gold_source_id": "python_book",
+      "gold_page": 50,
+      "evidence_quote": "Python interpreter uses implicit type conversion to automatically convert one data type to another."
+    },
+    "hits": [
+      {
+        "chunk_id": "4fa83b04bbebc62b755055af025c68105887ebf360d51b906319312ea86be9eb",
+        "text": "Common operations update a variable such that the variable's data type needs to be changed. Ex: A GPS first\n     assigns distance with 250, an integer. After a wrong turn, the GPS assigns distance with 252.5, a float. The\n     Python interpreter uses implicit type conversion to automatically convert one data type to another. Once\n     distance is assigned with 252.5, the interpreter will convert distance from an integer to a float without the\n\n     Access for free at openstax.org",
+        "score": 0.7413522756092789,
+        "metadata": {
+          "page": 50,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Expressions",
+          "end_char": 2118,
+          "start_char": 1634,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "2ffe60acaf5150e13314386d4f17cf67f7732f8af5e81b381f7526dfbdf989b3",
+        "text": "Learning objectives\n     By the end of this section you should be able to\n       • Explain how the interpreter uses implicit type conversion.\n       • Use explicit type conversion with int(), float(), and str().\n     Implicit type conversion",
+        "score": 0.7310212607858915,
+        "metadata": {
+          "page": 50,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Expressions",
+          "end_char": 1627,
+          "start_char": 1386,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "43b8b66707dab4889c63d180280856ad8acf8bb3fd29fb07729195d2dd1a9937",
+        "text": "2.2 • Type conversion 41\n\nprogrammer needing to specify the conversion.\n\n CHECKPOINT\n\n Example: Book ratings\n\n Example: Book ratings; ch 2, video 3 (https://www.openstax.org/r/book-ratings)\n\n CONCEPTS IN PRACTICE\n\n Implicit type conversion in practice\n\n Consider the example above.\n\n  1 . What is book_rating's data type on line 7?\n      a. float\n      b. integer\n\n  2 . What would book_rating's data type be if update = 1.0 instead of 0.5?\n      a. float\n      b. integer",
+        "score": 0.6947098346351306,
+        "metadata": {
+          "page": 51,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Expressions",
+          "end_char": 583,
+          "start_char": 111,
+          "document_id": "python_book"
+        }
+      }
+    ],
+    "evidence_matches": [
+      true,
+      false,
+      false
+    ],
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "strategy": "B",
+    "applied_filter": {}
+  },
+  {
+    "question": {
+      "id": "q16",
+      "split": "test",
+      "question": "What does floor division (//) compute?",
+      "expected_answer": "It computes the quotient, or the number of times one number is divided by another.",
+      "gold_source_id": "python_book",
+      "gold_page": 59,
+      "evidence_quote": "Floor division (//) computes the quotient, or the number of times divided.",
+      "filter": {
+        "chapter": "Expressions"
+      }
+    },
+    "hits": [
+      {
+        "chunk_id": "77234a9107415ea499ed1dfaa009c55ea30716e325dac81b248d94079ae8ac55",
+        "text": "• True division (/) converts numbers to floats before dividing. Ex: 7 / 4 becomes 7.0 / 4.0, resulting in\n     1.75.\n • Floor division (//) computes the quotient, or the number of times divided. Ex: 7 // 4 is 1 because 4 goes\n     into 7 one time, remainder 3. The modulo operator (%) computes the remainder. Ex: 7 % 4 is 3.\n\nNote: The % operator is traditionally pronounced \"mod\" (short for \"modulo\"). Ex: When reading 7 % 4 out loud,\na programmer would say \"seven mod four.\"\n\n CHECKPOINT",
+        "score": 0.7481263362527519,
+        "metadata": {
+          "page": 59,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Expressions",
+          "end_char": 915,
+          "start_char": 426,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "3b79704978d574350abdd62b7f99b874e56303dd69cfa06e4675915bd2ba5946",
+        "text": "x // y Divides x by y and returns the quotient as an integer. Ex: 7 // 4 is 1.\n       (Floor division)\n\n       x % y Divides x by y and returns the remainder as an integer. Ex: 7 % 4 is 3.\n       (Modulo)\n\n     Table 2.10 Chapter 2 reference.\n\n       TRY IT\n\n       Baking bread",
+        "score": 0.723997400460723,
+        "metadata": {
+          "page": 74,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Expressions",
+          "end_char": 1215,
+          "start_char": 937,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "91c40271de2e5d2e639dedaf970d3fe9a2c70bd2927b127ad4ec951f9d8e653b",
+        "text": "2.5 • Dividing integers 49\n\n 2.5 Dividing integers\n\nLearning objectives\n\nBy the end of this section you should be able to\n\n • Evaluate expressions that involve floor division and modulo.\n • Use the modulo operator to convert between units of measure.\nDivision and modulo\n\nPython provides two ways to divide numbers:",
+        "score": 0.7138937295036274,
+        "metadata": {
+          "page": 59,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Expressions",
+          "end_char": 423,
+          "start_char": 108,
+          "document_id": "python_book"
+        }
+      }
+    ],
+    "evidence_matches": [
+      true,
+      false,
+      false
+    ],
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "strategy": "B",
+    "applied_filter": {}
+  },
+  {
+    "question": {
+      "id": "q17",
+      "split": "test",
+      "question": "What does the modulo operator (%) compute?",
+      "expected_answer": "It computes the remainder.",
+      "gold_source_id": "python_book",
+      "gold_page": 59,
+      "evidence_quote": "The modulo operator (%) computes the remainder.",
+      "filter": {
+        "chapter": "Expressions"
+      }
+    },
+    "hits": [
+      {
+        "chunk_id": "77234a9107415ea499ed1dfaa009c55ea30716e325dac81b248d94079ae8ac55",
+        "text": "• True division (/) converts numbers to floats before dividing. Ex: 7 / 4 becomes 7.0 / 4.0, resulting in\n     1.75.\n • Floor division (//) computes the quotient, or the number of times divided. Ex: 7 // 4 is 1 because 4 goes\n     into 7 one time, remainder 3. The modulo operator (%) computes the remainder. Ex: 7 % 4 is 3.\n\nNote: The % operator is traditionally pronounced \"mod\" (short for \"modulo\"). Ex: When reading 7 % 4 out loud,\na programmer would say \"seven mod four.\"\n\n CHECKPOINT",
+        "score": 0.7179194029995568,
+        "metadata": {
+          "page": 59,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Expressions",
+          "end_char": 915,
+          "start_char": 426,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "ffa6915264d692596305e678c401606c6bc077fcd43c5c1542e5703ec6a058da",
+        "text": "• The quotient, 1 meter, is 193 // 100.\n       • The remainder, 93 centimeters, is 193 % 100.\n\n     Programs often use floor division and modulo together. If one line of code floor divides by m, the next line will\n     likely modulo by m. The unit m by which an amount is divided is called the modulus. Ex: When converting\n     centimeters to meters, the modulus is 100.\n\n       CHECKPOINT\n\n       Money and time\n\n       Money and time; ch 2, video 9 (https://www.openstax.org/r/money-time)",
+        "score": 0.6949215998372581,
+        "metadata": {
+          "page": 60,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Expressions",
+          "end_char": 918,
+          "start_char": 428,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "68e9bf4c4fe6d3479e6d208194c12172b745ca712d678271a89167b7b21117c6",
+        "text": "CONCEPTS IN PRACTICE\n\n       Unit conversions\n\n        5 . What is the modulus for converting minutes to hours?\n            a. 40\n            b. 60\n            c. 280\n\n        6 . A program has the line pounds = ounces // 16. What is likely the next line of code?\n            a. ounces = ounces % 16\n            b. pounds = ounces % 16\n            c. ounces = ounces - pounds * 16\n\n       TRY IT\n\n       Arrival time",
+        "score": 0.6944347730226768,
+        "metadata": {
+          "page": 60,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Expressions",
+          "end_char": 1343,
+          "start_char": 927,
+          "document_id": "python_book"
+        }
+      }
+    ],
+    "evidence_matches": [
+      true,
+      false,
+      false
+    ],
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "strategy": "B",
+    "applied_filter": {}
+  },
+  {
+    "question": {
+      "id": "q18",
+      "split": "test",
+      "question": "What causes a round-off error?",
+      "expected_answer": "It occurs when floating-point values are stored erroneously as an approximation.",
+      "gold_source_id": "python_book",
+      "gold_page": 56,
+      "evidence_quote": "A round-off error occurs when floating-point values are stored erroneously as an approximation."
+    },
+    "hits": [
+      {
+        "chunk_id": "5ae804559897d1c1cd290e54471e5ba113f52bf6051ec33494c6e18de15828da",
+        "text": "Floating-point values are stored as binary by Python. The conversion of a floating point number to the\n     underlying binary results in specific types of floating-point errors.\n\n     A round-off error occurs when floating-point values are stored erroneously as an approximation. The\n     difference between an approximation of a value used in computation and the correct (true) value is called a\n     round-off error.",
+        "score": 0.7255882356531516,
+        "metadata": {
+          "page": 56,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Expressions",
+          "end_char": 1353,
+          "start_char": 935,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "a6460ffbe91427020519546cd6704ba2f451f9bd51ec687dff623ee98e5f56bd",
+        "text": "2 . 0.123456789012345678901234567890 * 0.1 produces 0.012345678901234568430878013601.\n      a. round-off\n      b. overflow\n\nFloating point round() function",
+        "score": 0.7171960286292396,
+        "metadata": {
+          "page": 57,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Expressions",
+          "end_char": 1375,
+          "start_char": 1220,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "930e11181a8ac6f672d4b321f86e9261b405cda33827636f82c4e3382bda57ab",
+        "text": "By the end of this section you should be able to\n\n       • Explain numerical inaccuracies related to floating-point representation.\n       • Use the round() function to mitigate floating-point errors in output.\n     Floating-point errors\n\n     Computers store information using 0's and 1's. All information must be converted to a string of 0's and 1's. Ex:\n     5 is converted to 101. Since only two values, 0 or 1, are allowed the format is called binary.",
+        "score": 0.7171518671076585,
+        "metadata": {
+          "page": 56,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Expressions",
+          "end_char": 928,
+          "start_char": 472,
+          "document_id": "python_book"
+        }
+      }
+    ],
+    "evidence_matches": [
+      true,
+      false,
+      false
+    ],
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "strategy": "B",
+    "applied_filter": {}
+  },
+  {
+    "question": {
+      "id": "q19",
+      "split": "test",
+      "question": "What is the purpose of comments in a program?",
+      "expected_answer": "They explain what the code is doing.",
+      "gold_source_id": "python_book",
+      "gold_page": 37,
+      "evidence_quote": "Comments are short phrases that explain what the code is doing.",
+      "filter": {
+        "chapter": "Statements"
+      }
+    },
+    "hits": [
+      {
+        "chunk_id": "83bc1ff289b94d172b31f3acf11fe4f98e9b246ae6528ac492664cc84557b20c",
+        "text": "1 . The main purpose of writing comments is to _____.\n      a. avoid writing syntax errors\n      b. explain what the code does\n      c. make the code run faster\n\n  2 . Which symbol is used for comments in Python?\n      a. #\n      b. /*",
+        "score": 0.7324448814527684,
+        "metadata": {
+          "page": 37,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Statements",
+          "end_char": 1736,
+          "start_char": 1501,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "9e63461659a1d1cd19d7eebaae2ed74443008d7c1b11b8a3225095701f73c163",
+        "text": "Programmers spend more time reading code than writing code. Therefore, making code easier for others to\n     read and understand is important. Two ways to improve code quality include:\n\n      • Separate each part (lines that have a similar purpose) with a blank line.\n      • Write a comment before each part. Not every line needs a comment.\n\n      CHECKPOINT\n\n      Comments in a program\n\n      Comments in a program; ch 1, video 12 (https://www.openstax.org/r/comments)\n\n      CONCEPTS IN PRACTICE",
+        "score": 0.7253656672129165,
+        "metadata": {
+          "page": 38,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Statements",
+          "end_char": 988,
+          "start_char": 489,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "0bd7b0507892ee0ebe3e96b63ce900e76b93a22920978c3fdf042f2047fedb56",
+        "text": "Comments are short phrases that explain what the code is doing. Ex: Lines 1, 8, and 10 in the following\nprogram contain comments. Each comment begins with a hash character (#). All text from the hash character\nto the end of the line is ignored when running the program. In contrast, hash characters inside of strings are\ntreated as regular text. Ex: The string \"Item #1: \" does not contain a comment.\n\nWhen writing comments:",
+        "score": 0.722550535536113,
+        "metadata": {
+          "page": 37,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Statements",
+          "end_char": 829,
+          "start_char": 405,
+          "document_id": "python_book"
+        }
+      }
+    ],
+    "evidence_matches": [
+      false,
+      false,
+      true
+    ],
+    "hit_at_1": false,
+    "hit_at_3": true,
+    "strategy": "B",
+    "applied_filter": {}
+  },
+  {
+    "question": {
+      "id": "q20",
+      "split": "test",
+      "question": "What does Python do with adjacent string literals?",
+      "expected_answer": "It automatically concatenates them.",
+      "gold_source_id": "python_book",
+      "gold_page": 69,
+      "evidence_quote": "For convenience, Python automatically concatenates multiple strings."
+    },
+    "hits": [
+      {
+        "chunk_id": "511d5966cec103f4a8ed3ebec0d0be8d7f42d51c7b2e131e8552d27def6e0653",
+        "text": "the causes which impel them to the separation.\")\n\nFor convenience, Python automatically concatenates multiple strings. The + operator is not required in this\nsituation.\n\n CHECKPOINT\n\n String concatenation\n\n String concatenation; ch 2, video 11 (https://www.openstax.org/r/string-concat)\n\n CONCEPTS IN PRACTICE\n\n String literal concatenation\n\n  5 . Which line prints the word \"grandmother\"?\n      a. print(grandmother)\n      b. print(\"grand\" \"mother\")\n      c. print(\"grand\", \"mother\")",
+        "score": 0.7337044398470565,
+        "metadata": {
+          "page": 69,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Expressions",
+          "end_char": 2041,
+          "start_char": 1557,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "88cd55e3314e0f4b02bd19f0fc382851cc33767eda325f9427d804695e5e5947",
+        "text": "6 . What string is equivalent to \"Today is\" \"a holiday\"?\n      a. 'Today isa holiday'\n      b. 'Today is a holiday'\n      c. 'Today is\" \"a holiday'\n\n  7 . If name is \"Ada\", what does print(\"Hello,\" name) output?",
+        "score": 0.7009645208632901,
+        "metadata": {
+          "page": 69,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Expressions",
+          "end_char": 2256,
+          "start_char": 2045,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "3d7a3cc772699e72d5e4e7d6ab99ba018697587c96b0602b0bdeae187bbb83fb",
+        "text": "Concatenation\n\n    Concatenation is an operation that combines two or more strings sequentially with the concatenation operator\n    (+). Ex: \"A\" + \"part\" produces the string \"Apart\".\n\n      CHECKPOINT\n\n      Concatenating multiple strings\n\n      Concatenating multiple strings; ch 1, video 7 (https://www.openstax.org/r/concatenating-strings)\n\n      CONCEPTS IN PRACTICE\n\n      String concatenation",
+        "score": 0.6843696640555521,
+        "metadata": {
+          "page": 28,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Statements",
+          "end_char": 899,
+          "start_char": 501,
+          "document_id": "python_book"
+        }
+      }
+    ],
+    "evidence_matches": [
+      true,
+      false,
+      false
+    ],
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "strategy": "B",
+    "applied_filter": {}
+  },
+  {
+    "question": {
+      "id": "q01",
+      "split": "dev",
+      "question": "How does a Python program run its statements?",
+      "expected_answer": "It runs statements one after another.",
+      "gold_source_id": "python_book",
+      "gold_page": 17,
+      "evidence_quote": "Programs consist of statements to be run one after the other."
+    },
+    "hits": [
+      {
+        "chunk_id": "43cf25fe43cced7c338abc8e1049d9c2882af8981573aa148a44783c69739550",
+        "text": "Python is an interpreted language: the source code is translated one line at a time while the program is\n     running. The Python interpreter translates source code into machine code and runs the resulting program. If\n     and when an error occurs, the interpreter stops translating the source code and displays an error message.",
+        "score": 0.7436916416736213,
+        "metadata": {
+          "page": 48,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Expressions",
+          "end_char": 1035,
+          "start_char": 706,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "5beea16a642e1f6dadb2cd982b22ad2085e2698f2b78953c00dc5bf4a2b22220",
+        "text": "Introduction\nA computer program is a sequence of statements that run one after the other. In Python, many statements\nconsist of one or more expressions. An expression represents a single value to be computed. Ex: The\nexpression 3*x - 5 evaluates to 7 when x is 4. Learning to recognize expressions opens the door for\nprogramming all kinds of interesting calculations.",
+        "score": 0.7100845277844772,
+        "metadata": {
+          "page": 47,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Expressions",
+          "end_char": 750,
+          "start_char": 383,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "f63ac0dcc6475abbfd33b2b7d163baae23cfeac9b332982840cf6eaf045c3a33",
+        "text": "Most development environments include a Python shell for experimenting with code interactively. A shell, also\n     called a console or terminal, is a program that allows direct interaction with an interpreter. The interpreter\n     usually runs an entire program all at once. But the interpreter can run one line of code at a time within a\n     Python shell.\n\n       CHECKPOINT\n\n       Running a Python shell\n\n       Running a Python shell; ch 2, video 1 (https://www.openstax.org/r/python-shell)",
+        "score": 0.7036921044207788,
+        "metadata": {
+          "page": 48,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Expressions",
+          "end_char": 1537,
+          "start_char": 1042,
+          "document_id": "python_book"
+        }
+      }
+    ],
+    "evidence_matches": [
+      false,
+      false,
+      false
+    ],
+    "hit_at_1": false,
+    "hit_at_3": false,
+    "strategy": "C",
+    "applied_filter": {}
+  },
+  {
+    "question": {
+      "id": "q02",
+      "split": "dev",
+      "question": "What does the statement count = 0 do?",
+      "expected_answer": "It assigns the integer 0 to the variable count.",
+      "gold_source_id": "python_book",
+      "gold_page": 17,
+      "evidence_quote": "The statement count = 0 instructs Python to assign the integer 0 to the variable count."
+    },
+    "hits": [
+      {
+        "chunk_id": "5019dc3a757ead22cbd843d9ba49bfca7025ff7d40afe3738ed492e8ed8c205e",
+        "text": "The statement print(\"Good morning\") instructs Python to output the message \"Good morning\" to the\nuser. The statement count = 0 instructs Python to assign the integer 0 to the variable count.",
+        "score": 0.7856835447751094,
+        "metadata": {
+          "page": 17,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Statements",
+          "end_char": 933,
+          "start_char": 743,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "dff9df6cdff1571d196bbea3aafae93f65741949549a8676e1b72296ea9f0ee4",
+        "text": "Introduction\nComputers and programs are everywhere in today's world. Programs affect many aspects of daily life and\nsociety as a whole. People depend on programs for communication, shopping, entertainment, health care, and\ncountless other needs. Learning how to program computers opens the door to many careers and\nopportunities for building a better world.\n\nPrograms consist of statements to be run one after the other. A statement describes some action to be\ncarried out.",
+        "score": 0.6742135979803608,
+        "metadata": {
+          "page": 17,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Statements",
+          "end_char": 741,
+          "start_char": 268,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "b031d02cb4b93a40bb1c2f118db01cd30374192ce0626e437b887e7bb7307857",
+        "text": "However, conciseness is not the only consideration for which language is used. In different situations\n different languages may be more appropriate. Ex: Java is often used in Android development.\n\n CHECKPOINT\n\n Counting lines in a file\n\n Counting lines in a file; ch 1, video 2 (https://www.openstax.org/r/counting-lines)",
+        "score": 0.6702669610088695,
+        "metadata": {
+          "page": 19,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Statements",
+          "end_char": 2287,
+          "start_char": 1966,
+          "document_id": "python_book"
+        }
+      }
+    ],
+    "evidence_matches": [
+      true,
+      false,
+      false
+    ],
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "strategy": "C",
+    "applied_filter": {}
+  },
+  {
+    "question": {
+      "id": "q03",
+      "split": "dev",
+      "question": "Which built-in function displays output to the user?",
+      "expected_answer": "The print() function displays output to the user.",
+      "gold_source_id": "python_book",
+      "gold_page": 20,
+      "evidence_quote": "The print() function displays output to the user."
+    },
+    "hits": [
+      {
+        "chunk_id": "a0962286fe99b37f1c511308efb04066b58a7977dab36260e69ab8be4007047a",
+        "text": "• Display output using the print() function.\n       • Obtain user input using the input() function.\n     Basic output\n\n     The print() function displays output to the user. Output is the information or result produced by a program.\n     The sep and end options can be used to customize the output. Table 1.1 shows examples of sep and end.\n\n     Access for free at openstax.org",
+        "score": 0.743343343818882,
+        "metadata": {
+          "page": 20,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Statements",
+          "end_char": 1968,
+          "start_char": 1591,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "3eff04e1d8ba567adc4f337fb535710b9259d5329f7cb7f5584f068d5c330c86",
+        "text": "Displaying output to the user\n\n 1 3 1 Displaying output to the user (https://www.openstax.org/r/displaying-output)\n\n CONCEPTS IN PRACTICE\n\n The print() function\n\n  1 . Which line of code prints Hello world! as one line of output?\n      a. print(Hello world!)\n      b. print(\"Hello\", \"world\", \"!\")\n      c. print(\"Hello world!\")",
+        "score": 0.7413396140958578,
+        "metadata": {
+          "page": 21,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Statements",
+          "end_char": 1406,
+          "start_char": 1079,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "8da492844925f4c2577886d1ad5ffd22da5a2a721a215321535d74b35f6963ce",
+        "text": "Function Description\n\n  print(values) Outputs one or more values, each separated by a space, to the user.\n\n                          If present, prompt is output to the user. The function then reads a line of input from the\n  input(prompt) user.\n\n  len(string) Returns the length (the number of characters) of a string.\n\n  type(value) Returns the type (or class) of a value. Ex: type(123) is <class 'int'>.\n\n  Operator Description\n\nTable 1.6 Chapter 1 reference.",
+        "score": 0.717663906417696,
+        "metadata": {
+          "page": 43,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Statements",
+          "end_char": 1549,
+          "start_char": 1087,
+          "document_id": "python_book"
+        }
+      }
+    ],
+    "evidence_matches": [
+      true,
+      false,
+      false
+    ],
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "strategy": "C",
+    "applied_filter": {}
+  },
+  {
+    "question": {
+      "id": "q04",
+      "split": "dev",
+      "question": "What does print() add at the end of its output by default?",
+      "expected_answer": "It adds a newline character at the end of the output.",
+      "gold_source_id": "python_book",
+      "gold_page": 21,
+      "evidence_quote": "By default, the print() function adds a newline character at the end of the output."
+    },
+    "hits": [
+      {
+        "chunk_id": "6a3ec5f8721f70c6f5b9f973bad04de728f569b97498acfacd19f692f8ded464",
+        "text": "1.2 • Input/output 11\n\nMultiple values, separated by commas, can be printed in the same statement. By default, each value is\nseparated by a space character in the output. The sep option can be used to change this behavior.\n\nBy default, the print() function adds a newline character at the end of the output. A newline character tells\nthe display to move to the next line. The end option can be used to continue printing on the same line.\n\n                               Code Output",
+        "score": 0.7336581394363599,
+        "metadata": {
+          "page": 21,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Statements",
+          "end_char": 587,
+          "start_char": 106,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "e13e6fbcd5e0bebc4a5a6ac4d9980fd8580665b3939067d9b83fdaf561b2ae85",
+        "text": "2 . Which lines of code prints Hello world! as one line of output?\n      a. print(\"Hello\")\n         print(\" world!\")\n      b. print(\"Hello\")\n          print(\" world!\", end=\"\")\n      c. print(\"Hello\", end=\"\")\n         print(\" world!\")\n\n  3 . What output is produced by the following statement?",
+        "score": 0.7307355002972875,
+        "metadata": {
+          "page": 21,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Statements",
+          "end_char": 1702,
+          "start_char": 1410,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "e1c21b8dfb81826e4e008ae3cd6e1c6c428c23b5e67f5b0d4f8f980af20d8b33",
+        "text": "print(\"Today is Monday.\") Today is Monday.\n print(\"I like string beans.\") I like string beans.\n\n print(\"Today\", \"is\", \"Monday\") Today is Monday\n print(\"Today\", \"is\", \"Monday\", sep=\"...\") Today...is...Monday\n\n print(\"Today is Monday, \", end=\"\") Today is Monday, I like string\n print(\"I like string beans.\") beans.\n\n print(\"Today\", \"is\", \"Monday\", sep=\"? \", Today? is? Monday!!I like string\n end=\"!!\") beans.\n print(\"I like string beans.\")\n\nTable 1.1 Example uses of print().\n\n CHECKPOINT",
+        "score": 0.6936809195435972,
+        "metadata": {
+          "page": 21,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Statements",
+          "end_char": 1076,
+          "start_char": 590,
+          "document_id": "python_book"
+        }
+      }
+    ],
+    "evidence_matches": [
+      true,
+      false,
+      false
+    ],
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "strategy": "C",
+    "applied_filter": {}
+  },
+  {
+    "question": {
+      "id": "q05",
+      "split": "dev",
+      "question": "What does the input() function read from the user?",
+      "expected_answer": "It reads one line of input from the user.",
+      "gold_source_id": "python_book",
+      "gold_page": 22,
+      "evidence_quote": "The input() function reads one line of input from the user."
+    },
+    "hits": [
+      {
+        "chunk_id": "211ab195e15cef2f6933de8d5d9cd0b1b8d1908430c9f8b434cb459ffd3de728",
+        "text": "Computer programs often receive input from the user. Input is what a user enters into a program. An input\n     statement, variable = input(\"prompt\"), has three parts:",
+        "score": 0.7164728694609472,
+        "metadata": {
+          "page": 22,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Statements",
+          "end_char": 612,
+          "start_char": 446,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "688f435cd1aa9d45836011086df901ba31714e242ce5aba8ef1ae20b88bc11f7",
+        "text": "1. A variable refers to a value stored in memory. In the statement above, variable can be replaced with any\n          name the programmer chooses.\n     2. The input() function reads one line of input from the user. A function is a named, reusable block of code\n          that performs a task when called. The input is stored in the computer's memory and can be accessed later\n          using the variable.\n     3. A prompt is a short message that indicates the program is waiting for input. In the",
+        "score": 0.7074212492806529,
+        "metadata": {
+          "page": 22,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Statements",
+          "end_char": 1116,
+          "start_char": 619,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "1f7c03b82827c7c056944388d9f9e87c89a0804d8d32f2cecd21e702d3fe151c",
+        "text": "statement above,\n          \"prompt\" can be omitted or replaced with any message.\n\n      CHECKPOINT\n\n      Obtaining input from the user\n\n      Displaying output to the user; ch 1, video 3 (https://www.openstax.org/r/obtaining-input)\n\n      CONCEPTS IN PRACTICE\n\n      The input() function\n\n        4 . Which line of code correctly obtains and stores user input?\n           a. input()\n           b. today_is = input\n           c. today_is = input()",
+        "score": 0.6857637786342097,
+        "metadata": {
+          "page": 22,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Statements",
+          "end_char": 1564,
+          "start_char": 1117,
+          "document_id": "python_book"
+        }
+      }
+    ],
+    "evidence_matches": [
+      false,
+      true,
+      false
+    ],
+    "hit_at_1": false,
+    "hit_at_3": true,
+    "strategy": "C",
+    "applied_filter": {}
+  },
+  {
+    "question": {
+      "id": "q06",
+      "split": "dev",
+      "question": "Which operator assigns a value to a variable in a statement?",
+      "expected_answer": "The assignment operator (=).",
+      "gold_source_id": "python_book",
+      "gold_page": 24,
+      "evidence_quote": "A statement can set a variable to a value using the assignment operator (=)."
+    },
+    "hits": [
+      {
+        "chunk_id": "12f77c2e2761dd07f6ba08ca652a4113684e0365b7f05be08edc37265f0a9fae",
+        "text": "A statement can set a variable to a value using the assignment operator (=). Note that this is different from\n     the equal sign of mathematics. Ex: age = 6 or birth = \"May 15\". The left side of the assignment statement\n     is a variable, and the right side is the value the variable is assigned.\n\n      CHECKPOINT\n\n      Assigning and using variables\n\n      Assigning and using variables; ch 1, video 5 (https://www.openstax.org/r/using-variables)\n\n      CONCEPTS IN PRACTICE",
+        "score": 0.7389514942538471,
+        "metadata": {
+          "page": 24,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Statements",
+          "end_char": 914,
+          "start_char": 436,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "b683aba831e41d90ca466195d7785b0d84d048f67d94c70f635749784993bd90",
+        "text": "2 . Which program stores and retrieves a variable correctly?\n           a. print(\"Total =\", total)\n               total = 6\n           b. total = 6\n               print(\"Total =\", total)\n           c. print(\"Total =\", total)\n               total = input()\n\n       3 . Which is the assignment operator?\n           a. :\n           b. ==\n           c. =\n\n       4 . Which is a valid assignment?\n\n     Access for free at openstax.org",
+        "score": 0.7208651303608387,
+        "metadata": {
+          "page": 24,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Statements",
+          "end_char": 1671,
+          "start_char": 1242,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "81c8850dfd231036a52e99444bed8e8c1b20e0e8b18a473bae6a93c2d7da13df",
+        "text": "34 1 • Statements\n\n            Function Description\n\n       = Assigns (or updates) the value of a variable. In Python, variables begin to exist when\n       (Assignment) assigned for the first time.\n\n       +\n       (Concatenation) Appends the contents of two strings, resulting in a new string.\n\n       +\n       (Addition) Adds the values of two numbers.\n\n       -\n       (Subtraction) Subtracts the value of one number from another.",
+        "score": 0.7129485813909922,
+        "metadata": {
+          "page": 44,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Statements",
+          "end_char": 433,
+          "start_char": 0,
+          "document_id": "python_book"
+        }
+      }
+    ],
+    "evidence_matches": [
+      true,
+      false,
+      false
+    ],
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "strategy": "C",
+    "applied_filter": {}
+  },
+  {
+    "question": {
+      "id": "q07",
+      "split": "dev",
+      "question": "What are Python's reserved words called?",
+      "expected_answer": "They are called keywords.",
+      "gold_source_id": "python_book",
+      "gold_page": 25,
+      "evidence_quote": "Python has reserved words, known as keywords"
+    },
+    "hits": [
+      {
+        "chunk_id": "5465329d3f5549c22181e651c0442d626dee189d0308fc6380716b3b868708e4",
+        "text": "A name should be short and descriptive, so words are preferred over single characters in programs for\nreadability. Ex: A variable named count indicates the variable's purpose better than a variable named c.\n\nPython has reserved words, known as keywords, which have special functions and cannot be used as names\nfor variables (or other objects).\n\n                               False await else import pass\n\n                               None break except in raise",
+        "score": 0.7142213869531963,
+        "metadata": {
+          "page": 25,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Statements",
+          "end_char": 1084,
+          "start_char": 620,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "76936c4abc151b691d20cfc0d902f1dcabb3cca2084a7acadfd53c780395617a",
+        "text": "True class finally is return\n\n                               and continue for lambda try\n\n                               as def from nonlocal while\n\n                               assert del global not with\n\n                               asynch elif if or yield\n\n                             Table 1.2 Keywords\n\n CONCEPTS IN PRACTICE\n\n Valid variable names\n\n  5 . Which can be used as a variable name?\n      a. median\n      b. class\n      c. import",
+        "score": 0.6807741456142116,
+        "metadata": {
+          "page": 25,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Statements",
+          "end_char": 1566,
+          "start_char": 1117,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "d5cddc3a172d4b91db78b395be7facf56cb8d0a0a373262f3c4889d004768cdc",
+        "text": "Python is a high-level language, meaning that the source code is intended for humans to understand.\n     Computers, on the other hand, understand only low-level machine code made up of 1's and 0's. Programs\n     written in high-level languages must be translated into machine code to run. This translation process can\n     happen all at once, or a little at a time, depending on the language.",
+        "score": 0.6378241131657832,
+        "metadata": {
+          "page": 48,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Expressions",
+          "end_char": 699,
+          "start_char": 307,
+          "document_id": "python_book"
+        }
+      }
+    ],
+    "evidence_matches": [
+      true,
+      false,
+      false
+    ],
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "strategy": "C",
+    "applied_filter": {}
+  },
+  {
+    "question": {
+      "id": "q08",
+      "split": "dev",
+      "question": "What does concatenation do to two or more strings?",
+      "expected_answer": "It combines them sequentially into one string.",
+      "gold_source_id": "python_book",
+      "gold_page": 28,
+      "evidence_quote": "Concatenation is an operation that combines two or more strings sequentially with the concatenation operator"
+    },
+    "hits": [
+      {
+        "chunk_id": "3d7a3cc772699e72d5e4e7d6ab99ba018697587c96b0602b0bdeae187bbb83fb",
+        "text": "Concatenation\n\n    Concatenation is an operation that combines two or more strings sequentially with the concatenation operator\n    (+). Ex: \"A\" + \"part\" produces the string \"Apart\".\n\n      CHECKPOINT\n\n      Concatenating multiple strings\n\n      Concatenating multiple strings; ch 1, video 7 (https://www.openstax.org/r/concatenating-strings)\n\n      CONCEPTS IN PRACTICE\n\n      String concatenation",
+        "score": 0.7712354336606706,
+        "metadata": {
+          "page": 28,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Statements",
+          "end_char": 899,
+          "start_char": 501,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "511d5966cec103f4a8ed3ebec0d0be8d7f42d51c7b2e131e8552d27def6e0653",
+        "text": "the causes which impel them to the separation.\")\n\nFor convenience, Python automatically concatenates multiple strings. The + operator is not required in this\nsituation.\n\n CHECKPOINT\n\n String concatenation\n\n String concatenation; ch 2, video 11 (https://www.openstax.org/r/string-concat)\n\n CONCEPTS IN PRACTICE\n\n String literal concatenation\n\n  5 . Which line prints the word \"grandmother\"?\n      a. print(grandmother)\n      b. print(\"grand\" \"mother\")\n      c. print(\"grand\", \"mother\")",
+        "score": 0.6956652266909709,
+        "metadata": {
+          "page": 69,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Expressions",
+          "end_char": 2041,
+          "start_char": 1557,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "849324d77230199b5a2adeb8a19a990a6d1280b14c4f3dd90ae4c6e0c8ed2a24",
+        "text": "8 . Which produces the string \"10\"?\n           a. 1 + 0\n           b. \"1 + 0\"\n           c. \"1\" + \"0\"\n\n       9 . Which produces the string \"Awake\"?\n           a. \"wake\" + \"A\"\n           b. \"A + wake\"\n           c. \"A\" + \"wake\"\n\n      10 . A user enters \"red\" after the following line of code.\n\n           color = input(\"What is your favorite color?\")",
+        "score": 0.6925339509400278,
+        "metadata": {
+          "page": 28,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Statements",
+          "end_char": 1259,
+          "start_char": 908,
+          "document_id": "python_book"
+        }
+      }
+    ],
+    "evidence_matches": [
+      true,
+      false,
+      false
+    ],
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "strategy": "C",
+    "applied_filter": {}
+  },
+  {
+    "question": {
+      "id": "q09",
+      "split": "dev",
+      "question": "Which two basic number formats does Python support?",
+      "expected_answer": "Integer and floating-point.",
+      "gold_source_id": "python_book",
+      "gold_page": 30,
+      "evidence_quote": "Python supports two basic number formats, integer and floating-point."
+    },
+    "hits": [
+      {
+        "chunk_id": "318fc222829780b07d8cf905e8235f313aa757f31c3369807ecbf90241b36f63",
+        "text": "20 1 • Statements\n\n       • Explain the precedence of arithmetic operators.\n     Numeric data types\n\n     Python supports two basic number formats, integer and floating-point. An integer represents a whole number,\n     and a floating-point format represents a decimal number. The format a language uses to represent data is\n     called a data type. In addition to integer and floating-point types, programming languages typically have a\n     string type for representing text.\n\n       CHECKPOINT",
+        "score": 0.6992944628894798,
+        "metadata": {
+          "page": 30,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Statements",
+          "end_char": 495,
+          "start_char": 0,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "0b3eb469090d7eddbe94775bcccb899651967c3ea1be6b254b1ba6c8c495960c",
+        "text": "print(y, type(y))\n\n           a. 2.0 <class 'int'>\n           b. 2.0 <class 'float'>\n           c. 2 <class 'int'>\n\n        3 . What is the type of the following value?\n\n           \"12.0\"\n\n           a. string\n           b. int\n           c. float\n\n     Basic arithmetic\n\n     Arithmetic operators are used to perform mathematical operations like addition, subtraction, multiplication,\n     and division.\n\n     Four basic arithmetic operators exist in Python:",
+        "score": 0.6977925710278065,
+        "metadata": {
+          "page": 30,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Statements",
+          "end_char": 1455,
+          "start_char": 996,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "930618969f2641ba921cf9d27f82d3dfcaef635a04af60feb055e857ba453fa2",
+        "text": "Integer and floating-point\n\n       Integer and floating point; ch 1, video 8 (https://www.openstax.org/r/integer-and-floating-point)\n\n       CONCEPTS IN PRACTICE\n\n       Integers, floats, and strings\n\n       Assume that x = 1, y = 2.0, and s = \"32\".\n\n        1 . What is the output of the following code?\n\n           print(x, type(x))\n\n           a. 1 'int'.\n           b. 1.0 <class 'float'>.\n           c. 1 <class 'int'>.\n\n        2 . What is the output of the following code?",
+        "score": 0.6813205967123256,
+        "metadata": {
+          "page": 30,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Statements",
+          "end_char": 983,
+          "start_char": 504,
+          "document_id": "python_book"
+        }
+      }
+    ],
+    "evidence_matches": [
+      true,
+      false,
+      false
+    ],
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "strategy": "C",
+    "applied_filter": {}
+  },
+  {
+    "question": {
+      "id": "q10",
+      "split": "dev",
+      "question": "When a calculation has multiple operators, how is evaluation ordered?",
+      "expected_answer": "Each operator is evaluated in order of precedence.",
+      "gold_source_id": "python_book",
+      "gold_page": 31,
+      "evidence_quote": "When a calculation has multiple operators, each operator is evaluated in order of precedence."
+    },
+    "hits": [
+      {
+        "chunk_id": "ad23daffe109c236e3c342970c3ca669ff8b6da6e31c44396a4afcf908d4fc9d",
+        "text": "22 1 • Statements\n\n     is 7 because multiplication takes precedence over addition. However, (1 + 2) * 3 is 9 because parentheses\n     take precedence over multiplication.\n\n                                Operator Description Example Result\n\n                                () Parentheses (1 + 2) * 3 9\n\n                                ** Exponentiation 2 ** 4 16\n\n                                +, - Positive, negative -math.pi -3.14159",
+        "score": 0.7245281928432336,
+        "metadata": {
+          "page": 32,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Statements",
+          "end_char": 438,
+          "start_char": 0,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "a117b454d9c57fad957a7ce8c4f8603d637c4d14c0c57ba48595381b0e4311be",
+        "text": "*, / Multiplication, division 2 * 3 6\n\n                                +, - Addition, subtraction 1 + 2 3\n\n                              Table 1.4 Operator precedence from highest to lowest.\n\n       CHECKPOINT\n\n       Order of operations in an arithmetic expression\n\n       Order of operations in an arithmetic expression; ch 1, video 10 (https://www.openstax.org/r/order-of-\n       operations)\n\n       CONCEPTS IN PRACTICE\n\n       Multiple arithmetic operators",
+        "score": 0.7209322591538281,
+        "metadata": {
+          "page": 32,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Statements",
+          "end_char": 933,
+          "start_char": 472,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "2cdfa09b7a89c4e8ecf45cc3be12a78427f6b6ffc65d168950ec84f937a5c5fe",
+        "text": "9 . What is the value of 4 * 3 ** 2 + 1?\n            a. 37\n            b. 40\n            c. 145\n\n       10 . Which part of (1 + 3) ** 2 / 4 evaluates first?\n            a. 4 ** 2\n            b. 1 + 3\n            c. 2 / 4\n\n       11 . What is the value of -4 ** 2?\n            a. -16\n            b. 16\n\n       12 . How many operators are in the following statement?\n\n            result = -2 ** 3\n\n            a. 1\n\n     Access for free at openstax.org",
+        "score": 0.6950168125837075,
+        "metadata": {
+          "page": 32,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Statements",
+          "end_char": 1393,
+          "start_char": 943,
+          "document_id": "python_book"
+        }
+      }
+    ],
+    "evidence_matches": [
+      false,
+      false,
+      false
+    ],
+    "hit_at_1": false,
+    "hit_at_3": false,
+    "strategy": "C",
+    "applied_filter": {}
+  },
+  {
+    "question": {
+      "id": "q11",
+      "split": "dev",
+      "question": "Which character begins a Python comment?",
+      "expected_answer": "A hash character (#).",
+      "gold_source_id": "python_book",
+      "gold_page": 37,
+      "evidence_quote": "Each comment begins with a hash character (#)."
+    },
+    "hits": [
+      {
+        "chunk_id": "83bc1ff289b94d172b31f3acf11fe4f98e9b246ae6528ac492664cc84557b20c",
+        "text": "1 . The main purpose of writing comments is to _____.\n      a. avoid writing syntax errors\n      b. explain what the code does\n      c. make the code run faster\n\n  2 . Which symbol is used for comments in Python?\n      a. #\n      b. /*",
+        "score": 0.7316808847110042,
+        "metadata": {
+          "page": 37,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Statements",
+          "end_char": 1736,
+          "start_char": 1501,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "a6baf1e8002669e957018dbf966bd773b03ea1acf485b3bd2248de3af9661c7f",
+        "text": "1.7 • Comments 29\n\n      c. insert a # at the beginning of the line.\n\nDocumentation\n\nPython programs may optionally begin with a string known as a docstring. A docstring is documentation\nwritten for others who will use the program but not necessarily read the source code. Most of the official\ndocumentation at docs.python.org (https://openstax.org/r/100docstrings) is generated from docstrings.",
+        "score": 0.727303393558296,
+        "metadata": {
+          "page": 39,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Statements",
+          "end_char": 502,
+          "start_char": 107,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "0bd7b0507892ee0ebe3e96b63ce900e76b93a22920978c3fdf042f2047fedb56",
+        "text": "Comments are short phrases that explain what the code is doing. Ex: Lines 1, 8, and 10 in the following\nprogram contain comments. Each comment begins with a hash character (#). All text from the hash character\nto the end of the line is ignored when running the program. In contrast, hash characters inside of strings are\ntreated as regular text. Ex: The string \"Item #1: \" does not contain a comment.\n\nWhen writing comments:",
+        "score": 0.727238392211111,
+        "metadata": {
+          "page": 37,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Statements",
+          "end_char": 829,
+          "start_char": 405,
+          "document_id": "python_book"
+        }
+      }
+    ],
+    "evidence_matches": [
+      false,
+      false,
+      true
+    ],
+    "hit_at_1": false,
+    "hit_at_3": true,
+    "strategy": "C",
+    "applied_filter": {}
+  },
+  {
+    "question": {
+      "id": "q12",
+      "split": "dev",
+      "question": "What does an expression represent?",
+      "expected_answer": "A single value to be computed.",
+      "gold_source_id": "python_book",
+      "gold_page": 47,
+      "evidence_quote": "An expression represents a single value to be computed."
+    },
+    "hits": [
+      {
+        "chunk_id": "5beea16a642e1f6dadb2cd982b22ad2085e2698f2b78953c00dc5bf4a2b22220",
+        "text": "Introduction\nA computer program is a sequence of statements that run one after the other. In Python, many statements\nconsist of one or more expressions. An expression represents a single value to be computed. Ex: The\nexpression 3*x - 5 evaluates to 7 when x is 4. Learning to recognize expressions opens the door for\nprogramming all kinds of interesting calculations.",
+        "score": 0.7345390100581138,
+        "metadata": {
+          "page": 47,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Expressions",
+          "end_char": 750,
+          "start_char": 383,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "5ac83f51ced508b2ddb81dcf10251f2c5e946d3978d9fdfd1d3f28feb4f044b4",
+        "text": "Expressions are often a combination of literals, variables, and operators. In the previous example, 3 and 5 are\nliterals, x is a variable, and * and - are operators. Expressions can be arbitrarily long, consisting of many\ncalculations. Expressions can also be as short as one value. Ex: In the assignment statement x = 5, the literal\n5 is an expression.",
+        "score": 0.7164452487897758,
+        "metadata": {
+          "page": 47,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Expressions",
+          "end_char": 1105,
+          "start_char": 752,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "6a871cbc7def106f786ec68795be24e47177ee7357a88c137be723e42595dd94",
+        "text": "The Statements chapter introduced simple expressions like 1 * 2 and \"Hi \" + \"there\". This chapter\nexplores other kinds of expressions for working with numbers and strings. The first section shows a great way\nto experiment with expressions using a Python shell. Later sections present more details about integers and\nfloating-point numbers, explain how to import and use the math module, and show how to make long lines of\ncode easier to read.",
+        "score": 0.6786638626022912,
+        "metadata": {
+          "page": 47,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Expressions",
+          "end_char": 1549,
+          "start_char": 1107,
+          "document_id": "python_book"
+        }
+      }
+    ],
+    "evidence_matches": [
+      true,
+      false,
+      false
+    ],
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "strategy": "C",
+    "applied_filter": {}
+  },
+  {
+    "question": {
+      "id": "q13",
+      "split": "dev",
+      "question": "What are expressions often combinations of?",
+      "expected_answer": "Literals, variables, and operators.",
+      "gold_source_id": "python_book",
+      "gold_page": 47,
+      "evidence_quote": "Expressions are often a combination of literals, variables, and operators."
+    },
+    "hits": [
+      {
+        "chunk_id": "5ac83f51ced508b2ddb81dcf10251f2c5e946d3978d9fdfd1d3f28feb4f044b4",
+        "text": "Expressions are often a combination of literals, variables, and operators. In the previous example, 3 and 5 are\nliterals, x is a variable, and * and - are operators. Expressions can be arbitrarily long, consisting of many\ncalculations. Expressions can also be as short as one value. Ex: In the assignment statement x = 5, the literal\n5 is an expression.",
+        "score": 0.6987956764953348,
+        "metadata": {
+          "page": 47,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Expressions",
+          "end_char": 1105,
+          "start_char": 752,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "5beea16a642e1f6dadb2cd982b22ad2085e2698f2b78953c00dc5bf4a2b22220",
+        "text": "Introduction\nA computer program is a sequence of statements that run one after the other. In Python, many statements\nconsist of one or more expressions. An expression represents a single value to be computed. Ex: The\nexpression 3*x - 5 evaluates to 7 when x is 4. Learning to recognize expressions opens the door for\nprogramming all kinds of interesting calculations.",
+        "score": 0.6801689395919122,
+        "metadata": {
+          "page": 47,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Expressions",
+          "end_char": 750,
+          "start_char": 383,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "6a871cbc7def106f786ec68795be24e47177ee7357a88c137be723e42595dd94",
+        "text": "The Statements chapter introduced simple expressions like 1 * 2 and \"Hi \" + \"there\". This chapter\nexplores other kinds of expressions for working with numbers and strings. The first section shows a great way\nto experiment with expressions using a Python shell. Later sections present more details about integers and\nfloating-point numbers, explain how to import and use the math module, and show how to make long lines of\ncode easier to read.",
+        "score": 0.6548841543534966,
+        "metadata": {
+          "page": 47,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Expressions",
+          "end_char": 1549,
+          "start_char": 1107,
+          "document_id": "python_book"
+        }
+      }
+    ],
+    "evidence_matches": [
+      true,
+      false,
+      false
+    ],
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "strategy": "C",
+    "applied_filter": {}
+  },
+  {
+    "question": {
+      "id": "q14",
+      "split": "dev",
+      "question": "Why is a Python shell useful?",
+      "expected_answer": "It lets a programmer experiment with code interactively.",
+      "gold_source_id": "python_book",
+      "gold_page": 48,
+      "evidence_quote": "Most development environments include a Python shell for experimenting with code interactively."
+    },
+    "hits": [
+      {
+        "chunk_id": "0628372831f8771649bdaf5837bb08d9e30702680b186c55f6162bfedb297e64",
+        "text": "A Python shell is convenient for exploring and troubleshooting code. The user can try something, look at the\n     results, and then try something else. When an error occurs, an error message is displayed, but the program\n     keeps running. That way, the user can edit the previous line and correct the error interactively.\n\n     Access for free at openstax.org",
+        "score": 0.7716383662656199,
+        "metadata": {
+          "page": 48,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Expressions",
+          "end_char": 2400,
+          "start_char": 2039,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "f63ac0dcc6475abbfd33b2b7d163baae23cfeac9b332982840cf6eaf045c3a33",
+        "text": "Most development environments include a Python shell for experimenting with code interactively. A shell, also\n     called a console or terminal, is a program that allows direct interaction with an interpreter. The interpreter\n     usually runs an entire program all at once. But the interpreter can run one line of code at a time within a\n     Python shell.\n\n       CHECKPOINT\n\n       Running a Python shell\n\n       Running a Python shell; ch 2, video 1 (https://www.openstax.org/r/python-shell)",
+        "score": 0.7596174796803835,
+        "metadata": {
+          "page": 48,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Expressions",
+          "end_char": 1537,
+          "start_char": 1042,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "0ee3d6c38f96159a46aa8739d894d27a812e41bfa97313a8c88b7ef6a853ee08",
+        "text": "Running code interactively is a great way to learn how Python works. Open a Python shell on your\n  computer, or use the one at python.org/shell (https://openstax.org/r/100pythonshell). Then enter any\n  Python code, one line at a time, to see the result. Here are a few expressions to try:\n\n    • x = 5\n    • 3*x - 5\n    • 3 * (x-5)\n    • x\n    • type(1)\n    • type('1')\n    • str(1)\n    • int('1')\n    • abs(-5)",
+        "score": 0.7216824634164722,
+        "metadata": {
+          "page": 49,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Expressions",
+          "end_char": 1625,
+          "start_char": 1214,
+          "document_id": "python_book"
+        }
+      }
+    ],
+    "evidence_matches": [
+      false,
+      true,
+      false
+    ],
+    "hit_at_1": false,
+    "hit_at_3": true,
+    "strategy": "C",
+    "applied_filter": {}
+  },
+  {
+    "question": {
+      "id": "q15",
+      "split": "dev",
+      "question": "What does implicit type conversion do?",
+      "expected_answer": "It automatically converts one data type to another.",
+      "gold_source_id": "python_book",
+      "gold_page": 50,
+      "evidence_quote": "Python interpreter uses implicit type conversion to automatically convert one data type to another."
+    },
+    "hits": [
+      {
+        "chunk_id": "4fa83b04bbebc62b755055af025c68105887ebf360d51b906319312ea86be9eb",
+        "text": "Common operations update a variable such that the variable's data type needs to be changed. Ex: A GPS first\n     assigns distance with 250, an integer. After a wrong turn, the GPS assigns distance with 252.5, a float. The\n     Python interpreter uses implicit type conversion to automatically convert one data type to another. Once\n     distance is assigned with 252.5, the interpreter will convert distance from an integer to a float without the\n\n     Access for free at openstax.org",
+        "score": 0.7413522756092789,
+        "metadata": {
+          "page": 50,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Expressions",
+          "end_char": 2118,
+          "start_char": 1634,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "2ffe60acaf5150e13314386d4f17cf67f7732f8af5e81b381f7526dfbdf989b3",
+        "text": "Learning objectives\n     By the end of this section you should be able to\n       • Explain how the interpreter uses implicit type conversion.\n       • Use explicit type conversion with int(), float(), and str().\n     Implicit type conversion",
+        "score": 0.7310212607858915,
+        "metadata": {
+          "page": 50,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Expressions",
+          "end_char": 1627,
+          "start_char": 1386,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "43b8b66707dab4889c63d180280856ad8acf8bb3fd29fb07729195d2dd1a9937",
+        "text": "2.2 • Type conversion 41\n\nprogrammer needing to specify the conversion.\n\n CHECKPOINT\n\n Example: Book ratings\n\n Example: Book ratings; ch 2, video 3 (https://www.openstax.org/r/book-ratings)\n\n CONCEPTS IN PRACTICE\n\n Implicit type conversion in practice\n\n Consider the example above.\n\n  1 . What is book_rating's data type on line 7?\n      a. float\n      b. integer\n\n  2 . What would book_rating's data type be if update = 1.0 instead of 0.5?\n      a. float\n      b. integer",
+        "score": 0.6947098346351306,
+        "metadata": {
+          "page": 51,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Expressions",
+          "end_char": 583,
+          "start_char": 111,
+          "document_id": "python_book"
+        }
+      }
+    ],
+    "evidence_matches": [
+      true,
+      false,
+      false
+    ],
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "strategy": "C",
+    "applied_filter": {}
+  },
+  {
+    "question": {
+      "id": "q16",
+      "split": "test",
+      "question": "What does floor division (//) compute?",
+      "expected_answer": "It computes the quotient, or the number of times one number is divided by another.",
+      "gold_source_id": "python_book",
+      "gold_page": 59,
+      "evidence_quote": "Floor division (//) computes the quotient, or the number of times divided.",
+      "filter": {
+        "chapter": "Expressions"
+      }
+    },
+    "hits": [
+      {
+        "chunk_id": "77234a9107415ea499ed1dfaa009c55ea30716e325dac81b248d94079ae8ac55",
+        "text": "• True division (/) converts numbers to floats before dividing. Ex: 7 / 4 becomes 7.0 / 4.0, resulting in\n     1.75.\n • Floor division (//) computes the quotient, or the number of times divided. Ex: 7 // 4 is 1 because 4 goes\n     into 7 one time, remainder 3. The modulo operator (%) computes the remainder. Ex: 7 % 4 is 3.\n\nNote: The % operator is traditionally pronounced \"mod\" (short for \"modulo\"). Ex: When reading 7 % 4 out loud,\na programmer would say \"seven mod four.\"\n\n CHECKPOINT",
+        "score": 0.7481263362527519,
+        "metadata": {
+          "page": 59,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Expressions",
+          "end_char": 915,
+          "start_char": 426,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "3b79704978d574350abdd62b7f99b874e56303dd69cfa06e4675915bd2ba5946",
+        "text": "x // y Divides x by y and returns the quotient as an integer. Ex: 7 // 4 is 1.\n       (Floor division)\n\n       x % y Divides x by y and returns the remainder as an integer. Ex: 7 % 4 is 3.\n       (Modulo)\n\n     Table 2.10 Chapter 2 reference.\n\n       TRY IT\n\n       Baking bread",
+        "score": 0.723997400460723,
+        "metadata": {
+          "page": 74,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Expressions",
+          "end_char": 1215,
+          "start_char": 937,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "91c40271de2e5d2e639dedaf970d3fe9a2c70bd2927b127ad4ec951f9d8e653b",
+        "text": "2.5 • Dividing integers 49\n\n 2.5 Dividing integers\n\nLearning objectives\n\nBy the end of this section you should be able to\n\n • Evaluate expressions that involve floor division and modulo.\n • Use the modulo operator to convert between units of measure.\nDivision and modulo\n\nPython provides two ways to divide numbers:",
+        "score": 0.7138937295036274,
+        "metadata": {
+          "page": 59,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Expressions",
+          "end_char": 423,
+          "start_char": 108,
+          "document_id": "python_book"
+        }
+      }
+    ],
+    "evidence_matches": [
+      true,
+      false,
+      false
+    ],
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "strategy": "C",
+    "applied_filter": {
+      "chapter": "Expressions"
+    }
+  },
+  {
+    "question": {
+      "id": "q17",
+      "split": "test",
+      "question": "What does the modulo operator (%) compute?",
+      "expected_answer": "It computes the remainder.",
+      "gold_source_id": "python_book",
+      "gold_page": 59,
+      "evidence_quote": "The modulo operator (%) computes the remainder.",
+      "filter": {
+        "chapter": "Expressions"
+      }
+    },
+    "hits": [
+      {
+        "chunk_id": "77234a9107415ea499ed1dfaa009c55ea30716e325dac81b248d94079ae8ac55",
+        "text": "• True division (/) converts numbers to floats before dividing. Ex: 7 / 4 becomes 7.0 / 4.0, resulting in\n     1.75.\n • Floor division (//) computes the quotient, or the number of times divided. Ex: 7 // 4 is 1 because 4 goes\n     into 7 one time, remainder 3. The modulo operator (%) computes the remainder. Ex: 7 % 4 is 3.\n\nNote: The % operator is traditionally pronounced \"mod\" (short for \"modulo\"). Ex: When reading 7 % 4 out loud,\na programmer would say \"seven mod four.\"\n\n CHECKPOINT",
+        "score": 0.7179194029995568,
+        "metadata": {
+          "page": 59,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Expressions",
+          "end_char": 915,
+          "start_char": 426,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "ffa6915264d692596305e678c401606c6bc077fcd43c5c1542e5703ec6a058da",
+        "text": "• The quotient, 1 meter, is 193 // 100.\n       • The remainder, 93 centimeters, is 193 % 100.\n\n     Programs often use floor division and modulo together. If one line of code floor divides by m, the next line will\n     likely modulo by m. The unit m by which an amount is divided is called the modulus. Ex: When converting\n     centimeters to meters, the modulus is 100.\n\n       CHECKPOINT\n\n       Money and time\n\n       Money and time; ch 2, video 9 (https://www.openstax.org/r/money-time)",
+        "score": 0.6949215998372581,
+        "metadata": {
+          "page": 60,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Expressions",
+          "end_char": 918,
+          "start_char": 428,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "68e9bf4c4fe6d3479e6d208194c12172b745ca712d678271a89167b7b21117c6",
+        "text": "CONCEPTS IN PRACTICE\n\n       Unit conversions\n\n        5 . What is the modulus for converting minutes to hours?\n            a. 40\n            b. 60\n            c. 280\n\n        6 . A program has the line pounds = ounces // 16. What is likely the next line of code?\n            a. ounces = ounces % 16\n            b. pounds = ounces % 16\n            c. ounces = ounces - pounds * 16\n\n       TRY IT\n\n       Arrival time",
+        "score": 0.6944347730226768,
+        "metadata": {
+          "page": 60,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Expressions",
+          "end_char": 1343,
+          "start_char": 927,
+          "document_id": "python_book"
+        }
+      }
+    ],
+    "evidence_matches": [
+      true,
+      false,
+      false
+    ],
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "strategy": "C",
+    "applied_filter": {
+      "chapter": "Expressions"
+    }
+  },
+  {
+    "question": {
+      "id": "q18",
+      "split": "test",
+      "question": "What causes a round-off error?",
+      "expected_answer": "It occurs when floating-point values are stored erroneously as an approximation.",
+      "gold_source_id": "python_book",
+      "gold_page": 56,
+      "evidence_quote": "A round-off error occurs when floating-point values are stored erroneously as an approximation."
+    },
+    "hits": [
+      {
+        "chunk_id": "5ae804559897d1c1cd290e54471e5ba113f52bf6051ec33494c6e18de15828da",
+        "text": "Floating-point values are stored as binary by Python. The conversion of a floating point number to the\n     underlying binary results in specific types of floating-point errors.\n\n     A round-off error occurs when floating-point values are stored erroneously as an approximation. The\n     difference between an approximation of a value used in computation and the correct (true) value is called a\n     round-off error.",
+        "score": 0.7255882356531516,
+        "metadata": {
+          "page": 56,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Expressions",
+          "end_char": 1353,
+          "start_char": 935,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "a6460ffbe91427020519546cd6704ba2f451f9bd51ec687dff623ee98e5f56bd",
+        "text": "2 . 0.123456789012345678901234567890 * 0.1 produces 0.012345678901234568430878013601.\n      a. round-off\n      b. overflow\n\nFloating point round() function",
+        "score": 0.7171960286292396,
+        "metadata": {
+          "page": 57,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Expressions",
+          "end_char": 1375,
+          "start_char": 1220,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "930e11181a8ac6f672d4b321f86e9261b405cda33827636f82c4e3382bda57ab",
+        "text": "By the end of this section you should be able to\n\n       • Explain numerical inaccuracies related to floating-point representation.\n       • Use the round() function to mitigate floating-point errors in output.\n     Floating-point errors\n\n     Computers store information using 0's and 1's. All information must be converted to a string of 0's and 1's. Ex:\n     5 is converted to 101. Since only two values, 0 or 1, are allowed the format is called binary.",
+        "score": 0.7171518671076585,
+        "metadata": {
+          "page": 56,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Expressions",
+          "end_char": 928,
+          "start_char": 472,
+          "document_id": "python_book"
+        }
+      }
+    ],
+    "evidence_matches": [
+      true,
+      false,
+      false
+    ],
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "strategy": "C",
+    "applied_filter": {}
+  },
+  {
+    "question": {
+      "id": "q19",
+      "split": "test",
+      "question": "What is the purpose of comments in a program?",
+      "expected_answer": "They explain what the code is doing.",
+      "gold_source_id": "python_book",
+      "gold_page": 37,
+      "evidence_quote": "Comments are short phrases that explain what the code is doing.",
+      "filter": {
+        "chapter": "Statements"
+      }
+    },
+    "hits": [
+      {
+        "chunk_id": "83bc1ff289b94d172b31f3acf11fe4f98e9b246ae6528ac492664cc84557b20c",
+        "text": "1 . The main purpose of writing comments is to _____.\n      a. avoid writing syntax errors\n      b. explain what the code does\n      c. make the code run faster\n\n  2 . Which symbol is used for comments in Python?\n      a. #\n      b. /*",
+        "score": 0.7324448814527684,
+        "metadata": {
+          "page": 37,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Statements",
+          "end_char": 1736,
+          "start_char": 1501,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "9e63461659a1d1cd19d7eebaae2ed74443008d7c1b11b8a3225095701f73c163",
+        "text": "Programmers spend more time reading code than writing code. Therefore, making code easier for others to\n     read and understand is important. Two ways to improve code quality include:\n\n      • Separate each part (lines that have a similar purpose) with a blank line.\n      • Write a comment before each part. Not every line needs a comment.\n\n      CHECKPOINT\n\n      Comments in a program\n\n      Comments in a program; ch 1, video 12 (https://www.openstax.org/r/comments)\n\n      CONCEPTS IN PRACTICE",
+        "score": 0.7253656672129165,
+        "metadata": {
+          "page": 38,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Statements",
+          "end_char": 988,
+          "start_char": 489,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "0bd7b0507892ee0ebe3e96b63ce900e76b93a22920978c3fdf042f2047fedb56",
+        "text": "Comments are short phrases that explain what the code is doing. Ex: Lines 1, 8, and 10 in the following\nprogram contain comments. Each comment begins with a hash character (#). All text from the hash character\nto the end of the line is ignored when running the program. In contrast, hash characters inside of strings are\ntreated as regular text. Ex: The string \"Item #1: \" does not contain a comment.\n\nWhen writing comments:",
+        "score": 0.722550535536113,
+        "metadata": {
+          "page": 37,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Statements",
+          "end_char": 829,
+          "start_char": 405,
+          "document_id": "python_book"
+        }
+      }
+    ],
+    "evidence_matches": [
+      false,
+      false,
+      true
+    ],
+    "hit_at_1": false,
+    "hit_at_3": true,
+    "strategy": "C",
+    "applied_filter": {
+      "chapter": "Statements"
+    }
+  },
+  {
+    "question": {
+      "id": "q20",
+      "split": "test",
+      "question": "What does Python do with adjacent string literals?",
+      "expected_answer": "It automatically concatenates them.",
+      "gold_source_id": "python_book",
+      "gold_page": 69,
+      "evidence_quote": "For convenience, Python automatically concatenates multiple strings."
+    },
+    "hits": [
+      {
+        "chunk_id": "511d5966cec103f4a8ed3ebec0d0be8d7f42d51c7b2e131e8552d27def6e0653",
+        "text": "the causes which impel them to the separation.\")\n\nFor convenience, Python automatically concatenates multiple strings. The + operator is not required in this\nsituation.\n\n CHECKPOINT\n\n String concatenation\n\n String concatenation; ch 2, video 11 (https://www.openstax.org/r/string-concat)\n\n CONCEPTS IN PRACTICE\n\n String literal concatenation\n\n  5 . Which line prints the word \"grandmother\"?\n      a. print(grandmother)\n      b. print(\"grand\" \"mother\")\n      c. print(\"grand\", \"mother\")",
+        "score": 0.7337044398470565,
+        "metadata": {
+          "page": 69,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Expressions",
+          "end_char": 2041,
+          "start_char": 1557,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "88cd55e3314e0f4b02bd19f0fc382851cc33767eda325f9427d804695e5e5947",
+        "text": "6 . What string is equivalent to \"Today is\" \"a holiday\"?\n      a. 'Today isa holiday'\n      b. 'Today is a holiday'\n      c. 'Today is\" \"a holiday'\n\n  7 . If name is \"Ada\", what does print(\"Hello,\" name) output?",
+        "score": 0.7009645208632901,
+        "metadata": {
+          "page": 69,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Expressions",
+          "end_char": 2256,
+          "start_char": 2045,
+          "document_id": "python_book"
+        }
+      },
+      {
+        "chunk_id": "3d7a3cc772699e72d5e4e7d6ab99ba018697587c96b0602b0bdeae187bbb83fb",
+        "text": "Concatenation\n\n    Concatenation is an operation that combines two or more strings sequentially with the concatenation operator\n    (+). Ex: \"A\" + \"part\" produces the string \"Apart\".\n\n      CHECKPOINT\n\n      Concatenating multiple strings\n\n      Concatenating multiple strings; ch 1, video 7 (https://www.openstax.org/r/concatenating-strings)\n\n      CONCEPTS IN PRACTICE\n\n      String concatenation",
+        "score": 0.6843696640555521,
+        "metadata": {
+          "page": 28,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "Statements",
+          "end_char": 899,
+          "start_char": 501,
+          "document_id": "python_book"
+        }
+      }
+    ],
+    "evidence_matches": [
+      true,
+      false,
+      false
+    ],
+    "hit_at_1": true,
+    "hit_at_3": true,
+    "strategy": "C",
+    "applied_filter": {}
+  }
+]

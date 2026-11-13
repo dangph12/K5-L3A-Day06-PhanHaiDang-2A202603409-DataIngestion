@@ -1,8 +1,8 @@
 # Thông tin học viên
 
-- Họ và tên:
-- MSSV:
-- Lớp: L3A / L3B / khác:
-- Chủ đề và corpus:
+- Họ và tên: Phan Hải Đăng
+- MSSV: 2A202603409
+- Lớp: L3A
+- Chủ đề và corpus: Learning Python programming
 - Repo bài nộp:
 - Commit chốt bài:

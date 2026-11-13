@@ -1,0 +1,1481 @@
+{
+  "reviewer": "Phan Hải Đăng",
+  "bias_and_method": "Sử dụng nguồn PDF nguồn, tiêu chí chấm điểm từ 0 đến 2 theo Guide.md",
+  "coherence": [
+    {
+      "strategy": "A",
+      "document_id": "python_book",
+      "page": 17,
+      "position": 1,
+      "chunks": [
+        {
+          "chunk_id": "8f49f0122910db2ef947ca4d35bdb64cebbbdde767ab17f02ef5e88a24eb9342",
+          "document_id": "python_book",
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "page": 17,
+          "text": " 1\n                 Statements\n\nFigure 1.1 credit: Larissa Chu, CC BY 4.0\n\nChapter Outline\n  1.1 Background\n  1.2 Input/output\n  1.3 Variables\n  1.4 String basics\n  1.5 Number basics\n  1.6 Error messages\n  1.7 Comments\n  1.8 Why Python?\n  1.9 Chapter summary\n\n        Introduction\nComputers and programs are everywhere in today's world. Programs affect many aspects of daily life and\nsociety as a whole. People depend on programs for communication, shopping, entertainment, health care, and\ncountless",
+          "metadata": {
+            "chapter": "Statements",
+            "start_char": 0,
+            "end_char": 500
+          }
+        }
+      ],
+      "score_0_to_2": null,
+      "reason": ""
+    },
+    {
+      "strategy": "A",
+      "document_id": "python_book",
+      "page": 18,
+      "position": 0,
+      "chunks": [
+        {
+          "chunk_id": "1078e133c0f8ae0dcf0300237ae5fa86d9a5395d2663c3572c60afe2da40085a",
+          "document_id": "python_book",
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "page": 18,
+          "text": "8 1 • Statements\n\n     1.1 Background\n\n    Learning Objectives\n    By the end of this section you should be able to\n     • Name two examples of computer programs in everyday life.\n     • Explain why Python is a good programming language to learn.\n    Computer programs\n\n    A computer is an electronic device that stores and processes information. Examples of computers include\n    smartphones, tablets, laptops, desktops, and servers. Technically, a program is a sequence of instructions that\n    a ",
+          "metadata": {
+            "chapter": "Statements",
+            "start_char": 0,
+            "end_char": 500
+          }
+        }
+      ],
+      "score_0_to_2": null,
+      "reason": ""
+    },
+    {
+      "strategy": "A",
+      "document_id": "python_book",
+      "page": 19,
+      "position": 116,
+      "chunks": [
+        {
+          "chunk_id": "fb08fbc44953285240c94b23d5713c24551891653752a8076c94e7e955e4d1a1",
+          "document_id": "python_book",
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "page": 19,
+          "text": "                                                                                                                    1.1 • Background 9\n\n provide access to online streaming services include Spotipy (https://openstax.org/r/100spotipy), Pytube\n (https://openstax.org/r/100pytube), and Pydora (https://openstax.org/r/100pydora). Python-related tools\n often have the letters \"py\" in their name.\n\nThe Python language\n\nThis book introduces Python (https://openstax.org/r/100python), one of the top programmi",
+          "metadata": {
+            "chapter": "Statements",
+            "start_char": 0,
+            "end_char": 500
+          }
+        }
+      ],
+      "score_0_to_2": null,
+      "reason": ""
+    },
+    {
+      "strategy": "A",
+      "document_id": "python_book",
+      "page": 20,
+      "position": 0,
+      "chunks": [
+        {
+          "chunk_id": "817ec41c20d064eb0ef13b031fb09151dc20515d8271cbec68150a0d2803a9b0",
+          "document_id": "python_book",
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "page": 20,
+          "text": "10 1 • Statements\n\n      CONCEPTS IN PRACTICE\n\n      Python vs Java syntax\n\n       5 . In general, Python programs are _____ than Java programs.\n           a. faster\n           b. longer\n           c. shorter\n\n       6 . In the example programs above, what syntax required by Java is not required by Python?\n           a. semicolons\n           b. parentheses\n           c. quote marks\n\n       TRY IT\n\n       Favorite song\n\n       The program below asks for your name and displays a friendly greeting.",
+          "metadata": {
+            "chapter": "Statements",
+            "start_char": 0,
+            "end_char": 500
+          }
+        }
+      ],
+      "score_0_to_2": null,
+      "reason": ""
+    },
+    {
+      "strategy": "A",
+      "document_id": "python_book",
+      "page": 21,
+      "position": 106,
+      "chunks": [
+        {
+          "chunk_id": "a0b12bf6f110fc239b6ca4fae388eb482a65cb3f2018a734c1fd2af8325c1535",
+          "document_id": "python_book",
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "page": 21,
+          "text": "                                                                                                          1.2 • Input/output 11\n\nMultiple values, separated by commas, can be printed in the same statement. By default, each value is\nseparated by a space character in the output. The sep option can be used to change this behavior.\n\nBy default, the print() function adds a newline character at the end of the output. A newline character tells\nthe display to move to the next line. The end option can be ",
+          "metadata": {
+            "chapter": "Statements",
+            "start_char": 0,
+            "end_char": 500
+          }
+        }
+      ],
+      "score_0_to_2": null,
+      "reason": ""
+    },
+    {
+      "strategy": "A",
+      "document_id": "python_book",
+      "page": 22,
+      "position": 0,
+      "chunks": [
+        {
+          "chunk_id": "58eddf03fa145c489f1dcda98f298d1a87449a6ca21d5bf62bfd8bf43de488ba",
+          "document_id": "python_book",
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "page": 22,
+          "text": "12 1 • Statements\n\n           print(\"555\", \"0123\", sep=\"-\")\n\n           a. 555 0123\n           b. 5550123-\n           c. 555-0123\n\n      DO SPACES REALLY MATTER?\n\n      Spaces and newline characters are not inherently important. However, learning to be precise is an essential\n      skill for programming. Noticing little details, like how words are separated and how lines end, helps new\n      programmers become better.\n\n     Basic input\n\n     Computer programs often receive input from the user. I",
+          "metadata": {
+            "chapter": "Statements",
+            "start_char": 0,
+            "end_char": 500
+          }
+        }
+      ],
+      "score_0_to_2": null,
+      "reason": ""
+    },
+    {
+      "strategy": "A",
+      "document_id": "python_book",
+      "page": 23,
+      "position": 107,
+      "chunks": [
+        {
+          "chunk_id": "892a5ff6f0450dfbd4164c2f98468607576bd826556cee5ee9a9f331f1818ec8",
+          "document_id": "python_book",
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "page": 23,
+          "text": "                                                                                                           1.2 • Input/output 13\n\n    b. You entered: Sophia\n    c. You entered:, Sophia\n\n6 . What is the output if the user enters \"six\" as the input?\n\n    print(\"Please enter a number: \")\n    number = input()\n    print(\"Value =\", number)\n\n    a. Value = six\n    b. Value = 6\n    c. Value = number\n\nTRY IT\n\nFrost poem\n\nWrite a program that uses multiple print() statements to output the following poem b",
+          "metadata": {
+            "chapter": "Statements",
+            "start_char": 0,
+            "end_char": 500
+          }
+        }
+      ],
+      "score_0_to_2": null,
+      "reason": ""
+    },
+    {
+      "strategy": "A",
+      "document_id": "python_book",
+      "page": 24,
+      "position": 0,
+      "chunks": [
+        {
+          "chunk_id": "d56f92849c199ed1f9f8f3bae1d57e9ea524379ce229c40b5598e822372aa123",
+          "document_id": "python_book",
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "page": 24,
+          "text": "14 1 • Statements\n\n       output)\n\n      1.3 Variables\n\n     Learning objectives\n\n     By the end of this section you should be able to\n\n      • Assign variables and print variables.\n      • Explain rules for naming variables.\n     Assignment statement\n\n     Variables allow programs to refer to values using names rather than memory locations. Ex: age refers to a\n     person's age, and birth refers to a person's date of birth.\n\n     A statement can set a variable to a value using the assignment o",
+          "metadata": {
+            "chapter": "Statements",
+            "start_char": 0,
+            "end_char": 500
+          }
+        }
+      ],
+      "score_0_to_2": null,
+      "reason": ""
+    },
+    {
+      "strategy": "A",
+      "document_id": "python_book",
+      "page": 25,
+      "position": 115,
+      "chunks": [
+        {
+          "chunk_id": "67fc8f39f3c265ffc9386d93957b01fee1e32d5284f2ec206b7d0ba986e16e84",
+          "document_id": "python_book",
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "page": 25,
+          "text": "                                                                                                                   1.3 • Variables 15\n\n      a. temperature = 98.5\n      b. 98.5 = temperature\n      c. temperature - 23.2\n\nVariable naming rules\n\nA variable name can consist of letters, digits, and underscores and be of any length. The name cannot start\nwith a digit. Ex: 101class is invalid. Also, letter case matters. Ex: Total is different from total. Python's style\nguide recommends writing variable",
+          "metadata": {
+            "chapter": "Statements",
+            "start_char": 0,
+            "end_char": 500
+          }
+        }
+      ],
+      "score_0_to_2": null,
+      "reason": ""
+    },
+    {
+      "strategy": "A",
+      "document_id": "python_book",
+      "page": 26,
+      "position": 0,
+      "chunks": [
+        {
+          "chunk_id": "d2b4f702cde00a7384fb10b66fa7710e6564aff2badaa721ee6b394cf407fd56",
+          "document_id": "python_book",
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "page": 26,
+          "text": "16 1 • Statements\n\n           c. zip_code\n\n        8 . Given the variable name, DogBreed, which improvement conforms to Python's style guide?\n           a. dog_breed\n           b. dogBreed\n           c. dog-breed\n\n       TRY IT\n\n       Final score\n\n       Write a Python computer program that:\n\n         • Creates a variable, team1, assigned with the value \"Liverpool\".\n         • Creates a variable, team2, assigned with the value \"Chelsea\".\n         • Creates a variable score1, assigned with the v",
+          "metadata": {
+            "chapter": "Statements",
+            "start_char": 0,
+            "end_char": 500
+          }
+        }
+      ],
+      "score_0_to_2": null,
+      "reason": ""
+    },
+    {
+      "strategy": "B",
+      "document_id": "python_book",
+      "page": 17,
+      "position": 1,
+      "chunks": [
+        {
+          "chunk_id": "179b3df2f1d3ced32119de4d49fd2be612e6492d25d0718d94f5b74a7b903585",
+          "document_id": "python_book",
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "page": 17,
+          "text": "1\n                 Statements\n\nFigure 1.1 credit: Larissa Chu, CC BY 4.0\n\nChapter Outline\n  1.1 Background\n  1.2 Input/output\n  1.3 Variables\n  1.4 String basics\n  1.5 Number basics\n  1.6 Error messages\n  1.7 Comments\n  1.8 Why Python?\n  1.9 Chapter summary",
+          "metadata": {
+            "chapter": "Statements",
+            "start_char": 1,
+            "end_char": 258
+          }
+        }
+      ],
+      "score_0_to_2": null,
+      "reason": ""
+    },
+    {
+      "strategy": "B",
+      "document_id": "python_book",
+      "page": 18,
+      "position": 0,
+      "chunks": [
+        {
+          "chunk_id": "9093bf4dcb366c45fbbc86315e27283591330af0b96d3eca2cb1ba40f6c77bf7",
+          "document_id": "python_book",
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "page": 18,
+          "text": "8 1 • Statements\n\n     1.1 Background\n\n    Learning Objectives\n    By the end of this section you should be able to\n     • Name two examples of computer programs in everyday life.\n     • Explain why Python is a good programming language to learn.\n    Computer programs",
+          "metadata": {
+            "chapter": "Statements",
+            "start_char": 0,
+            "end_char": 268
+          }
+        }
+      ],
+      "score_0_to_2": null,
+      "reason": ""
+    },
+    {
+      "strategy": "B",
+      "document_id": "python_book",
+      "page": 19,
+      "position": 116,
+      "chunks": [
+        {
+          "chunk_id": "07233477690b1737582fcf5628056e1177c2f65ed1deebbc6c5d1e99f511eec3",
+          "document_id": "python_book",
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "page": 19,
+          "text": "1.1 • Background 9\n\n provide access to online streaming services include Spotipy (https://openstax.org/r/100spotipy), Pytube\n (https://openstax.org/r/100pytube), and Pydora (https://openstax.org/r/100pydora). Python-related tools\n often have the letters \"py\" in their name.\n\nThe Python language",
+          "metadata": {
+            "chapter": "Statements",
+            "start_char": 116,
+            "end_char": 410
+          }
+        }
+      ],
+      "score_0_to_2": null,
+      "reason": ""
+    },
+    {
+      "strategy": "B",
+      "document_id": "python_book",
+      "page": 20,
+      "position": 0,
+      "chunks": [
+        {
+          "chunk_id": "0a6c2d96771332ad9bb649015d39b7f0dfae1c1be3382de10587d579d2595e91",
+          "document_id": "python_book",
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "page": 20,
+          "text": "10 1 • Statements\n\n      CONCEPTS IN PRACTICE\n\n      Python vs Java syntax\n\n       5 . In general, Python programs are _____ than Java programs.\n           a. faster\n           b. longer\n           c. shorter\n\n       6 . In the example programs above, what syntax required by Java is not required by Python?\n           a. semicolons\n           b. parentheses\n           c. quote marks\n\n       TRY IT\n\n       Favorite song",
+          "metadata": {
+            "chapter": "Statements",
+            "start_char": 0,
+            "end_char": 421
+          }
+        }
+      ],
+      "score_0_to_2": null,
+      "reason": ""
+    },
+    {
+      "strategy": "B",
+      "document_id": "python_book",
+      "page": 21,
+      "position": 106,
+      "chunks": [
+        {
+          "chunk_id": "6a3ec5f8721f70c6f5b9f973bad04de728f569b97498acfacd19f692f8ded464",
+          "document_id": "python_book",
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "page": 21,
+          "text": "1.2 • Input/output 11\n\nMultiple values, separated by commas, can be printed in the same statement. By default, each value is\nseparated by a space character in the output. The sep option can be used to change this behavior.\n\nBy default, the print() function adds a newline character at the end of the output. A newline character tells\nthe display to move to the next line. The end option can be used to continue printing on the same line.\n\n                               Code Output",
+          "metadata": {
+            "chapter": "Statements",
+            "start_char": 106,
+            "end_char": 587
+          }
+        }
+      ],
+      "score_0_to_2": null,
+      "reason": ""
+    },
+    {
+      "strategy": "B",
+      "document_id": "python_book",
+      "page": 22,
+      "position": 0,
+      "chunks": [
+        {
+          "chunk_id": "3ad9b6818042123e999ad0df5134d608df53d285270288580bedaad7034bc00c",
+          "document_id": "python_book",
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "page": 22,
+          "text": "12 1 • Statements\n\n           print(\"555\", \"0123\", sep=\"-\")\n\n           a. 555 0123\n           b. 5550123-\n           c. 555-0123\n\n      DO SPACES REALLY MATTER?\n\n      Spaces and newline characters are not inherently important. However, learning to be precise is an essential\n      skill for programming. Noticing little details, like how words are separated and how lines end, helps new\n      programmers become better.\n\n     Basic input",
+          "metadata": {
+            "chapter": "Statements",
+            "start_char": 0,
+            "end_char": 439
+          }
+        }
+      ],
+      "score_0_to_2": null,
+      "reason": ""
+    },
+    {
+      "strategy": "B",
+      "document_id": "python_book",
+      "page": 23,
+      "position": 107,
+      "chunks": [
+        {
+          "chunk_id": "cce8b1601bbe39527e5d72d7af2f1561471ea918af7dbfeba90deb67d3974c79",
+          "document_id": "python_book",
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "page": 23,
+          "text": "1.2 • Input/output 13\n\n    b. You entered: Sophia\n    c. You entered:, Sophia\n\n6 . What is the output if the user enters \"six\" as the input?\n\n    print(\"Please enter a number: \")\n    number = input()\n    print(\"Value =\", number)\n\n    a. Value = six\n    b. Value = 6\n    c. Value = number\n\nTRY IT\n\nFrost poem",
+          "metadata": {
+            "chapter": "Statements",
+            "start_char": 107,
+            "end_char": 414
+          }
+        }
+      ],
+      "score_0_to_2": null,
+      "reason": ""
+    },
+    {
+      "strategy": "B",
+      "document_id": "python_book",
+      "page": 24,
+      "position": 0,
+      "chunks": [
+        {
+          "chunk_id": "3081c2d62900c5777b412d68004188946afa3cbdd623106b6931d143f5fd928f",
+          "document_id": "python_book",
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "page": 24,
+          "text": "14 1 • Statements\n\n       output)\n\n      1.3 Variables\n\n     Learning objectives\n\n     By the end of this section you should be able to\n\n      • Assign variables and print variables.\n      • Explain rules for naming variables.\n     Assignment statement\n\n     Variables allow programs to refer to values using names rather than memory locations. Ex: age refers to a\n     person's age, and birth refers to a person's date of birth.",
+          "metadata": {
+            "chapter": "Statements",
+            "start_char": 0,
+            "end_char": 429
+          }
+        }
+      ],
+      "score_0_to_2": null,
+      "reason": ""
+    },
+    {
+      "strategy": "B",
+      "document_id": "python_book",
+      "page": 25,
+      "position": 115,
+      "chunks": [
+        {
+          "chunk_id": "2c20c803d48758b2894e6cfc93accef0c710e7f2dc4c7302a1abc809f25b2c2d",
+          "document_id": "python_book",
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "page": 25,
+          "text": "1.3 • Variables 15\n\n      a. temperature = 98.5\n      b. 98.5 = temperature\n      c. temperature - 23.2\n\nVariable naming rules",
+          "metadata": {
+            "chapter": "Statements",
+            "start_char": 115,
+            "end_char": 241
+          }
+        }
+      ],
+      "score_0_to_2": null,
+      "reason": ""
+    },
+    {
+      "strategy": "B",
+      "document_id": "python_book",
+      "page": 26,
+      "position": 0,
+      "chunks": [
+        {
+          "chunk_id": "86f18d3ff739d2c6463332b77a84bbd2b67d46919bb36cfde7fc0b30881f444e",
+          "document_id": "python_book",
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "page": 26,
+          "text": "16 1 • Statements\n\n           c. zip_code\n\n        8 . Given the variable name, DogBreed, which improvement conforms to Python's style guide?\n           a. dog_breed\n           b. dogBreed\n           c. dog-breed\n\n       TRY IT\n\n       Final score\n\n       Write a Python computer program that:",
+          "metadata": {
+            "chapter": "Statements",
+            "start_char": 0,
+            "end_char": 293
+          }
+        }
+      ],
+      "score_0_to_2": null,
+      "reason": ""
+    },
+    {
+      "strategy": "C",
+      "document_id": "python_book",
+      "page": 17,
+      "position": 1,
+      "chunks": [
+        {
+          "chunk_id": "179b3df2f1d3ced32119de4d49fd2be612e6492d25d0718d94f5b74a7b903585",
+          "document_id": "python_book",
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "page": 17,
+          "text": "1\n                 Statements\n\nFigure 1.1 credit: Larissa Chu, CC BY 4.0\n\nChapter Outline\n  1.1 Background\n  1.2 Input/output\n  1.3 Variables\n  1.4 String basics\n  1.5 Number basics\n  1.6 Error messages\n  1.7 Comments\n  1.8 Why Python?\n  1.9 Chapter summary",
+          "metadata": {
+            "chapter": "Statements",
+            "start_char": 1,
+            "end_char": 258
+          }
+        }
+      ],
+      "score_0_to_2": null,
+      "reason": ""
+    },
+    {
+      "strategy": "C",
+      "document_id": "python_book",
+      "page": 18,
+      "position": 0,
+      "chunks": [
+        {
+          "chunk_id": "9093bf4dcb366c45fbbc86315e27283591330af0b96d3eca2cb1ba40f6c77bf7",
+          "document_id": "python_book",
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "page": 18,
+          "text": "8 1 • Statements\n\n     1.1 Background\n\n    Learning Objectives\n    By the end of this section you should be able to\n     • Name two examples of computer programs in everyday life.\n     • Explain why Python is a good programming language to learn.\n    Computer programs",
+          "metadata": {
+            "chapter": "Statements",
+            "start_char": 0,
+            "end_char": 268
+          }
+        }
+      ],
+      "score_0_to_2": null,
+      "reason": ""
+    },
+    {
+      "strategy": "C",
+      "document_id": "python_book",
+      "page": 19,
+      "position": 116,
+      "chunks": [
+        {
+          "chunk_id": "07233477690b1737582fcf5628056e1177c2f65ed1deebbc6c5d1e99f511eec3",
+          "document_id": "python_book",
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "page": 19,
+          "text": "1.1 • Background 9\n\n provide access to online streaming services include Spotipy (https://openstax.org/r/100spotipy), Pytube\n (https://openstax.org/r/100pytube), and Pydora (https://openstax.org/r/100pydora). Python-related tools\n often have the letters \"py\" in their name.\n\nThe Python language",
+          "metadata": {
+            "chapter": "Statements",
+            "start_char": 116,
+            "end_char": 410
+          }
+        }
+      ],
+      "score_0_to_2": null,
+      "reason": ""
+    },
+    {
+      "strategy": "C",
+      "document_id": "python_book",
+      "page": 20,
+      "position": 0,
+      "chunks": [
+        {
+          "chunk_id": "0a6c2d96771332ad9bb649015d39b7f0dfae1c1be3382de10587d579d2595e91",
+          "document_id": "python_book",
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "page": 20,
+          "text": "10 1 • Statements\n\n      CONCEPTS IN PRACTICE\n\n      Python vs Java syntax\n\n       5 . In general, Python programs are _____ than Java programs.\n           a. faster\n           b. longer\n           c. shorter\n\n       6 . In the example programs above, what syntax required by Java is not required by Python?\n           a. semicolons\n           b. parentheses\n           c. quote marks\n\n       TRY IT\n\n       Favorite song",
+          "metadata": {
+            "chapter": "Statements",
+            "start_char": 0,
+            "end_char": 421
+          }
+        }
+      ],
+      "score_0_to_2": null,
+      "reason": ""
+    },
+    {
+      "strategy": "C",
+      "document_id": "python_book",
+      "page": 21,
+      "position": 106,
+      "chunks": [
+        {
+          "chunk_id": "6a3ec5f8721f70c6f5b9f973bad04de728f569b97498acfacd19f692f8ded464",
+          "document_id": "python_book",
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "page": 21,
+          "text": "1.2 • Input/output 11\n\nMultiple values, separated by commas, can be printed in the same statement. By default, each value is\nseparated by a space character in the output. The sep option can be used to change this behavior.\n\nBy default, the print() function adds a newline character at the end of the output. A newline character tells\nthe display to move to the next line. The end option can be used to continue printing on the same line.\n\n                               Code Output",
+          "metadata": {
+            "chapter": "Statements",
+            "start_char": 106,
+            "end_char": 587
+          }
+        }
+      ],
+      "score_0_to_2": null,
+      "reason": ""
+    },
+    {
+      "strategy": "C",
+      "document_id": "python_book",
+      "page": 22,
+      "position": 0,
+      "chunks": [
+        {
+          "chunk_id": "3ad9b6818042123e999ad0df5134d608df53d285270288580bedaad7034bc00c",
+          "document_id": "python_book",
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "page": 22,
+          "text": "12 1 • Statements\n\n           print(\"555\", \"0123\", sep=\"-\")\n\n           a. 555 0123\n           b. 5550123-\n           c. 555-0123\n\n      DO SPACES REALLY MATTER?\n\n      Spaces and newline characters are not inherently important. However, learning to be precise is an essential\n      skill for programming. Noticing little details, like how words are separated and how lines end, helps new\n      programmers become better.\n\n     Basic input",
+          "metadata": {
+            "chapter": "Statements",
+            "start_char": 0,
+            "end_char": 439
+          }
+        }
+      ],
+      "score_0_to_2": null,
+      "reason": ""
+    },
+    {
+      "strategy": "C",
+      "document_id": "python_book",
+      "page": 23,
+      "position": 107,
+      "chunks": [
+        {
+          "chunk_id": "cce8b1601bbe39527e5d72d7af2f1561471ea918af7dbfeba90deb67d3974c79",
+          "document_id": "python_book",
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "page": 23,
+          "text": "1.2 • Input/output 13\n\n    b. You entered: Sophia\n    c. You entered:, Sophia\n\n6 . What is the output if the user enters \"six\" as the input?\n\n    print(\"Please enter a number: \")\n    number = input()\n    print(\"Value =\", number)\n\n    a. Value = six\n    b. Value = 6\n    c. Value = number\n\nTRY IT\n\nFrost poem",
+          "metadata": {
+            "chapter": "Statements",
+            "start_char": 107,
+            "end_char": 414
+          }
+        }
+      ],
+      "score_0_to_2": null,
+      "reason": ""
+    },
+    {
+      "strategy": "C",
+      "document_id": "python_book",
+      "page": 24,
+      "position": 0,
+      "chunks": [
+        {
+          "chunk_id": "3081c2d62900c5777b412d68004188946afa3cbdd623106b6931d143f5fd928f",
+          "document_id": "python_book",
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "page": 24,
+          "text": "14 1 • Statements\n\n       output)\n\n      1.3 Variables\n\n     Learning objectives\n\n     By the end of this section you should be able to\n\n      • Assign variables and print variables.\n      • Explain rules for naming variables.\n     Assignment statement\n\n     Variables allow programs to refer to values using names rather than memory locations. Ex: age refers to a\n     person's age, and birth refers to a person's date of birth.",
+          "metadata": {
+            "chapter": "Statements",
+            "start_char": 0,
+            "end_char": 429
+          }
+        }
+      ],
+      "score_0_to_2": null,
+      "reason": ""
+    },
+    {
+      "strategy": "C",
+      "document_id": "python_book",
+      "page": 25,
+      "position": 115,
+      "chunks": [
+        {
+          "chunk_id": "2c20c803d48758b2894e6cfc93accef0c710e7f2dc4c7302a1abc809f25b2c2d",
+          "document_id": "python_book",
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "page": 25,
+          "text": "1.3 • Variables 15\n\n      a. temperature = 98.5\n      b. 98.5 = temperature\n      c. temperature - 23.2\n\nVariable naming rules",
+          "metadata": {
+            "chapter": "Statements",
+            "start_char": 115,
+            "end_char": 241
+          }
+        }
+      ],
+      "score_0_to_2": null,
+      "reason": ""
+    },
+    {
+      "strategy": "C",
+      "document_id": "python_book",
+      "page": 26,
+      "position": 0,
+      "chunks": [
+        {
+          "chunk_id": "86f18d3ff739d2c6463332b77a84bbd2b67d46919bb36cfde7fc0b30881f444e",
+          "document_id": "python_book",
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "page": 26,
+          "text": "16 1 • Statements\n\n           c. zip_code\n\n        8 . Given the variable name, DogBreed, which improvement conforms to Python's style guide?\n           a. dog_breed\n           b. dogBreed\n           c. dog-breed\n\n       TRY IT\n\n       Final score\n\n       Write a Python computer program that:",
+          "metadata": {
+            "chapter": "Statements",
+            "start_char": 0,
+            "end_char": 293
+          }
+        }
+      ],
+      "score_0_to_2": null,
+      "reason": ""
+    }
+  ],
+  "grounding": [
+    {
+      "strategy": "A",
+      "question_id": "q16",
+      "score_0_to_2": null,
+      "reason": ""
+    },
+    {
+      "strategy": "A",
+      "question_id": "q17",
+      "score_0_to_2": null,
+      "reason": ""
+    },
+    {
+      "strategy": "A",
+      "question_id": "q18",
+      "score_0_to_2": null,
+      "reason": ""
+    },
+    {
+      "strategy": "A",
+      "question_id": "q19",
+      "score_0_to_2": null,
+      "reason": ""
+    },
+    {
+      "strategy": "A",
+      "question_id": "q20",
+      "score_0_to_2": null,
+      "reason": ""
+    },
+    {
+      "strategy": "B",
+      "question_id": "q16",
+      "score_0_to_2": null,
+      "reason": ""
+    },
+    {
+      "strategy": "B",
+      "question_id": "q17",
+      "score_0_to_2": null,
+      "reason": ""
+    },
+    {
+      "strategy": "B",
+      "question_id": "q18",
+      "score_0_to_2": null,
+      "reason": ""
+    },
+    {
+      "strategy": "B",
+      "question_id": "q19",
+      "score_0_to_2": null,
+      "reason": ""
+    },
+    {
+      "strategy": "B",
+      "question_id": "q20",
+      "score_0_to_2": null,
+      "reason": ""
+    },
+    {
+      "strategy": "C",
+      "question_id": "q16",
+      "score_0_to_2": null,
+      "reason": ""
+    },
+    {
+      "strategy": "C",
+      "question_id": "q17",
+      "score_0_to_2": null,
+      "reason": ""
+    },
+    {
+      "strategy": "C",
+      "question_id": "q18",
+      "score_0_to_2": null,
+      "reason": ""
+    },
+    {
+      "strategy": "C",
+      "question_id": "q19",
+      "score_0_to_2": null,
+      "reason": ""
+    },
+    {
+      "strategy": "C",
+      "question_id": "q20",
+      "score_0_to_2": null,
+      "reason": ""
+    }
+  ],
+  "metadata": [
+    {
+      "strategy": "A",
+      "question_id": "q16",
+      "rank": 1,
+      "chunk_id": "5e2cdd226696463b2f3d10855a97cd14dddc12cc6b7fa91c8104f110604cf805",
+      "metadata": {
+        "page": 59,
+        "source": "https://openstax.org/details/books/introduction-python-programming",
+        "chapter": "Expressions",
+        "end_char": 950,
+        "start_char": 450,
+        "document_id": "python_book"
+      },
+      "complete_and_correct": null,
+      "reason": ""
+    },
+    {
+      "strategy": "A",
+      "question_id": "q16",
+      "rank": 2,
+      "chunk_id": "10365638f94c19b5c6e0fcb960030462bf8217d1091112cf6705f99a27455ff2",
+      "metadata": {
+        "page": 59,
+        "source": "https://openstax.org/details/books/introduction-python-programming",
+        "chapter": "Expressions",
+        "end_char": 500,
+        "start_char": 0,
+        "document_id": "python_book"
+      },
+      "complete_and_correct": null,
+      "reason": ""
+    },
+    {
+      "strategy": "A",
+      "question_id": "q16",
+      "rank": 3,
+      "chunk_id": "eaf0adf4b48d02f1c85a4f9c0bc653513e57f05cf18355a2f7a77cbc39348b27",
+      "metadata": {
+        "page": 74,
+        "source": "https://openstax.org/details/books/introduction-python-programming",
+        "chapter": "Expressions",
+        "end_char": 1400,
+        "start_char": 900,
+        "document_id": "python_book"
+      },
+      "complete_and_correct": null,
+      "reason": ""
+    },
+    {
+      "strategy": "A",
+      "question_id": "q17",
+      "rank": 1,
+      "chunk_id": "5e2cdd226696463b2f3d10855a97cd14dddc12cc6b7fa91c8104f110604cf805",
+      "metadata": {
+        "page": 59,
+        "source": "https://openstax.org/details/books/introduction-python-programming",
+        "chapter": "Expressions",
+        "end_char": 950,
+        "start_char": 450,
+        "document_id": "python_book"
+      },
+      "complete_and_correct": null,
+      "reason": ""
+    },
+    {
+      "strategy": "A",
+      "question_id": "q17",
+      "rank": 2,
+      "chunk_id": "2e614b3d0c9fbbb7daf8073f75dab63afadaf6ea2496d8b7ab98d6803c07f166",
+      "metadata": {
+        "page": 59,
+        "source": "https://openstax.org/details/books/introduction-python-programming",
+        "chapter": "Expressions",
+        "end_char": 1311,
+        "start_char": 900,
+        "document_id": "python_book"
+      },
+      "complete_and_correct": null,
+      "reason": ""
+    },
+    {
+      "strategy": "A",
+      "question_id": "q17",
+      "rank": 3,
+      "chunk_id": "495f213df28835637e8f10901ad4b29fd11512db85f39446d4c6aa99dda4c92e",
+      "metadata": {
+        "page": 60,
+        "source": "https://openstax.org/details/books/introduction-python-programming",
+        "chapter": "Expressions",
+        "end_char": 950,
+        "start_char": 450,
+        "document_id": "python_book"
+      },
+      "complete_and_correct": null,
+      "reason": ""
+    },
+    {
+      "strategy": "A",
+      "question_id": "q18",
+      "rank": 1,
+      "chunk_id": "d2cf0adbfacb092e03147704f2f49b2f716bd56961ce7bd142e1a4f153d6c2e9",
+      "metadata": {
+        "page": 56,
+        "source": "https://openstax.org/details/books/introduction-python-programming",
+        "chapter": "Expressions",
+        "end_char": 950,
+        "start_char": 450,
+        "document_id": "python_book"
+      },
+      "complete_and_correct": null,
+      "reason": ""
+    },
+    {
+      "strategy": "A",
+      "question_id": "q18",
+      "rank": 2,
+      "chunk_id": "a7c38f46d1171b772b1ae135b249ca1af5bc11063e1af595e1ccfe5514d13375",
+      "metadata": {
+        "page": 56,
+        "source": "https://openstax.org/details/books/introduction-python-programming",
+        "chapter": "Expressions",
+        "end_char": 1400,
+        "start_char": 900,
+        "document_id": "python_book"
+      },
+      "complete_and_correct": null,
+      "reason": ""
+    },
+    {
+      "strategy": "A",
+      "question_id": "q18",
+      "rank": 3,
+      "chunk_id": "9bf201c61082512d73ecdc9e1be31c6f97a9647773b7ad23676c87f0c1248752",
+      "metadata": {
+        "page": 57,
+        "source": "https://openstax.org/details/books/introduction-python-programming",
+        "chapter": "Expressions",
+        "end_char": 1400,
+        "start_char": 900,
+        "document_id": "python_book"
+      },
+      "complete_and_correct": null,
+      "reason": ""
+    },
+    {
+      "strategy": "A",
+      "question_id": "q19",
+      "rank": 1,
+      "chunk_id": "c552c63312c6692a4e71b7dca2bec6396298659d8f5e5114ac232db3b16d24dd",
+      "metadata": {
+        "page": 38,
+        "source": "https://openstax.org/details/books/introduction-python-programming",
+        "chapter": "Statements",
+        "end_char": 950,
+        "start_char": 450,
+        "document_id": "python_book"
+      },
+      "complete_and_correct": null,
+      "reason": ""
+    },
+    {
+      "strategy": "A",
+      "question_id": "q19",
+      "rank": 2,
+      "chunk_id": "7f37c3071b2a43d2da4dbff42fc2e4bdb0321e6d235c8c4516680612f4132ab2",
+      "metadata": {
+        "page": 37,
+        "source": "https://openstax.org/details/books/introduction-python-programming",
+        "chapter": "Statements",
+        "end_char": 1400,
+        "start_char": 900,
+        "document_id": "python_book"
+      },
+      "complete_and_correct": null,
+      "reason": ""
+    },
+    {
+      "strategy": "A",
+      "question_id": "q19",
+      "rank": 3,
+      "chunk_id": "94e817f3eb40d7cfe94d8a4b29ebcbe032a9c92c3afb7ec4638b2afefc278252",
+      "metadata": {
+        "page": 37,
+        "source": "https://openstax.org/details/books/introduction-python-programming",
+        "chapter": "Statements",
+        "end_char": 950,
+        "start_char": 450,
+        "document_id": "python_book"
+      },
+      "complete_and_correct": null,
+      "reason": ""
+    },
+    {
+      "strategy": "A",
+      "question_id": "q20",
+      "rank": 1,
+      "chunk_id": "7931677d44219cae3e795b8237fb2713eb47c25c1f40db610b355cda912bc1fe",
+      "metadata": {
+        "page": 69,
+        "source": "https://openstax.org/details/books/introduction-python-programming",
+        "chapter": "Expressions",
+        "end_char": 1850,
+        "start_char": 1350,
+        "document_id": "python_book"
+      },
+      "complete_and_correct": null,
+      "reason": ""
+    },
+    {
+      "strategy": "A",
+      "question_id": "q20",
+      "rank": 2,
+      "chunk_id": "e9bfd70fa3c6a661b537dc9fff43fbeffa6286d47ba09924e99f49dcee3f0df7",
+      "metadata": {
+        "page": 69,
+        "source": "https://openstax.org/details/books/introduction-python-programming",
+        "chapter": "Expressions",
+        "end_char": 2256,
+        "start_char": 1800,
+        "document_id": "python_book"
+      },
+      "complete_and_correct": null,
+      "reason": ""
+    },
+    {
+      "strategy": "A",
+      "question_id": "q20",
+      "rank": 3,
+      "chunk_id": "6fc05b3031bd404a85b359e765e786dc48e5179c1c417c62bb12b23717611ce9",
+      "metadata": {
+        "page": 26,
+        "source": "https://openstax.org/details/books/introduction-python-programming",
+        "chapter": "Statements",
+        "end_char": 1400,
+        "start_char": 900,
+        "document_id": "python_book"
+      },
+      "complete_and_correct": null,
+      "reason": ""
+    },
+    {
+      "strategy": "B",
+      "question_id": "q16",
+      "rank": 1,
+      "chunk_id": "77234a9107415ea499ed1dfaa009c55ea30716e325dac81b248d94079ae8ac55",
+      "metadata": {
+        "page": 59,
+        "source": "https://openstax.org/details/books/introduction-python-programming",
+        "chapter": "Expressions",
+        "end_char": 915,
+        "start_char": 426,
+        "document_id": "python_book"
+      },
+      "complete_and_correct": null,
+      "reason": ""
+    },
+    {
+      "strategy": "B",
+      "question_id": "q16",
+      "rank": 2,
+      "chunk_id": "3b79704978d574350abdd62b7f99b874e56303dd69cfa06e4675915bd2ba5946",
+      "metadata": {
+        "page": 74,
+        "source": "https://openstax.org/details/books/introduction-python-programming",
+        "chapter": "Expressions",
+        "end_char": 1215,
+        "start_char": 937,
+        "document_id": "python_book"
+      },
+      "complete_and_correct": null,
+      "reason": ""
+    },
+    {
+      "strategy": "B",
+      "question_id": "q16",
+      "rank": 3,
+      "chunk_id": "91c40271de2e5d2e639dedaf970d3fe9a2c70bd2927b127ad4ec951f9d8e653b",
+      "metadata": {
+        "page": 59,
+        "source": "https://openstax.org/details/books/introduction-python-programming",
+        "chapter": "Expressions",
+        "end_char": 423,
+        "start_char": 108,
+        "document_id": "python_book"
+      },
+      "complete_and_correct": null,
+      "reason": ""
+    },
+    {
+      "strategy": "B",
+      "question_id": "q17",
+      "rank": 1,
+      "chunk_id": "77234a9107415ea499ed1dfaa009c55ea30716e325dac81b248d94079ae8ac55",
+      "metadata": {
+        "page": 59,
+        "source": "https://openstax.org/details/books/introduction-python-programming",
+        "chapter": "Expressions",
+        "end_char": 915,
+        "start_char": 426,
+        "document_id": "python_book"
+      },
+      "complete_and_correct": null,
+      "reason": ""
+    },
+    {
+      "strategy": "B",
+      "question_id": "q17",
+      "rank": 2,
+      "chunk_id": "ffa6915264d692596305e678c401606c6bc077fcd43c5c1542e5703ec6a058da",
+      "metadata": {
+        "page": 60,
+        "source": "https://openstax.org/details/books/introduction-python-programming",
+        "chapter": "Expressions",
+        "end_char": 918,
+        "start_char": 428,
+        "document_id": "python_book"
+      },
+      "complete_and_correct": null,
+      "reason": ""
+    },
+    {
+      "strategy": "B",
+      "question_id": "q17",
+      "rank": 3,
+      "chunk_id": "68e9bf4c4fe6d3479e6d208194c12172b745ca712d678271a89167b7b21117c6",
+      "metadata": {
+        "page": 60,
+        "source": "https://openstax.org/details/books/introduction-python-programming",
+        "chapter": "Expressions",
+        "end_char": 1343,
+        "start_char": 927,
+        "document_id": "python_book"
+      },
+      "complete_and_correct": null,
+      "reason": ""
+    },
+    {
+      "strategy": "B",
+      "question_id": "q18",
+      "rank": 1,
+      "chunk_id": "5ae804559897d1c1cd290e54471e5ba113f52bf6051ec33494c6e18de15828da",
+      "metadata": {
+        "page": 56,
+        "source": "https://openstax.org/details/books/introduction-python-programming",
+        "chapter": "Expressions",
+        "end_char": 1353,
+        "start_char": 935,
+        "document_id": "python_book"
+      },
+      "complete_and_correct": null,
+      "reason": ""
+    },
+    {
+      "strategy": "B",
+      "question_id": "q18",
+      "rank": 2,
+      "chunk_id": "a6460ffbe91427020519546cd6704ba2f451f9bd51ec687dff623ee98e5f56bd",
+      "metadata": {
+        "page": 57,
+        "source": "https://openstax.org/details/books/introduction-python-programming",
+        "chapter": "Expressions",
+        "end_char": 1375,
+        "start_char": 1220,
+        "document_id": "python_book"
+      },
+      "complete_and_correct": null,
+      "reason": ""
+    },
+    {
+      "strategy": "B",
+      "question_id": "q18",
+      "rank": 3,
+      "chunk_id": "930e11181a8ac6f672d4b321f86e9261b405cda33827636f82c4e3382bda57ab",
+      "metadata": {
+        "page": 56,
+        "source": "https://openstax.org/details/books/introduction-python-programming",
+        "chapter": "Expressions",
+        "end_char": 928,
+        "start_char": 472,
+        "document_id": "python_book"
+      },
+      "complete_and_correct": null,
+      "reason": ""
+    },
+    {
+      "strategy": "B",
+      "question_id": "q19",
+      "rank": 1,
+      "chunk_id": "83bc1ff289b94d172b31f3acf11fe4f98e9b246ae6528ac492664cc84557b20c",
+      "metadata": {
+        "page": 37,
+        "source": "https://openstax.org/details/books/introduction-python-programming",
+        "chapter": "Statements",
+        "end_char": 1736,
+        "start_char": 1501,
+        "document_id": "python_book"
+      },
+      "complete_and_correct": null,
+      "reason": ""
+    },
+    {
+      "strategy": "B",
+      "question_id": "q19",
+      "rank": 2,
+      "chunk_id": "9e63461659a1d1cd19d7eebaae2ed74443008d7c1b11b8a3225095701f73c163",
+      "metadata": {
+        "page": 38,
+        "source": "https://openstax.org/details/books/introduction-python-programming",
+        "chapter": "Statements",
+        "end_char": 988,
+        "start_char": 489,
+        "document_id": "python_book"
+      },
+      "complete_and_correct": null,
+      "reason": ""
+    },
+    {
+      "strategy": "B",
+      "question_id": "q19",
+      "rank": 3,
+      "chunk_id": "0bd7b0507892ee0ebe3e96b63ce900e76b93a22920978c3fdf042f2047fedb56",
+      "metadata": {
+        "page": 37,
+        "source": "https://openstax.org/details/books/introduction-python-programming",
+        "chapter": "Statements",
+        "end_char": 829,
+        "start_char": 405,
+        "document_id": "python_book"
+      },
+      "complete_and_correct": null,
+      "reason": ""
+    },
+    {
+      "strategy": "B",
+      "question_id": "q20",
+      "rank": 1,
+      "chunk_id": "511d5966cec103f4a8ed3ebec0d0be8d7f42d51c7b2e131e8552d27def6e0653",
+      "metadata": {
+        "page": 69,
+        "source": "https://openstax.org/details/books/introduction-python-programming",
+        "chapter": "Expressions",
+        "end_char": 2041,
+        "start_char": 1557,
+        "document_id": "python_book"
+      },
+      "complete_and_correct": null,
+      "reason": ""
+    },
+    {
+      "strategy": "B",
+      "question_id": "q20",
+      "rank": 2,
+      "chunk_id": "88cd55e3314e0f4b02bd19f0fc382851cc33767eda325f9427d804695e5e5947",
+      "metadata": {
+        "page": 69,
+        "source": "https://openstax.org/details/books/introduction-python-programming",
+        "chapter": "Expressions",
+        "end_char": 2256,
+        "start_char": 2045,
+        "document_id": "python_book"
+      },
+      "complete_and_correct": null,
+      "reason": ""
+    },
+    {
+      "strategy": "B",
+      "question_id": "q20",
+      "rank": 3,
+      "chunk_id": "3d7a3cc772699e72d5e4e7d6ab99ba018697587c96b0602b0bdeae187bbb83fb",
+      "metadata": {
+        "page": 28,
+        "source": "https://openstax.org/details/books/introduction-python-programming",
+        "chapter": "Statements",
+        "end_char": 899,
+        "start_char": 501,
+        "document_id": "python_book"
+      },
+      "complete_and_correct": null,
+      "reason": ""
+    },
+    {
+      "strategy": "C",
+      "question_id": "q16",
+      "rank": 1,
+      "chunk_id": "77234a9107415ea499ed1dfaa009c55ea30716e325dac81b248d94079ae8ac55",
+      "metadata": {
+        "page": 59,
+        "source": "https://openstax.org/details/books/introduction-python-programming",
+        "chapter": "Expressions",
+        "end_char": 915,
+        "start_char": 426,
+        "document_id": "python_book"
+      },
+      "complete_and_correct": null,
+      "reason": ""
+    },
+    {
+      "strategy": "C",
+      "question_id": "q16",
+      "rank": 2,
+      "chunk_id": "3b79704978d574350abdd62b7f99b874e56303dd69cfa06e4675915bd2ba5946",
+      "metadata": {
+        "page": 74,
+        "source": "https://openstax.org/details/books/introduction-python-programming",
+        "chapter": "Expressions",
+        "end_char": 1215,
+        "start_char": 937,
+        "document_id": "python_book"
+      },
+      "complete_and_correct": null,
+      "reason": ""
+    },
+    {
+      "strategy": "C",
+      "question_id": "q16",
+      "rank": 3,
+      "chunk_id": "91c40271de2e5d2e639dedaf970d3fe9a2c70bd2927b127ad4ec951f9d8e653b",
+      "metadata": {
+        "page": 59,
+        "source": "https://openstax.org/details/books/introduction-python-programming",
+        "chapter": "Expressions",
+        "end_char": 423,
+        "start_char": 108,
+        "document_id": "python_book"
+      },
+      "complete_and_correct": null,
+      "reason": ""
+    },
+    {
+      "strategy": "C",
+      "question_id": "q17",
+      "rank": 1,
+      "chunk_id": "77234a9107415ea499ed1dfaa009c55ea30716e325dac81b248d94079ae8ac55",
+      "metadata": {
+        "page": 59,
+        "source": "https://openstax.org/details/books/introduction-python-programming",
+        "chapter": "Expressions",
+        "end_char": 915,
+        "start_char": 426,
+        "document_id": "python_book"
+      },
+      "complete_and_correct": null,
+      "reason": ""
+    },
+    {
+      "strategy": "C",
+      "question_id": "q17",
+      "rank": 2,
+      "chunk_id": "ffa6915264d692596305e678c401606c6bc077fcd43c5c1542e5703ec6a058da",
+      "metadata": {
+        "page": 60,
+        "source": "https://openstax.org/details/books/introduction-python-programming",
+        "chapter": "Expressions",
+        "end_char": 918,
+        "start_char": 428,
+        "document_id": "python_book"
+      },
+      "complete_and_correct": null,
+      "reason": ""
+    },
+    {
+      "strategy": "C",
+      "question_id": "q17",
+      "rank": 3,
+      "chunk_id": "68e9bf4c4fe6d3479e6d208194c12172b745ca712d678271a89167b7b21117c6",
+      "metadata": {
+        "page": 60,
+        "source": "https://openstax.org/details/books/introduction-python-programming",
+        "chapter": "Expressions",
+        "end_char": 1343,
+        "start_char": 927,
+        "document_id": "python_book"
+      },
+      "complete_and_correct": null,
+      "reason": ""
+    },
+    {
+      "strategy": "C",
+      "question_id": "q18",
+      "rank": 1,
+      "chunk_id": "5ae804559897d1c1cd290e54471e5ba113f52bf6051ec33494c6e18de15828da",
+      "metadata": {
+        "page": 56,
+        "source": "https://openstax.org/details/books/introduction-python-programming",
+        "chapter": "Expressions",
+        "end_char": 1353,
+        "start_char": 935,
+        "document_id": "python_book"
+      },
+      "complete_and_correct": null,
+      "reason": ""
+    },
+    {
+      "strategy": "C",
+      "question_id": "q18",
+      "rank": 2,
+      "chunk_id": "a6460ffbe91427020519546cd6704ba2f451f9bd51ec687dff623ee98e5f56bd",
+      "metadata": {
+        "page": 57,
+        "source": "https://openstax.org/details/books/introduction-python-programming",
+        "chapter": "Expressions",
+        "end_char": 1375,
+        "start_char": 1220,
+        "document_id": "python_book"
+      },
+      "complete_and_correct": null,
+      "reason": ""
+    },
+    {
+      "strategy": "C",
+      "question_id": "q18",
+      "rank": 3,
+      "chunk_id": "930e11181a8ac6f672d4b321f86e9261b405cda33827636f82c4e3382bda57ab",
+      "metadata": {
+        "page": 56,
+        "source": "https://openstax.org/details/books/introduction-python-programming",
+        "chapter": "Expressions",
+        "end_char": 928,
+        "start_char": 472,
+        "document_id": "python_book"
+      },
+      "complete_and_correct": null,
+      "reason": ""
+    },
+    {
+      "strategy": "C",
+      "question_id": "q19",
+      "rank": 1,
+      "chunk_id": "83bc1ff289b94d172b31f3acf11fe4f98e9b246ae6528ac492664cc84557b20c",
+      "metadata": {
+        "page": 37,
+        "source": "https://openstax.org/details/books/introduction-python-programming",
+        "chapter": "Statements",
+        "end_char": 1736,
+        "start_char": 1501,
+        "document_id": "python_book"
+      },
+      "complete_and_correct": null,
+      "reason": ""
+    },
+    {
+      "strategy": "C",
+      "question_id": "q19",
+      "rank": 2,
+      "chunk_id": "9e63461659a1d1cd19d7eebaae2ed74443008d7c1b11b8a3225095701f73c163",
+      "metadata": {
+        "page": 38,
+        "source": "https://openstax.org/details/books/introduction-python-programming",
+        "chapter": "Statements",
+        "end_char": 988,
+        "start_char": 489,
+        "document_id": "python_book"
+      },
+      "complete_and_correct": null,
+      "reason": ""
+    },
+    {
+      "strategy": "C",
+      "question_id": "q19",
+      "rank": 3,
+      "chunk_id": "0bd7b0507892ee0ebe3e96b63ce900e76b93a22920978c3fdf042f2047fedb56",
+      "metadata": {
+        "page": 37,
+        "source": "https://openstax.org/details/books/introduction-python-programming",
+        "chapter": "Statements",
+        "end_char": 829,
+        "start_char": 405,
+        "document_id": "python_book"
+      },
+      "complete_and_correct": null,
+      "reason": ""
+    },
+    {
+      "strategy": "C",
+      "question_id": "q20",
+      "rank": 1,
+      "chunk_id": "511d5966cec103f4a8ed3ebec0d0be8d7f42d51c7b2e131e8552d27def6e0653",
+      "metadata": {
+        "page": 69,
+        "source": "https://openstax.org/details/books/introduction-python-programming",
+        "chapter": "Expressions",
+        "end_char": 2041,
+        "start_char": 1557,
+        "document_id": "python_book"
+      },
+      "complete_and_correct": null,
+      "reason": ""
+    },
+    {
+      "strategy": "C",
+      "question_id": "q20",
+      "rank": 2,
+      "chunk_id": "88cd55e3314e0f4b02bd19f0fc382851cc33767eda325f9427d804695e5e5947",
+      "metadata": {
+        "page": 69,
+        "source": "https://openstax.org/details/books/introduction-python-programming",
+        "chapter": "Expressions",
+        "end_char": 2256,
+        "start_char": 2045,
+        "document_id": "python_book"
+      },
+      "complete_and_correct": null,
+      "reason": ""
+    },
+    {
+      "strategy": "C",
+      "question_id": "q20",
+      "rank": 3,
+      "chunk_id": "3d7a3cc772699e72d5e4e7d6ab99ba018697587c96b0602b0bdeae187bbb83fb",
+      "metadata": {
+        "page": 28,
+        "source": "https://openstax.org/details/books/introduction-python-programming",
+        "chapter": "Statements",
+        "end_char": 899,
+        "start_char": 501,
+        "document_id": "python_book"
+      },
+      "complete_and_correct": null,
+      "reason": ""
+    }
+  ],
+  "instructions": "Đối chiếu với tài liệu PDF không. Tự tay điền điểm và lí do, không nhờ LLM trả lời hộ."
+}

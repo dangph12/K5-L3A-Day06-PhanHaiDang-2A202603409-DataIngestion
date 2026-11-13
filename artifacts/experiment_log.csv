@@ -1,4 +1,4 @@
 strategy,chunking,chunk_size,overlap,metadata,filter,vectorizer,hypothesis,dev_hit1,dev_hit3,test_hit1,test_hit3,notes
-A,,,,,,,,,,,,
-B,,,,,,,,,,,,
-C,,,,,,,,,,,,
+A,fixed characters,500,50,document_id|source|page|chapter|offsets,none,gemini-embedding-001 (768),Fixed windows may split related ideas compared with paragraphs,,,,,Same corpus and benchmark as B and C
+B,paragraph grouping,500,0,document_id|source|page|chapter|offsets,none,gemini-embedding-001 (768),Grouping paragraphs may preserve context compared with A,,,,,Same corpus and benchmark as A and C
+C,paragraph grouping,500,0,document_id|source|page|chapter|offsets,chapter equality when supplied,gemini-embedding-001 (768),Metadata filtering may improve filtered-question compliance compared with B,,,,,Reuses B chunks and vectors

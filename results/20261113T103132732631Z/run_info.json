@@ -1,0 +1,633 @@
+{
+  "model": "gemini-embedding-001",
+  "dimensions": 768,
+  "provider": "Gemini API",
+  "metric": "exact cosine",
+  "backend_versions": {
+    "postgresql": "16.16 (Debian 16.16-1.pgdg12+1)",
+    "pgvector": "0.8.7"
+  },
+  "query_document_processing": "RETRIEVAL_QUERY / RETRIEVAL_DOCUMENT; 768 dimensions",
+  "versions": {
+    "google-genai": "1.75.0",
+    "psycopg": "3.3.8",
+    "pypdf": "6.21.4",
+    "python-dotenv": "1.2.4"
+  },
+  "benchmark_sha256": "aa4b9abc6030b7bfd765f537a8df7b1890865f0e278fe8686fbd680062ee134a",
+  "corpus_sha256": "c90341914036c9e9d86b58fe8a7f6ffa3a777abbe7c0a92712347943e4760060",
+  "statistics": {
+    "A": {
+      "chunks": 258,
+      "characters": 114467,
+      "reload_count": 258,
+      "reload_seconds": 0.6614480999996886,
+      "length_min": 56,
+      "length_max": 500,
+      "length_mean": 443.67054263565893,
+      "length_median": 500.0,
+      "ingest_seconds": 7.602368100000604,
+      "embeddings_reused_from_B": false,
+      "embedding_api_cost": null
+    },
+    "B": {
+      "chunks": 265,
+      "characters": 99758,
+      "reload_count": 265,
+      "reload_seconds": 0.5758296999993036,
+      "length_min": 31,
+      "length_max": 500,
+      "length_mean": 376.44528301886794,
+      "length_median": 416,
+      "ingest_seconds": 9.212508600001456,
+      "embeddings_reused_from_B": false,
+      "embedding_api_cost": null
+    },
+    "C": {
+      "chunks": 265,
+      "characters": 99758,
+      "reload_count": 265,
+      "reload_seconds": 0.523106499998903,
+      "length_min": 31,
+      "length_max": 500,
+      "length_mean": 376.44528301886794,
+      "length_median": 416,
+      "ingest_seconds": 0.9989083000000392,
+      "embeddings_reused_from_B": true,
+      "embedding_api_cost": null
+    }
+  },
+  "dev_selected_strategy": "A",
+  "total_seconds": 35.79484919999959,
+  "cost_note": "Gemini API usage is unpriced here; verify billed cost separately.",
+  "timing_note": "C reuses B embeddings; ingestion timings exclude PDF parsing and shared model/query preparation.",
+  "manual_assessments_pending": true,
+  "inputs": {
+    "corpus": {
+      "source_id": "python_book",
+      "title": "Introduction to Python Programming",
+      "path": "starter/data/Introduction_to_Python_Programming.pdf",
+      "source_path_or_url": "https://openstax.org/details/books/introduction-python-programming",
+      "license_or_permission": "CC BY-NC-SA 4.0, OpenStax / Rice University; retain attribution",
+      "accessed_at": "2026-11-13",
+      "acquisition": "Obtain the PDF from source_path_or_url and save it at path; verify the license and attribution on physical PDF page 4.",
+      "page_selection_rule": "Count 1-based physical PDF pages, not printed page numbers. Select content pages 17–76 (chapters Statements and Expressions); exclude front matter pages 1–16.",
+      "pages": {
+        "17": {
+          "chapter": "Statements"
+        },
+        "18": {
+          "chapter": "Statements"
+        },
+        "19": {
+          "chapter": "Statements"
+        },
+        "20": {
+          "chapter": "Statements"
+        },
+        "21": {
+          "chapter": "Statements"
+        },
+        "22": {
+          "chapter": "Statements"
+        },
+        "23": {
+          "chapter": "Statements"
+        },
+        "24": {
+          "chapter": "Statements"
+        },
+        "25": {
+          "chapter": "Statements"
+        },
+        "26": {
+          "chapter": "Statements"
+        },
+        "27": {
+          "chapter": "Statements"
+        },
+        "28": {
+          "chapter": "Statements"
+        },
+        "29": {
+          "chapter": "Statements"
+        },
+        "30": {
+          "chapter": "Statements"
+        },
+        "31": {
+          "chapter": "Statements"
+        },
+        "32": {
+          "chapter": "Statements"
+        },
+        "33": {
+          "chapter": "Statements"
+        },
+        "34": {
+          "chapter": "Statements"
+        },
+        "35": {
+          "chapter": "Statements"
+        },
+        "36": {
+          "chapter": "Statements"
+        },
+        "37": {
+          "chapter": "Statements"
+        },
+        "38": {
+          "chapter": "Statements"
+        },
+        "39": {
+          "chapter": "Statements"
+        },
+        "40": {
+          "chapter": "Statements"
+        },
+        "41": {
+          "chapter": "Statements"
+        },
+        "42": {
+          "chapter": "Statements"
+        },
+        "43": {
+          "chapter": "Statements"
+        },
+        "44": {
+          "chapter": "Statements"
+        },
+        "45": {
+          "chapter": "Statements"
+        },
+        "46": {
+          "chapter": "Statements"
+        },
+        "47": {
+          "chapter": "Expressions"
+        },
+        "48": {
+          "chapter": "Expressions"
+        },
+        "49": {
+          "chapter": "Expressions"
+        },
+        "50": {
+          "chapter": "Expressions"
+        },
+        "51": {
+          "chapter": "Expressions"
+        },
+        "52": {
+          "chapter": "Expressions"
+        },
+        "53": {
+          "chapter": "Expressions"
+        },
+        "54": {
+          "chapter": "Expressions"
+        },
+        "55": {
+          "chapter": "Expressions"
+        },
+        "56": {
+          "chapter": "Expressions"
+        },
+        "57": {
+          "chapter": "Expressions"
+        },
+        "58": {
+          "chapter": "Expressions"
+        },
+        "59": {
+          "chapter": "Expressions"
+        },
+        "60": {
+          "chapter": "Expressions"
+        },
+        "61": {
+          "chapter": "Expressions"
+        },
+        "62": {
+          "chapter": "Expressions"
+        },
+        "63": {
+          "chapter": "Expressions"
+        },
+        "64": {
+          "chapter": "Expressions"
+        },
+        "65": {
+          "chapter": "Expressions"
+        },
+        "66": {
+          "chapter": "Expressions"
+        },
+        "67": {
+          "chapter": "Expressions"
+        },
+        "68": {
+          "chapter": "Expressions"
+        },
+        "69": {
+          "chapter": "Expressions"
+        },
+        "70": {
+          "chapter": "Expressions"
+        },
+        "71": {
+          "chapter": "Expressions"
+        },
+        "72": {
+          "chapter": "Expressions"
+        },
+        "73": {
+          "chapter": "Expressions"
+        },
+        "74": {
+          "chapter": "Expressions"
+        },
+        "75": {
+          "chapter": "Expressions"
+        },
+        "76": {
+          "chapter": "Expressions"
+        }
+      }
+    },
+    "benchmark": [
+      {
+        "page": {
+          "document_id": "python_book",
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "page": 17,
+          "chapter": "Statements",
+          "text": "Programs consist of statements to be run one after the other."
+        },
+        "question": {
+          "id": "q01",
+          "split": "dev",
+          "question": "How does a Python program run its statements?",
+          "expected_answer": "It runs statements one after another.",
+          "gold_source_id": "python_book",
+          "gold_page": 17,
+          "evidence_quote": "Programs consist of statements to be run one after the other."
+        }
+      },
+      {
+        "page": {
+          "document_id": "python_book",
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "page": 17,
+          "chapter": "Statements",
+          "text": "The statement count = 0 instructs Python to assign the integer 0 to the variable count."
+        },
+        "question": {
+          "id": "q02",
+          "split": "dev",
+          "question": "What does the statement count = 0 do?",
+          "expected_answer": "It assigns the integer 0 to the variable count.",
+          "gold_source_id": "python_book",
+          "gold_page": 17,
+          "evidence_quote": "The statement count = 0 instructs Python to assign the integer 0 to the variable count."
+        }
+      },
+      {
+        "page": {
+          "document_id": "python_book",
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "page": 20,
+          "chapter": "Statements",
+          "text": "The print() function displays output to the user."
+        },
+        "question": {
+          "id": "q03",
+          "split": "dev",
+          "question": "Which built-in function displays output to the user?",
+          "expected_answer": "The print() function displays output to the user.",
+          "gold_source_id": "python_book",
+          "gold_page": 20,
+          "evidence_quote": "The print() function displays output to the user."
+        }
+      },
+      {
+        "page": {
+          "document_id": "python_book",
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "page": 21,
+          "chapter": "Statements",
+          "text": "By default, the print() function adds a newline character at the end of the output."
+        },
+        "question": {
+          "id": "q04",
+          "split": "dev",
+          "question": "What does print() add at the end of its output by default?",
+          "expected_answer": "It adds a newline character at the end of the output.",
+          "gold_source_id": "python_book",
+          "gold_page": 21,
+          "evidence_quote": "By default, the print() function adds a newline character at the end of the output."
+        }
+      },
+      {
+        "page": {
+          "document_id": "python_book",
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "page": 22,
+          "chapter": "Statements",
+          "text": "The input() function reads one line of input from the user."
+        },
+        "question": {
+          "id": "q05",
+          "split": "dev",
+          "question": "What does the input() function read from the user?",
+          "expected_answer": "It reads one line of input from the user.",
+          "gold_source_id": "python_book",
+          "gold_page": 22,
+          "evidence_quote": "The input() function reads one line of input from the user."
+        }
+      },
+      {
+        "page": {
+          "document_id": "python_book",
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "page": 24,
+          "chapter": "Statements",
+          "text": "A statement can set a variable to a value using the assignment operator (=)."
+        },
+        "question": {
+          "id": "q06",
+          "split": "dev",
+          "question": "Which operator assigns a value to a variable in a statement?",
+          "expected_answer": "The assignment operator (=).",
+          "gold_source_id": "python_book",
+          "gold_page": 24,
+          "evidence_quote": "A statement can set a variable to a value using the assignment operator (=)."
+        }
+      },
+      {
+        "page": {
+          "document_id": "python_book",
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "page": 25,
+          "chapter": "Statements",
+          "text": "Python has reserved words, known as keywords"
+        },
+        "question": {
+          "id": "q07",
+          "split": "dev",
+          "question": "What are Python's reserved words called?",
+          "expected_answer": "They are called keywords.",
+          "gold_source_id": "python_book",
+          "gold_page": 25,
+          "evidence_quote": "Python has reserved words, known as keywords"
+        }
+      },
+      {
+        "page": {
+          "document_id": "python_book",
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "page": 28,
+          "chapter": "Statements",
+          "text": "Concatenation is an operation that combines two or more strings sequentially with the concatenation operator"
+        },
+        "question": {
+          "id": "q08",
+          "split": "dev",
+          "question": "What does concatenation do to two or more strings?",
+          "expected_answer": "It combines them sequentially into one string.",
+          "gold_source_id": "python_book",
+          "gold_page": 28,
+          "evidence_quote": "Concatenation is an operation that combines two or more strings sequentially with the concatenation operator"
+        }
+      },
+      {
+        "page": {
+          "document_id": "python_book",
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "page": 30,
+          "chapter": "Statements",
+          "text": "Python supports two basic number formats, integer and floating-point."
+        },
+        "question": {
+          "id": "q09",
+          "split": "dev",
+          "question": "Which two basic number formats does Python support?",
+          "expected_answer": "Integer and floating-point.",
+          "gold_source_id": "python_book",
+          "gold_page": 30,
+          "evidence_quote": "Python supports two basic number formats, integer and floating-point."
+        }
+      },
+      {
+        "page": {
+          "document_id": "python_book",
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "page": 31,
+          "chapter": "Statements",
+          "text": "When a calculation has multiple operators, each operator is evaluated in order of precedence."
+        },
+        "question": {
+          "id": "q10",
+          "split": "dev",
+          "question": "When a calculation has multiple operators, how is evaluation ordered?",
+          "expected_answer": "Each operator is evaluated in order of precedence.",
+          "gold_source_id": "python_book",
+          "gold_page": 31,
+          "evidence_quote": "When a calculation has multiple operators, each operator is evaluated in order of precedence."
+        }
+      },
+      {
+        "page": {
+          "document_id": "python_book",
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "page": 37,
+          "chapter": "Statements",
+          "text": "Each comment begins with a hash character (#)."
+        },
+        "question": {
+          "id": "q11",
+          "split": "dev",
+          "question": "Which character begins a Python comment?",
+          "expected_answer": "A hash character (#).",
+          "gold_source_id": "python_book",
+          "gold_page": 37,
+          "evidence_quote": "Each comment begins with a hash character (#)."
+        }
+      },
+      {
+        "page": {
+          "document_id": "python_book",
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "page": 47,
+          "chapter": "Expressions",
+          "text": "An expression represents a single value to be computed."
+        },
+        "question": {
+          "id": "q12",
+          "split": "dev",
+          "question": "What does an expression represent?",
+          "expected_answer": "A single value to be computed.",
+          "gold_source_id": "python_book",
+          "gold_page": 47,
+          "evidence_quote": "An expression represents a single value to be computed."
+        }
+      },
+      {
+        "page": {
+          "document_id": "python_book",
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "page": 47,
+          "chapter": "Expressions",
+          "text": "Expressions are often a combination of literals, variables, and operators."
+        },
+        "question": {
+          "id": "q13",
+          "split": "dev",
+          "question": "What are expressions often combinations of?",
+          "expected_answer": "Literals, variables, and operators.",
+          "gold_source_id": "python_book",
+          "gold_page": 47,
+          "evidence_quote": "Expressions are often a combination of literals, variables, and operators."
+        }
+      },
+      {
+        "page": {
+          "document_id": "python_book",
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "page": 48,
+          "chapter": "Expressions",
+          "text": "Most development environments include a Python shell for experimenting with code interactively."
+        },
+        "question": {
+          "id": "q14",
+          "split": "dev",
+          "question": "Why is a Python shell useful?",
+          "expected_answer": "It lets a programmer experiment with code interactively.",
+          "gold_source_id": "python_book",
+          "gold_page": 48,
+          "evidence_quote": "Most development environments include a Python shell for experimenting with code interactively."
+        }
+      },
+      {
+        "page": {
+          "document_id": "python_book",
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "page": 50,
+          "chapter": "Expressions",
+          "text": "Python interpreter uses implicit type conversion to automatically convert one data type to another."
+        },
+        "question": {
+          "id": "q15",
+          "split": "dev",
+          "question": "What does implicit type conversion do?",
+          "expected_answer": "It automatically converts one data type to another.",
+          "gold_source_id": "python_book",
+          "gold_page": 50,
+          "evidence_quote": "Python interpreter uses implicit type conversion to automatically convert one data type to another."
+        }
+      },
+      {
+        "page": {
+          "document_id": "python_book",
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "page": 59,
+          "chapter": "Expressions",
+          "text": "Floor division (//) computes the quotient, or the number of times divided."
+        },
+        "question": {
+          "id": "q16",
+          "split": "test",
+          "question": "What does floor division (//) compute?",
+          "expected_answer": "It computes the quotient, or the number of times one number is divided by another.",
+          "gold_source_id": "python_book",
+          "gold_page": 59,
+          "evidence_quote": "Floor division (//) computes the quotient, or the number of times divided.",
+          "filter": {
+            "chapter": "Expressions"
+          }
+        }
+      },
+      {
+        "page": {
+          "document_id": "python_book",
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "page": 59,
+          "chapter": "Expressions",
+          "text": "The modulo operator (%) computes the remainder."
+        },
+        "question": {
+          "id": "q17",
+          "split": "test",
+          "question": "What does the modulo operator (%) compute?",
+          "expected_answer": "It computes the remainder.",
+          "gold_source_id": "python_book",
+          "gold_page": 59,
+          "evidence_quote": "The modulo operator (%) computes the remainder.",
+          "filter": {
+            "chapter": "Expressions"
+          }
+        }
+      },
+      {
+        "page": {
+          "document_id": "python_book",
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "page": 56,
+          "chapter": "Expressions",
+          "text": "A round-off error occurs when floating-point values are stored erroneously as an approximation."
+        },
+        "question": {
+          "id": "q18",
+          "split": "test",
+          "question": "What causes a round-off error?",
+          "expected_answer": "It occurs when floating-point values are stored erroneously as an approximation.",
+          "gold_source_id": "python_book",
+          "gold_page": 56,
+          "evidence_quote": "A round-off error occurs when floating-point values are stored erroneously as an approximation."
+        }
+      },
+      {
+        "page": {
+          "document_id": "python_book",
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "page": 37,
+          "chapter": "Statements",
+          "text": "Comments are short phrases that explain what the code is doing."
+        },
+        "question": {
+          "id": "q19",
+          "split": "test",
+          "question": "What is the purpose of comments in a program?",
+          "expected_answer": "They explain what the code is doing.",
+          "gold_source_id": "python_book",
+          "gold_page": 37,
+          "evidence_quote": "Comments are short phrases that explain what the code is doing.",
+          "filter": {
+            "chapter": "Statements"
+          }
+        }
+      },
+      {
+        "page": {
+          "document_id": "python_book",
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "page": 69,
+          "chapter": "Expressions",
+          "text": "For convenience, Python automatically concatenates multiple strings."
+        },
+        "question": {
+          "id": "q20",
+          "split": "test",
+          "question": "What does Python do with adjacent string literals?",
+          "expected_answer": "It automatically concatenates them.",
+          "gold_source_id": "python_book",
+          "gold_page": 69,
+          "evidence_quote": "For convenience, Python automatically concatenates multiple strings."
+        }
+      }
+    ],
+    "selection_rule": "Prefer dev Hit@3, then dev Hit@1, then fewer characters. Report human grounding/coherence tradeoffs separately.",
+    "size": 500,
+    "overlap": 50
+  }
+}

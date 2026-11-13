@@ -1,0 +1,116 @@
+{
+  "A": {
+    "dev": {
+      "questions": 15,
+      "hit_at_1": {
+        "hits": 9,
+        "total": 15,
+        "rate": 0.6
+      },
+      "hit_at_3": {
+        "hits": 14,
+        "total": 15,
+        "rate": 0.9333333333333333
+      },
+      "filter_compliance": {
+        "hits": 0,
+        "total": 0,
+        "rate": null
+      }
+    },
+    "test": {
+      "questions": 5,
+      "hit_at_1": {
+        "hits": 3,
+        "total": 5,
+        "rate": 0.6
+      },
+      "hit_at_3": {
+        "hits": 4,
+        "total": 5,
+        "rate": 0.8
+      },
+      "filter_compliance": {
+        "hits": 3,
+        "total": 3,
+        "rate": 1.0
+      }
+    }
+  },
+  "B": {
+    "dev": {
+      "questions": 15,
+      "hit_at_1": {
+        "hits": 10,
+        "total": 15,
+        "rate": 0.6666666666666666
+      },
+      "hit_at_3": {
+        "hits": 13,
+        "total": 15,
+        "rate": 0.8666666666666667
+      },
+      "filter_compliance": {
+        "hits": 0,
+        "total": 0,
+        "rate": null
+      }
+    },
+    "test": {
+      "questions": 5,
+      "hit_at_1": {
+        "hits": 4,
+        "total": 5,
+        "rate": 0.8
+      },
+      "hit_at_3": {
+        "hits": 5,
+        "total": 5,
+        "rate": 1.0
+      },
+      "filter_compliance": {
+        "hits": 3,
+        "total": 3,
+        "rate": 1.0
+      }
+    }
+  },
+  "C": {
+    "dev": {
+      "questions": 15,
+      "hit_at_1": {
+        "hits": 10,
+        "total": 15,
+        "rate": 0.6666666666666666
+      },
+      "hit_at_3": {
+        "hits": 13,
+        "total": 15,
+        "rate": 0.8666666666666667
+      },
+      "filter_compliance": {
+        "hits": 0,
+        "total": 0,
+        "rate": null
+      }
+    },
+    "test": {
+      "questions": 5,
+      "hit_at_1": {
+        "hits": 4,
+        "total": 5,
+        "rate": 0.8
+      },
+      "hit_at_3": {
+        "hits": 5,
+        "total": 5,
+        "rate": 1.0
+      },
+      "filter_compliance": {
+        "hits": 3,
+        "total": 3,
+        "rate": 1.0
+      }
+    }
+  }
+}
