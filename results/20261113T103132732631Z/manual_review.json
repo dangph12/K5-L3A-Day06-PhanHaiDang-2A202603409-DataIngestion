@@ -21,8 +21,8 @@
           }
         }
       ],
-      "score_0_to_2": null,
-      "reason": ""
+      "score_0_to_2": 0,
+      "reason": "Bị cắt chủ thể Python và lí do vì sao Python phổ biến"
     },
     {
       "strategy": "A",
@@ -43,8 +43,8 @@
           }
         }
       ],
-      "score_0_to_2": null,
-      "reason": ""
+      "score_0_to_2": 0,
+      "reason": "Bị cắt giữa chừng"
     },
     {
       "strategy": "A",
@@ -65,8 +65,8 @@
           }
         }
       ],
-      "score_0_to_2": null,
-      "reason": ""
+      "score_0_to_2": 0,
+      "reason": "Bị cắt giữa chừng"
     },
     {
       "strategy": "A",
@@ -87,8 +87,8 @@
           }
         }
       ],
-      "score_0_to_2": null,
-      "reason": ""
+      "score_0_to_2": 1,
+      "reason": "Có được một phần ngữ cảnh nhưng chưa đầy đủ"
     },
     {
       "strategy": "A",
@@ -109,8 +109,8 @@
           }
         }
       ],
-      "score_0_to_2": null,
-      "reason": ""
+      "score_0_to_2": 0,
+      "reason": "Bị cắt giữa chừng"
     },
     {
       "strategy": "A",
@@ -131,8 +131,8 @@
           }
         }
       ],
-      "score_0_to_2": null,
-      "reason": ""
+      "score_0_to_2": 0,
+      "reason": "Bị cắt giữa chừng"
     },
     {
       "strategy": "A",
@@ -153,8 +153,8 @@
           }
         }
       ],
-      "score_0_to_2": null,
-      "reason": ""
+      "score_0_to_2": 1,
+      "reason": "Có đủ dữ kiện cho một chủ đề"
     },
     {
       "strategy": "A",
@@ -175,8 +175,8 @@
           }
         }
       ],
-      "score_0_to_2": null,
-      "reason": ""
+      "score_0_to_2": 0,
+      "reason": "Bị cắt ngữ ảnh"
     },
     {
       "strategy": "A",
@@ -197,8 +197,8 @@
           }
         }
       ],
-      "score_0_to_2": null,
-      "reason": ""
+      "score_0_to_2": 2,
+      "reason": "Đủ ngữ cảnh"
     },
     {
       "strategy": "A",
@@ -219,8 +219,8 @@
           }
         }
       ],
-      "score_0_to_2": null,
-      "reason": ""
+      "score_0_to_2": 0,
+      "reason": "Bị cắt ngữ cảnh"
     },
     {
       "strategy": "B",
@@ -241,8 +241,8 @@
           }
         }
       ],
-      "score_0_to_2": null,
-      "reason": ""
+      "score_0_to_2": 2,
+      "reason": "Đủ ngữ cảnh"
     },
     {
       "strategy": "B",
@@ -263,8 +263,8 @@
           }
         }
       ],
-      "score_0_to_2": null,
-      "reason": ""
+      "score_0_to_2": 1,
+      "reason": "Chỉ đưa ra câu hỏi mồi"
     },
     {
       "strategy": "B",
@@ -285,8 +285,8 @@
           }
         }
       ],
-      "score_0_to_2": null,
-      "reason": ""
+      "score_0_to_2": 1,
+      "reason": "Python-tool examples remain partly understandable, but the passage starts mid-sentence."
     },
     {
       "strategy": "B",
@@ -307,8 +307,8 @@
           }
         }
       ],
-      "score_0_to_2": null,
-      "reason": ""
+      "score_0_to_2": 1,
+      "reason": "Bị cắt ngữ cảnh"
     },
     {
       "strategy": "B",
@@ -329,8 +329,8 @@
           }
         }
       ],
-      "score_0_to_2": null,
-      "reason": ""
+      "score_0_to_2": 2,
+      "reason": "Đủ ngữ cảnh"
     },
     {
       "strategy": "B",
@@ -351,8 +351,8 @@
           }
         }
       ],
-      "score_0_to_2": null,
-      "reason": ""
+      "score_0_to_2": 1,
+      "reason": "Bị cắt ngữ cảnh"
     },
     {
       "strategy": "B",
@@ -373,8 +373,8 @@
           }
         }
       ],
-      "score_0_to_2": null,
-      "reason": ""
+      "score_0_to_2": 1,
+      "reason": "Bị cắt ngữ cảnh"
     },
     {
       "strategy": "B",
@@ -395,8 +395,8 @@
           }
         }
       ],
-      "score_0_to_2": null,
-      "reason": ""
+      "score_0_to_2": 2,
+      "reason": "Đủ ngữ cảnh"
     },
     {
       "strategy": "B",
@@ -417,8 +417,8 @@
           }
         }
       ],
-      "score_0_to_2": null,
-      "reason": ""
+      "score_0_to_2": 1,
+      "reason": "The variable-naming prompt is readable, but the next section begins without its explanation."
     },
     {
       "strategy": "B",
@@ -439,8 +439,8 @@
           }
         }
       ],
-      "score_0_to_2": null,
-      "reason": ""
+      "score_0_to_2": 1,
+      "reason": "Bị thừa ngữ cảnh"
     },
     {
       "strategy": "C",
@@ -461,8 +461,8 @@
           }
         }
       ],
-      "score_0_to_2": null,
-      "reason": ""
+      "score_0_to_2": 2,
+      "reason": "Đủ ngữ cảnh"
     },
     {
       "strategy": "C",
@@ -483,8 +483,8 @@
           }
         }
       ],
-      "score_0_to_2": null,
-      "reason": ""
+      "score_0_to_2": 1,
+      "reason": "Bị cắt ngữ cảnh"
     },
     {
       "strategy": "C",
@@ -505,8 +505,8 @@
           }
         }
       ],
-      "score_0_to_2": null,
-      "reason": ""
+      "score_0_to_2": 1,
+      "reason": "Bị thừa ngữ cảnh"
     },
     {
       "strategy": "C",
@@ -527,8 +527,8 @@
           }
         }
       ],
-      "score_0_to_2": null,
-      "reason": ""
+      "score_0_to_2": 1,
+      "reason": "Bị cắt giữa chừng"
     },
     {
       "strategy": "C",
@@ -549,8 +549,8 @@
           }
         }
       ],
-      "score_0_to_2": null,
-      "reason": ""
+      "score_0_to_2": 2,
+      "reason": "Đủ ngữ cảnh"
     },
     {
       "strategy": "C",
@@ -571,8 +571,8 @@
           }
         }
       ],
-      "score_0_to_2": null,
-      "reason": ""
+      "score_0_to_2": 1,
+      "reason": "Bị thừa ngữ cảnh"
     },
     {
       "strategy": "C",
@@ -593,8 +593,8 @@
           }
         }
       ],
-      "score_0_to_2": null,
-      "reason": ""
+      "score_0_to_2": 1,
+      "reason": "Bị cắt giữa chừng"
     },
     {
       "strategy": "C",
@@ -615,8 +615,8 @@
           }
         }
       ],
-      "score_0_to_2": null,
-      "reason": ""
+      "score_0_to_2": 2,
+      "reason": "Đủ ngữ cảnh"
     },
     {
       "strategy": "C",
@@ -637,8 +637,8 @@
           }
         }
       ],
-      "score_0_to_2": null,
-      "reason": ""
+      "score_0_to_2": 1,
+      "reason": "Bị cắt giữa chừng"
     },
     {
       "strategy": "C",
@@ -659,100 +659,100 @@
           }
         }
       ],
-      "score_0_to_2": null,
-      "reason": ""
+      "score_0_to_2": 1,
+      "reason": "Bị cắt ngữ cảnh"
     }
   ],
   "grounding": [
     {
       "strategy": "A",
       "question_id": "q16",
-      "score_0_to_2": null,
-      "reason": ""
+      "score_0_to_2": 2,
+      "reason": "Đủ bằng chứng"
     },
     {
       "strategy": "A",
       "question_id": "q17",
-      "score_0_to_2": null,
-      "reason": ""
+      "score_0_to_2": 2,
+      "reason": "Đủ bằng chứng"
     },
     {
       "strategy": "A",
       "question_id": "q18",
-      "score_0_to_2": null,
-      "reason": ""
+      "score_0_to_2": 1,
+      "reason": "Chưa đủ bằng chứng"
     },
     {
       "strategy": "A",
       "question_id": "q19",
-      "score_0_to_2": null,
-      "reason": ""
+      "score_0_to_2": 0,
+      "reason": "Không có bằng chứng"
     },
     {
       "strategy": "A",
       "question_id": "q20",
-      "score_0_to_2": null,
-      "reason": ""
+      "score_0_to_2": 2,
+      "reason": "Đủ bằng chứng"
     },
     {
       "strategy": "B",
       "question_id": "q16",
-      "score_0_to_2": null,
-      "reason": ""
+      "score_0_to_2": 2,
+      "reason": "Đủ bằng chứng"
     },
     {
       "strategy": "B",
       "question_id": "q17",
-      "score_0_to_2": null,
-      "reason": ""
+      "score_0_to_2": 2,
+      "reason": "Đủ bằng chứng"
     },
     {
       "strategy": "B",
       "question_id": "q18",
-      "score_0_to_2": null,
-      "reason": ""
+      "score_0_to_2": 2,
+      "reason": "Đủ bằng chứng"
     },
     {
       "strategy": "B",
       "question_id": "q19",
-      "score_0_to_2": null,
-      "reason": ""
+      "score_0_to_2": 1,
+      "reason": "Chưa đủ bằng chứng"
     },
     {
       "strategy": "B",
       "question_id": "q20",
-      "score_0_to_2": null,
-      "reason": ""
+      "score_0_to_2": 2,
+      "reason": "Đủ bằng chứng"
     },
     {
       "strategy": "C",
       "question_id": "q16",
-      "score_0_to_2": null,
-      "reason": ""
+      "score_0_to_2": 2,
+      "reason": "Đủ bằng chứng"
     },
     {
       "strategy": "C",
       "question_id": "q17",
-      "score_0_to_2": null,
-      "reason": ""
+      "score_0_to_2": 2,
+      "reason": "Đủ bằng chứng"
     },
     {
       "strategy": "C",
       "question_id": "q18",
-      "score_0_to_2": null,
-      "reason": ""
+      "score_0_to_2": 2,
+      "reason": "Đủ bằng chứng"
     },
     {
       "strategy": "C",
       "question_id": "q19",
-      "score_0_to_2": null,
-      "reason": ""
+      "score_0_to_2": 1,
+      "reason": "Chưa đủ bằng chứng"
     },
     {
       "strategy": "C",
       "question_id": "q20",
-      "score_0_to_2": null,
-      "reason": ""
+      "score_0_to_2": 2,
+      "reason": "Đủ bằng chứng"
     }
   ],
   "metadata": [
@@ -769,8 +769,8 @@
         "start_char": 450,
         "document_id": "python_book"
       },
-      "complete_and_correct": null,
-      "reason": ""
+      "complete_and_correct": true,
+      "reason": "Nguồn dẫn chính xác với file PDF và trace"
     },
     {
       "strategy": "A",
@@ -785,8 +785,8 @@
         "start_char": 0,
         "document_id": "python_book"
       },
-      "complete_and_correct": null,
-      "reason": ""
+      "complete_and_correct": true,
+      "reason": "Nguồn dẫn chính xác với file PDF và trace"
     },
     {
       "strategy": "A",
@@ -801,8 +801,8 @@
         "start_char": 900,
         "document_id": "python_book"
       },
-      "complete_and_correct": null,
-      "reason": ""
+      "complete_and_correct": true,
+      "reason": "Nguồn dẫn chính xác với file PDF và trace"
     },
     {
       "strategy": "A",
@@ -817,8 +817,8 @@
         "start_char": 450,
         "document_id": "python_book"
       },
-      "complete_and_correct": null,
-      "reason": ""
+      "complete_and_correct": true,
+      "reason": "Nguồn dẫn chính xác với file PDF và trace"
     },
     {
       "strategy": "A",
@@ -833,8 +833,8 @@
         "start_char": 900,
         "document_id": "python_book"
       },
-      "complete_and_correct": null,
-      "reason": ""
+      "complete_and_correct": true,
+      "reason": "Nguồn dẫn chính xác với file PDF và trace"
     },
     {
       "strategy": "A",
@@ -849,8 +849,8 @@
         "start_char": 450,
         "document_id": "python_book"
       },
-      "complete_and_correct": null,
-      "reason": ""
+      "complete_and_correct": true,
+      "reason": "Nguồn dẫn chính xác với file PDF và trace"
     },
     {
       "strategy": "A",
@@ -865,8 +865,8 @@
         "start_char": 450,
         "document_id": "python_book"
       },
-      "complete_and_correct": null,
-      "reason": ""
+      "complete_and_correct": true,
+      "reason": "Nguồn dẫn chính xác với file PDF và trace"
     },
     {
       "strategy": "A",
@@ -881,8 +881,8 @@
         "start_char": 900,
         "document_id": "python_book"
       },
-      "complete_and_correct": null,
-      "reason": ""
+      "complete_and_correct": true,
+      "reason": "Nguồn dẫn chính xác với file PDF và trace"
     },
     {
       "strategy": "A",
@@ -897,8 +897,8 @@
         "start_char": 900,
         "document_id": "python_book"
       },
-      "complete_and_correct": null,
-      "reason": ""
+      "complete_and_correct": true,
+      "reason": "Nguồn dẫn chính xác với file PDF và trace"
     },
     {
       "strategy": "A",
@@ -913,8 +913,8 @@
         "start_char": 450,
         "document_id": "python_book"
       },
-      "complete_and_correct": null,
-      "reason": ""
+      "complete_and_correct": true,
+      "reason": "Nguồn dẫn chính xác với file PDF và trace"
     },
     {
       "strategy": "A",
@@ -929,8 +929,8 @@
         "start_char": 900,
         "document_id": "python_book"
       },
-      "complete_and_correct": null,
-      "reason": ""
+      "complete_and_correct": true,
+      "reason": "Nguồn dẫn chính xác với file PDF và trace"
     },
     {
       "strategy": "A",
@@ -945,8 +945,8 @@
         "start_char": 450,
         "document_id": "python_book"
       },
-      "complete_and_correct": null,
-      "reason": ""
+      "complete_and_correct": true,
+      "reason": "Nguồn dẫn chính xác với file PDF và trace"
     },
     {
       "strategy": "A",
@@ -961,8 +961,8 @@
         "start_char": 1350,
         "document_id": "python_book"
       },
-      "complete_and_correct": null,
-      "reason": ""
+      "complete_and_correct": true,
+      "reason": "Nguồn dẫn chính xác với file PDF và trace"
     },
     {
       "strategy": "A",
@@ -977,8 +977,8 @@
         "start_char": 1800,
         "document_id": "python_book"
       },
-      "complete_and_correct": null,
-      "reason": ""
+      "complete_and_correct": true,
+      "reason": "Nguồn dẫn chính xác với file PDF và trace"
     },
     {
       "strategy": "A",
@@ -993,8 +993,8 @@
         "start_char": 900,
         "document_id": "python_book"
       },
-      "complete_and_correct": null,
-      "reason": ""
+      "complete_and_correct": true,
+      "reason": "Nguồn dẫn chính xác với file PDF và trace"
     },
     {
       "strategy": "B",
@@ -1009,8 +1009,8 @@
         "start_char": 426,
         "document_id": "python_book"
       },
-      "complete_and_correct": null,
-      "reason": ""
+      "complete_and_correct": true,
+      "reason": "Nguồn dẫn chính xác với file PDF và trace"
     },
     {
       "strategy": "B",
@@ -1025,8 +1025,8 @@
         "start_char": 937,
         "document_id": "python_book"
       },
-      "complete_and_correct": null,
-      "reason": ""
+      "complete_and_correct": true,
+      "reason": "Nguồn dẫn chính xác với file PDF và trace"
     },
     {
       "strategy": "B",
@@ -1041,8 +1041,8 @@
         "start_char": 108,
         "document_id": "python_book"
       },
-      "complete_and_correct": null,
-      "reason": ""
+      "complete_and_correct": true,
+      "reason": "Nguồn dẫn chính xác với file PDF và trace"
     },
     {
       "strategy": "B",
@@ -1057,8 +1057,8 @@
         "start_char": 426,
         "document_id": "python_book"
       },
-      "complete_and_correct": null,
-      "reason": ""
+      "complete_and_correct": true,
+      "reason": "Nguồn dẫn chính xác với file PDF và trace"
     },
     {
       "strategy": "B",
@@ -1073,8 +1073,8 @@
         "start_char": 428,
         "document_id": "python_book"
       },
-      "complete_and_correct": null,
-      "reason": ""
+      "complete_and_correct": true,
+      "reason": "Nguồn dẫn chính xác với file PDF và trace"
     },
     {
       "strategy": "B",
@@ -1089,8 +1089,8 @@
         "start_char": 927,
         "document_id": "python_book"
       },
-      "complete_and_correct": null,
-      "reason": ""
+      "complete_and_correct": true,
+      "reason": "Nguồn dẫn chính xác với file PDF và trace"
     },
     {
       "strategy": "B",
@@ -1105,8 +1105,8 @@
         "start_char": 935,
         "document_id": "python_book"
       },
-      "complete_and_correct": null,
-      "reason": ""
+      "complete_and_correct": true,
+      "reason": "Nguồn dẫn chính xác với file PDF và trace"
     },
     {
       "strategy": "B",
@@ -1121,8 +1121,8 @@
         "start_char": 1220,
         "document_id": "python_book"
       },
-      "complete_and_correct": null,
-      "reason": ""
+      "complete_and_correct": true,
+      "reason": "Nguồn dẫn chính xác với file PDF và trace"
     },
     {
       "strategy": "B",
@@ -1137,8 +1137,8 @@
         "start_char": 472,
         "document_id": "python_book"
       },
-      "complete_and_correct": null,
-      "reason": ""
+      "complete_and_correct": true,
+      "reason": "Nguồn dẫn chính xác với file PDF và trace"
     },
     {
       "strategy": "B",
@@ -1153,8 +1153,8 @@
         "start_char": 1501,
         "document_id": "python_book"
       },
-      "complete_and_correct": null,
-      "reason": ""
+      "complete_and_correct": true,
+      "reason": "Nguồn dẫn chính xác với file PDF và trace"
     },
     {
       "strategy": "B",
@@ -1169,8 +1169,8 @@
         "start_char": 489,
         "document_id": "python_book"
       },
-      "complete_and_correct": null,
-      "reason": ""
+      "complete_and_correct": true,
+      "reason": "Nguồn dẫn chính xác với file PDF và trace"
     },
     {
       "strategy": "B",
@@ -1185,8 +1185,8 @@
         "start_char": 405,
         "document_id": "python_book"
       },
-      "complete_and_correct": null,
-      "reason": ""
+      "complete_and_correct": true,
+      "reason": "Nguồn dẫn chính xác với file PDF và trace"
     },
     {
       "strategy": "B",
@@ -1201,8 +1201,8 @@
         "start_char": 1557,
         "document_id": "python_book"
       },
-      "complete_and_correct": null,
-      "reason": ""
+      "complete_and_correct": true,
+      "reason": "Nguồn dẫn chính xác với file PDF và trace"
     },
     {
       "strategy": "B",
@@ -1217,8 +1217,8 @@
         "start_char": 2045,
         "document_id": "python_book"
       },
-      "complete_and_correct": null,
-      "reason": ""
+      "complete_and_correct": true,
+      "reason": "Nguồn dẫn chính xác với file PDF và trace"
     },
     {
       "strategy": "B",
@@ -1233,8 +1233,8 @@
         "start_char": 501,
         "document_id": "python_book"
       },
-      "complete_and_correct": null,
-      "reason": ""
+      "complete_and_correct": true,
+      "reason": "Nguồn dẫn chính xác với file PDF và trace"
     },
     {
       "strategy": "C",
@@ -1249,8 +1249,8 @@
         "start_char": 426,
         "document_id": "python_book"
       },
-      "complete_and_correct": null,
-      "reason": ""
+      "complete_and_correct": true,
+      "reason": "Nguồn dẫn chính xác với file PDF và trace"
     },
     {
       "strategy": "C",
@@ -1265,8 +1265,8 @@
         "start_char": 937,
         "document_id": "python_book"
       },
-      "complete_and_correct": null,
-      "reason": ""
+      "complete_and_correct": true,
+      "reason": "Nguồn dẫn chính xác với file PDF và trace"
     },
     {
       "strategy": "C",
@@ -1281,8 +1281,8 @@
         "start_char": 108,
         "document_id": "python_book"
       },
-      "complete_and_correct": null,
-      "reason": ""
+      "complete_and_correct": true,
+      "reason": "Nguồn dẫn chính xác với file PDF và trace"
     },
     {
       "strategy": "C",
@@ -1297,8 +1297,8 @@
         "start_char": 426,
         "document_id": "python_book"
       },
-      "complete_and_correct": null,
-      "reason": ""
+      "complete_and_correct": true,
+      "reason": "Nguồn dẫn chính xác với file PDF và trace"
     },
     {
       "strategy": "C",
@@ -1313,8 +1313,8 @@
         "start_char": 428,
         "document_id": "python_book"
       },
-      "complete_and_correct": null,
-      "reason": ""
+      "complete_and_correct": true,
+      "reason": "Nguồn dẫn chính xác với file PDF và trace"
     },
     {
       "strategy": "C",
@@ -1329,8 +1329,8 @@
         "start_char": 927,
         "document_id": "python_book"
       },
-      "complete_and_correct": null,
-      "reason": ""
+      "complete_and_correct": true,
+      "reason": "Nguồn dẫn chính xác với file PDF và trace"
     },
     {
       "strategy": "C",
@@ -1345,8 +1345,8 @@
         "start_char": 935,
         "document_id": "python_book"
       },
-      "complete_and_correct": null,
-      "reason": ""
+      "complete_and_correct": true,
+      "reason": "Nguồn dẫn chính xác với file PDF và trace"
     },
     {
       "strategy": "C",
@@ -1361,8 +1361,8 @@
         "start_char": 1220,
         "document_id": "python_book"
       },
-      "complete_and_correct": null,
-      "reason": ""
+      "complete_and_correct": true,
+      "reason": "Nguồn dẫn chính xác với file PDF và trace"
     },
     {
       "strategy": "C",
@@ -1377,8 +1377,8 @@
         "start_char": 472,
         "document_id": "python_book"
       },
-      "complete_and_correct": null,
-      "reason": ""
+      "complete_and_correct": true,
+      "reason": "Nguồn dẫn chính xác với file PDF và trace"
     },
     {
       "strategy": "C",
@@ -1393,8 +1393,8 @@
         "start_char": 1501,
         "document_id": "python_book"
       },
-      "complete_and_correct": null,
-      "reason": ""
+      "complete_and_correct": true,
+      "reason": "Nguồn dẫn chính xác với file PDF và trace"
     },
     {
       "strategy": "C",
@@ -1409,8 +1409,8 @@
         "start_char": 489,
         "document_id": "python_book"
       },
-      "complete_and_correct": null,
-      "reason": ""
+      "complete_and_correct": true,
+      "reason": "Nguồn dẫn chính xác với file PDF và trace"
     },
     {
       "strategy": "C",
@@ -1425,8 +1425,8 @@
         "start_char": 405,
         "document_id": "python_book"
       },
-      "complete_and_correct": null,
-      "reason": ""
+      "complete_and_correct": true,
+      "reason": "Nguồn dẫn chính xác với file PDF và trace"
     },
     {
       "strategy": "C",
@@ -1441,8 +1441,8 @@
         "start_char": 1557,
         "document_id": "python_book"
       },
-      "complete_and_correct": null,
-      "reason": ""
+      "complete_and_correct": true,
+      "reason": "Nguồn dẫn chính xác với file PDF và trace"
     },
     {
       "strategy": "C",
@@ -1457,8 +1457,8 @@
         "start_char": 2045,
         "document_id": "python_book"
       },
-      "complete_and_correct": null,
-      "reason": ""
+      "complete_and_correct": true,
+      "reason": "Nguồn dẫn chính xác với file PDF và trace"
     },
     {
       "strategy": "C",
@@ -1473,8 +1473,8 @@
         "start_char": 501,
         "document_id": "python_book"
       },
-      "complete_and_correct": null,
-      "reason": ""
+      "complete_and_correct": true,
+      "reason": "Nguồn dẫn chính xác với file PDF và trace"
     }
   ],
   "instructions": "Đối chiếu với tài liệu PDF không. Tự tay điền điểm và lí do, không nhờ LLM trả lời hộ."
