@@ -22,19 +22,10 @@ from .store import PgVectorStore
 
 ROOT = Path(__file__).resolve().parents[1]
 LOG = logging.getLogger(__name__)
-BENCHMARK = ROOT.parent / "benchmark/question.json"
+MANIFEST = ROOT.parent / "data/manifest.json"
+BENCHMARK = ROOT.parent / "benchmark/questions.json"
 CHUNK_SIZE = 500
 CHUNK_OVERLAP = 50
-# Complete these from the PDF and its license before running an experiment.
-CORPUS = {
-    "source_id": "python_book",
-    "title": "",
-    "path": "data/Introduction_to_Python_Programming.pdf",
-    "source_path_or_url": "",
-    "license_or_permission": "",
-    "accessed_at": "",
-    "pages": {},  # Physical PDF page number -> verified metadata, e.g. chapter.
-}
 
 
 def read_json(path):
@@ -45,14 +36,43 @@ def write_json(path, value):
     path.write_text(json.dumps(value, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
-def load_corpus():
+def write_run_outputs(run_dir, *, inputs, traces, metrics, manual_review, run_info):
+    """Keep submitted traces, metrics, manual audit, and run provenance together."""
+    write_json(run_dir / "traces.json", traces)
+    write_json(run_dir / "metrics.json", metrics)
+    write_json(run_dir / "manual_review.json", manual_review)
+    write_json(run_dir / "run_info.json", {**run_info, "inputs": inputs})
+
+
+def load_manifest():
+    """Read root-relative corpus settings with physical PDF page numbers."""
+    corpus = read_json(MANIFEST)
+    if not isinstance(corpus, dict):
+        raise TypeError("Manifest must be a JSON object")
+    if not isinstance(corpus.get("pages"), dict):
+        raise TypeError("Manifest pages must be a JSON object")
+    pages = {}
+    for number, metadata in corpus["pages"].items():
+        if not isinstance(number, str) or not number.isdecimal():
+            raise ValueError("Invalid manifest pages")
+        page = int(number)
+        if str(page) != number or page in pages:
+            raise ValueError("Invalid manifest pages")
+        pages[page] = metadata
+    corpus["pages"] = pages
+    return corpus
+
+
+def load_corpus(corpus):
     """Select only verified useful physical pages and their source metadata."""
-    selected = CORPUS["pages"]
+    selected = corpus["pages"]
     if (
         any(
-            not CORPUS[key]
+            not isinstance(corpus.get(key), str) or not corpus[key].strip()
             for key in (
+                "source_id",
                 "title",
+                "path",
                 "source_path_or_url",
                 "license_or_permission",
                 "accessed_at",
@@ -62,15 +82,16 @@ def load_corpus():
         or any(type(number) is not int or number < 1 for number in selected)
     ):
         raise ValueError(
-            "Configure at least 30 verified corpus pages and source facts in run.py"
+            "Configure at least 30 verified corpus pages and source facts in data/manifest.json"
         )
     loaded = load_pdf(
-        ROOT / CORPUS["path"],
-        CORPUS["source_id"],
-        CORPUS["source_path_or_url"],
+        ROOT.parent / corpus["path"],
+        corpus["source_id"],
+        corpus["source_path_or_url"],
+        start_page=min(selected),
         end_page=max(selected),
     )
-    pages = [loaded[number - 1] for number in sorted(selected)]
+    pages = [page for page in loaded if page.page in selected]
     for page in pages:
         if not page.text.strip():
             raise ValueError(f"Empty content page: {page.document_id}/{page.page}")
@@ -100,6 +121,51 @@ def load_corpus():
             "Need a useful metadata field with at least two verified values"
         )
     return pages
+
+
+def unwrap_questions(entries, pages):
+    """Check benchmark passages against PDF pages; return only question records."""
+    if not isinstance(entries, list):
+        raise TypeError("Benchmark must be a JSON array")
+    source_pages = {(page.document_id, page.page): page for page in pages}
+    questions = []
+    for entry in entries:
+        if (
+            not isinstance(entry, dict)
+            or not isinstance(entry.get("page"), dict)
+            or not isinstance(entry.get("question"), dict)
+        ):
+            raise TypeError("Benchmark entry requires page and question objects")
+        reference, question = entry["page"], entry["question"]
+        document_id, page_number = reference.get("document_id"), reference.get("page")
+        page = (
+            source_pages.get((document_id, page_number))
+            if isinstance(document_id, str) and type(page_number) is int
+            else None
+        )
+        metadata = {
+            key: value
+            for key, value in reference.items()
+            if key not in {"document_id", "source", "page", "text"}
+        }
+        passage = reference.get("text")
+        quote = question.get("evidence_quote")
+        if (
+            page is None
+            or reference.get("source") != page.source
+            or metadata != page.metadata
+            or not isinstance(passage, str)
+            or not evidence_matches(page.text, passage)
+            or question.get("gold_source_id") != page.document_id
+            or question.get("gold_page") != page.page
+            or not isinstance(quote, str)
+            or not evidence_matches(passage, quote)
+        ):
+            raise ValueError(
+                f"Benchmark page does not match source or gold evidence: {question.get('id')}"
+            )
+        questions.append(question)
+    return questions
 
 
 def validate_questions(questions, pages):
@@ -145,7 +211,7 @@ def validate_questions(questions, pages):
 
 def main():
     load_dotenv(ROOT / ".env")
-    run_dir = ROOT / "results" / datetime.now(UTC).strftime("%Y%m%dT%H%M%S%fZ")
+    run_dir = ROOT.parent / "results" / datetime.now(UTC).strftime("%Y%m%dT%H%M%S%fZ")
     run_dir.mkdir(parents=True, exist_ok=False)
     logging.basicConfig(
         level=logging.INFO,
@@ -156,24 +222,22 @@ def main():
     )
     try:
         started = time.perf_counter()
-        pages = load_corpus()
-        questions = read_json(BENCHMARK)
+        corpus = load_manifest()
+        pages = load_corpus(corpus)
+        entries = read_json(BENCHMARK)
+        questions = unwrap_questions(entries, pages)
         validate_questions(questions, pages)
         # Selection rule is recorded before retrieval. Human labels are never inferred.
-        write_json(
-            run_dir / "inputs.json",
-            {
-                "corpus": CORPUS,
-                "benchmark": questions,
-                "selection_rule": (
-                    "Prefer dev Hit@3, then dev Hit@1, then fewer characters. "
-                    "Report human grounding/coherence tradeoffs separately."
-                ),
-                "size": CHUNK_SIZE,
-                "overlap": CHUNK_OVERLAP,
-            },
-        )
-        write_json(run_dir / "source_pages.json", [asdict(p) for p in pages])
+        inputs = {
+            "corpus": corpus,
+            "benchmark": entries,
+            "selection_rule": (
+                "Prefer dev Hit@3, then dev Hit@1, then fewer characters. "
+                "Report human grounding/coherence tradeoffs separately."
+            ),
+            "size": CHUNK_SIZE,
+            "overlap": CHUNK_OVERLAP,
+        }
         embedder = MyEmbedder()
         store = PgVectorStore(os.environ["DATABASE_URL"], embedder.dimensions)
         store.create_schema()
@@ -220,7 +284,6 @@ def main():
                 "embeddings_reused_from_B": strategy == "C",
                 "embedding_api_cost": None,
             }
-            write_json(run_dir / f"chunks_{strategy}.json", [asdict(c) for c in chunks])
             for page in anchors:
                 position = next(i for i, ch in enumerate(page.text) if not ch.isspace())
                 covering = [
@@ -277,26 +340,24 @@ def main():
                 -stats[s]["characters"],
             ),
         )
-        write_json(run_dir / "traces.json", traces)
-        write_json(run_dir / "metrics.json", metrics)
-        write_json(
-            run_dir / "manual_review.json",
-            {
+        write_run_outputs(
+            run_dir,
+            inputs=inputs,
+            traces=traces,
+            metrics=metrics,
+            manual_review={
                 "reviewer": "",
                 "bias_and_method": "",
                 "coherence": coherence,
                 "grounding": grounding,
                 "metadata": metadata_review,
                 "instructions": (
-                    "Verify against source_pages.json and original PDF. Fill labels "
+                    "Verify against the original PDF and manifest. Fill labels "
                     "and reasons manually; null means unreviewed. Grounding measures "
                     "retrieved evidence, not LLM answer accuracy."
                 ),
             },
-        )
-        write_json(
-            run_dir / "run_info.json",
-            {
+            run_info={
                 "model": embedder.model_name,
                 "dimensions": embedder.dimensions,
                 "provider": "Gemini API",

@@ -17,9 +17,10 @@ def load_pdf(
     document_id: str,
     source: str,
     *,
+    start_page: int = 1,
     end_page: int | None = None,
 ) -> list[DocumentPage]:
-    """Read physical PDF pages 1 through ``end_page`` (inclusive).
+    """Read physical PDF pages ``start_page`` through ``end_page`` (inclusive).
 
     Use ``end_page=76`` for the selected Python book coverage (printed page 66).
     None reads the entire PDF. Empty pages are retained and logged;
@@ -38,7 +39,7 @@ def load_pdf(
             )
 
         pages: list[DocumentPage] = []
-        for page_number in range(1, selected_end + 1):
+        for page_number in range(start_page, selected_end + 1):
             try:
                 raw_text = reader.pages[page_number - 1].extract_text(
                     extraction_mode="layout"
